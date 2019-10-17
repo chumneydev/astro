@@ -1,0 +1,15 @@
+@mixin buttons($bg) {
+    background: $bg;
+    border: 4px solid $bg;
+
+    &:hover {
+		background: transparent;
+		color: $bg;
+		transition: .7s ease;
+    }
+}
+
+
+@mixin background($bg) {
+    background: $bg;
+}

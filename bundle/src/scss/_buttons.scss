@@ -1,0 +1,45 @@
+.btn {
+	color: #FFFFFF;
+	transition: none;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+    padding: 15px 0;
+	letter-spacing: 1px;
+    flex: 1;
+    font-family: Helvetica;
+    font-weight: bold;
+
+    @each $manufacturer, $color in $manufacturers {
+        &.#{$manufacturer} {
+            @include buttons($color);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@each $manufacturer, $color in $manufacturers {
+        .column[class~=#{$manufacturer}] {
+            @include background($color);
+        }
+    }
+
+@each $manufacturer,
+$color in $manufacturers {
+    .column[class~=#{$manufacturer}] {
+        @include background($color);
+    }
+}
+
+

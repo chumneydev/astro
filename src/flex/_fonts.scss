@@ -1,0 +1,33 @@
+
+p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+// create text colors based on manufacturers
+@each $name, $color in $manufacturers {
+    @each $element, $actual in $elements {
+        @if $element != 'div' {
+            #{$element}.#{$name} {
+                color: $color;
+            }
+
+        }
+        @else {
+            #{$element}.#{$name} {
+                background: $color;
+            }
+        }
+    }
+}
+
+
+
+// text alignment
+@each $name, $attribute in $text-alignment {
+    .text-#{$attribute} {
+        text-align: $attribute
+    }
+}
+

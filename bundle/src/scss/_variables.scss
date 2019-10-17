@@ -1,0 +1,141 @@
+$gutter: 1em;
+
+$dev: #f26518;
+$dev2: #4bff97;
+$dev3: #4bc2ff;
+
+$grey-400: #CBD5E0;
+$grey-700: #4A5568;
+
+$grey-400: #CBD5E0;
+$grey-700: #4A5568;
+
+
+$white: #FFFFFF;
+$black: #000000;
+$grey: #d3d3d3;
+$dark-grey: darken($grey, 90%);
+$light-grey: lighten($grey, 10%);
+
+$pink: #D55B3D;
+$light-pink: lighten($pink, 10%);
+
+
+
+
+$blue: #78DFF1;
+$light-blue: lighten($blue, 10%);
+
+
+// Manufacturer Colors
+$acura: #e82c2a;
+$audi: #cd1f35;
+$buick: #f26518;
+$bmw: #1c69d4;
+$cadillac: #9e1834;
+$chevy: #f1b923;
+$fiat: #b11636;
+$ford: #2D96CD;
+$gmc: #BC0A0F;
+$honda: #2086c1;
+$hyundai: #002D73;
+$infiniti: #201d26;
+$kia: #c4172c;
+$lexus: #1a1a1a;
+$lincoln: #231F1F;
+$maserati: #0b2749;
+$mazda: #df0000;
+$mini: #ac2430;
+$mercedes: #222222;
+$mitsubishi: #ff0022;
+$nissan: #c3002f;
+$subaru: #20609F;
+$toyota: #d71921;
+$volvo: #003057;
+$vw: #00B1EB;
+
+$white: #FFFFFF;
+$black: #000000;
+
+$secondary:#00bae3;
+$demo: #000021;	
+$purple: #603a93;
+
+
+// Hover States
+
+$acuradarken: darken($acura,15%);
+$audidarken: darken($audi,15%);
+$bmwdarken: darken($bmw,15%);
+$chevydarken: darken($chevy,15%);
+$forddarken: darken($ford,15%);
+$gmcdarken: darken($gmc,15%);
+$hondadarken: darken($honda,15%);
+$hyundaidarken: darken($hyundai,15%);
+$infinitidarken: darken($infiniti,15%);
+$kiadarken: darken($kia,15%);
+$lexusdarken: darken($lexus,15%);
+$lincolndarken: darken($lincoln,15%);
+$maseratidarken: darken($maserati,15%);
+$mazdadarken: darken($mazda,15%);
+$mercedesdarken: darken($mercedes,15%);
+$mitsubishidarken: darken($mitsubishi,15%);
+$nissandarken: darken($nissan,15%);
+$subarudarken: darken($subaru,15%);
+$toyotadarken: darken($toyota,15%);
+$volvodarken: darken($volvo,15%);
+$vwdarken: darken($vw,15%);
+
+// Map Variables
+$manufacturers: (
+    acura: $acura,
+    audi: $audi,
+    buick: $buick,
+    bmw: $bmw,
+    cadillac: $cadillac,
+    chevy: $chevy,
+    fiat: $fiat,
+    ford: $ford,
+    gmc: $gmc,
+    honda: $honda,
+    hyundai: $hyundai,
+    infiniti: $infiniti,
+    kia: $kia,
+    lexus: $lexus,
+    lincoln: $lincoln,
+    maserati: $maserati,
+    mazda: $mazda,
+    mini: $mini,
+    mercedes: $mercedes,
+    mitsubishi: $mitsubishi,
+    nissan: $nissan,
+    subaru: $subaru,
+    toyota: $toyota,
+    volvo: $volvo,
+    vw: $vw,
+    black: $black,
+    white: $white
+);
+
+$elements: (
+    h1: h1,
+    h2: h2,
+    h3: h3,
+    h4: h4,
+    h5: h5,
+    p: p,
+    span: span,
+    li: li,
+    a: a,
+    div: div
+);
+
+$text-alignment: (
+    left: left,
+    center: center,
+    right: right
+);
+
+
+$cell-margin: .5rem;
+$cell-padding: .5rem;

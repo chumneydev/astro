@@ -1,0 +1,5 @@
+@each $manufacturer, $color in $manufacturers {
+    .#{$manufacturer} {
+        @include background($color);
+    }
+}

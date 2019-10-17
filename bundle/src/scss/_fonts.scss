@@ -1,0 +1,32 @@
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.test {
+    background: $dev;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.disclaimer {
+    font-size: 8px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
