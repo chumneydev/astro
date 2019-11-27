@@ -30,3 +30,16 @@ h4 {
 .text-right {
     text-align: right;
 }
+
+
+@each $manufacturer, $color in $manufacturers {
+    & p.#{$manufacturer} {
+        @include colors($color);
+    }
+
+    & h1.#{$manufacturer} {
+        @include colors($color);
+    }
+
+
+}

@@ -40,10 +40,19 @@
   background: #FFFFFF;
 }
 
-#ca-container .dev {
+#ca-container.dev {
   color: #FFFFFF;
   text-align: center;
   background: #4A5568;
+}
+
+#ca-container.look {
+  background: #BEE3F8;
+}
+
+#ca-container.small {
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 #ca-container .dev2 {

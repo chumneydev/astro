@@ -36,14 +36,241 @@
   text-align: right;
 }
 
+#ca-container p.acura {
+  color: #e82c2a;
+}
+
+#ca-container h1.acura {
+  color: #e82c2a;
+}
+
+#ca-container p.audi {
+  color: #cd1f35;
+}
+
+#ca-container h1.audi {
+  color: #cd1f35;
+}
+
+#ca-container p.buick {
+  color: #f26518;
+}
+
+#ca-container h1.buick {
+  color: #f26518;
+}
+
+#ca-container p.bmw {
+  color: #1c69d4;
+}
+
+#ca-container h1.bmw {
+  color: #1c69d4;
+}
+
+#ca-container p.cadillac {
+  color: #9e1834;
+}
+
+#ca-container h1.cadillac {
+  color: #9e1834;
+}
+
+#ca-container p.chevy {
+  color: #f1b923;
+}
+
+#ca-container h1.chevy {
+  color: #f1b923;
+}
+
+#ca-container p.fiat {
+  color: #b11636;
+}
+
+#ca-container h1.fiat {
+  color: #b11636;
+}
+
+#ca-container p.ford {
+  color: #2D96CD;
+}
+
+#ca-container h1.ford {
+  color: #2D96CD;
+}
+
+#ca-container p.gmc {
+  color: #BC0A0F;
+}
+
+#ca-container h1.gmc {
+  color: #BC0A0F;
+}
+
+#ca-container p.honda {
+  color: #2086c1;
+}
+
+#ca-container h1.honda {
+  color: #2086c1;
+}
+
+#ca-container p.hyundai {
+  color: #002D73;
+}
+
+#ca-container h1.hyundai {
+  color: #002D73;
+}
+
+#ca-container p.infiniti {
+  color: #201d26;
+}
+
+#ca-container h1.infiniti {
+  color: #201d26;
+}
+
+#ca-container p.kia {
+  color: #c4172c;
+}
+
+#ca-container h1.kia {
+  color: #c4172c;
+}
+
+#ca-container p.lexus {
+  color: #1a1a1a;
+}
+
+#ca-container h1.lexus {
+  color: #1a1a1a;
+}
+
+#ca-container p.lincoln {
+  color: #231F1F;
+}
+
+#ca-container h1.lincoln {
+  color: #231F1F;
+}
+
+#ca-container p.maserati {
+  color: #0b2749;
+}
+
+#ca-container h1.maserati {
+  color: #0b2749;
+}
+
+#ca-container p.mazda {
+  color: #df0000;
+}
+
+#ca-container h1.mazda {
+  color: #df0000;
+}
+
+#ca-container p.mini {
+  color: #ac2430;
+}
+
+#ca-container h1.mini {
+  color: #ac2430;
+}
+
+#ca-container p.mercedes {
+  color: #222222;
+}
+
+#ca-container h1.mercedes {
+  color: #222222;
+}
+
+#ca-container p.mitsubishi {
+  color: #ff0022;
+}
+
+#ca-container h1.mitsubishi {
+  color: #ff0022;
+}
+
+#ca-container p.nissan {
+  color: #c3002f;
+}
+
+#ca-container h1.nissan {
+  color: #c3002f;
+}
+
+#ca-container p.subaru {
+  color: #20609F;
+}
+
+#ca-container h1.subaru {
+  color: #20609F;
+}
+
+#ca-container p.toyota {
+  color: #d71921;
+}
+
+#ca-container h1.toyota {
+  color: #d71921;
+}
+
+#ca-container p.volvo {
+  color: #003057;
+}
+
+#ca-container h1.volvo {
+  color: #003057;
+}
+
+#ca-container p.vw {
+  color: #00B1EB;
+}
+
+#ca-container h1.vw {
+  color: #00B1EB;
+}
+
+#ca-container p.black {
+  color: #000000;
+}
+
+#ca-container h1.black {
+  color: #000000;
+}
+
+#ca-container p.white {
+  color: #FFFFFF;
+}
+
+#ca-container h1.white {
+  color: #FFFFFF;
+}
+
 #ca-container body {
+  padding: 0;
+  margin: 0 !important;
   background: #FFFFFF;
 }
 
-#ca-container .dev {
+#ca-container.dev {
   color: #FFFFFF;
   text-align: center;
   background: #4A5568;
+}
+
+#ca-container.look {
+  background: #BEE3F8;
+}
+
+#ca-container.small {
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 #ca-container .dev2 {
@@ -207,6 +434,7 @@
 #ca-container .btn.acura {
   background: #e82c2a;
   border: 4px solid #e82c2a;
+  color: #000000;
 }
 
 #ca-container .btn.acura:hover {
@@ -218,6 +446,7 @@
 #ca-container .btn.audi {
   background: #cd1f35;
   border: 4px solid #cd1f35;
+  color: #000000;
 }
 
 #ca-container .btn.audi:hover {
@@ -229,6 +458,7 @@
 #ca-container .btn.buick {
   background: #f26518;
   border: 4px solid #f26518;
+  color: #000000;
 }
 
 #ca-container .btn.buick:hover {
@@ -240,6 +470,7 @@
 #ca-container .btn.bmw {
   background: #1c69d4;
   border: 4px solid #1c69d4;
+  color: #000000;
 }
 
 #ca-container .btn.bmw:hover {
@@ -251,6 +482,7 @@
 #ca-container .btn.cadillac {
   background: #9e1834;
   border: 4px solid #9e1834;
+  color: #000000;
 }
 
 #ca-container .btn.cadillac:hover {
@@ -262,6 +494,7 @@
 #ca-container .btn.chevy {
   background: #f1b923;
   border: 4px solid #f1b923;
+  color: #000000;
 }
 
 #ca-container .btn.chevy:hover {
@@ -273,6 +506,7 @@
 #ca-container .btn.fiat {
   background: #b11636;
   border: 4px solid #b11636;
+  color: #000000;
 }
 
 #ca-container .btn.fiat:hover {
@@ -284,6 +518,7 @@
 #ca-container .btn.ford {
   background: #2D96CD;
   border: 4px solid #2D96CD;
+  color: #000000;
 }
 
 #ca-container .btn.ford:hover {
@@ -295,6 +530,7 @@
 #ca-container .btn.gmc {
   background: #BC0A0F;
   border: 4px solid #BC0A0F;
+  color: #000000;
 }
 
 #ca-container .btn.gmc:hover {
@@ -306,6 +542,7 @@
 #ca-container .btn.honda {
   background: #2086c1;
   border: 4px solid #2086c1;
+  color: #000000;
 }
 
 #ca-container .btn.honda:hover {
@@ -317,6 +554,7 @@
 #ca-container .btn.hyundai {
   background: #002D73;
   border: 4px solid #002D73;
+  color: #000000;
 }
 
 #ca-container .btn.hyundai:hover {
@@ -328,6 +566,7 @@
 #ca-container .btn.infiniti {
   background: #201d26;
   border: 4px solid #201d26;
+  color: #000000;
 }
 
 #ca-container .btn.infiniti:hover {
@@ -339,6 +578,7 @@
 #ca-container .btn.kia {
   background: #c4172c;
   border: 4px solid #c4172c;
+  color: #000000;
 }
 
 #ca-container .btn.kia:hover {
@@ -350,6 +590,7 @@
 #ca-container .btn.lexus {
   background: #1a1a1a;
   border: 4px solid #1a1a1a;
+  color: #000000;
 }
 
 #ca-container .btn.lexus:hover {
@@ -361,6 +602,7 @@
 #ca-container .btn.lincoln {
   background: #231F1F;
   border: 4px solid #231F1F;
+  color: #000000;
 }
 
 #ca-container .btn.lincoln:hover {
@@ -372,6 +614,7 @@
 #ca-container .btn.maserati {
   background: #0b2749;
   border: 4px solid #0b2749;
+  color: #000000;
 }
 
 #ca-container .btn.maserati:hover {
@@ -383,6 +626,7 @@
 #ca-container .btn.mazda {
   background: #df0000;
   border: 4px solid #df0000;
+  color: #000000;
 }
 
 #ca-container .btn.mazda:hover {
@@ -394,6 +638,7 @@
 #ca-container .btn.mini {
   background: #ac2430;
   border: 4px solid #ac2430;
+  color: #000000;
 }
 
 #ca-container .btn.mini:hover {
@@ -405,6 +650,7 @@
 #ca-container .btn.mercedes {
   background: #222222;
   border: 4px solid #222222;
+  color: #000000;
 }
 
 #ca-container .btn.mercedes:hover {
@@ -416,6 +662,7 @@
 #ca-container .btn.mitsubishi {
   background: #ff0022;
   border: 4px solid #ff0022;
+  color: #000000;
 }
 
 #ca-container .btn.mitsubishi:hover {
@@ -427,6 +674,7 @@
 #ca-container .btn.nissan {
   background: #c3002f;
   border: 4px solid #c3002f;
+  color: #000000;
 }
 
 #ca-container .btn.nissan:hover {
@@ -438,6 +686,7 @@
 #ca-container .btn.subaru {
   background: #20609F;
   border: 4px solid #20609F;
+  color: #000000;
 }
 
 #ca-container .btn.subaru:hover {
@@ -449,6 +698,7 @@
 #ca-container .btn.toyota {
   background: #d71921;
   border: 4px solid #d71921;
+  color: #000000;
 }
 
 #ca-container .btn.toyota:hover {
@@ -460,6 +710,7 @@
 #ca-container .btn.volvo {
   background: #003057;
   border: 4px solid #003057;
+  color: #000000;
 }
 
 #ca-container .btn.volvo:hover {
@@ -471,6 +722,7 @@
 #ca-container .btn.vw {
   background: #00B1EB;
   border: 4px solid #00B1EB;
+  color: #000000;
 }
 
 #ca-container .btn.vw:hover {
@@ -482,6 +734,7 @@
 #ca-container .btn.black {
   background: #000000;
   border: 4px solid #000000;
+  color: #000000;
 }
 
 #ca-container .btn.black:hover {
@@ -493,6 +746,7 @@
 #ca-container .btn.white {
   background: #FFFFFF;
   border: 4px solid #FFFFFF;
+  color: #000000;
 }
 
 #ca-container .btn.white:hover {

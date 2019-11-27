@@ -1,4 +1,6 @@
 body {
+    padding: 0;
+    margin: 0 !important;
     //background: $grey-400;
     background: $white;
 }
@@ -6,16 +8,29 @@ body {
 
 
 
-.dev {
+&.dev {
     color: $white;
     text-align: center;
 	background: $grey-700;
+}
+
+&.look {
+    background: $blue-200;
+}
+
+
+&.small {
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 
 .dev2 {
 	background: $dev2;
 }
+
+
+
 
 
 img {
