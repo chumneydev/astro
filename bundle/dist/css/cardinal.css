@@ -1,6 +1,10 @@
+@charset "UTF-8";
 #ca-container {
   width: 100%;
   font-family: Helvetica, Arial, sans-serif;
+  /*&.toyota {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23#d71921; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+        }*/
 }
 
 #ca-container p {
@@ -277,7 +281,7 @@
   background: #4bff97;
 }
 
-#ca-container img {
+#ca-container img.ca-image {
   max-width: auto;
   width: 100%;
   display: block;
@@ -383,6 +387,10 @@
   flex: 0 0 25%;
 }
 
+#ca-container section .column.three-fourth {
+  flex: 0 0 75%;
+}
+
 #ca-container section .column.thirds {
   flex: 0 0 33.33333333%;
 }
@@ -434,7 +442,6 @@
 #ca-container .btn.acura {
   background: #e82c2a;
   border: 4px solid #e82c2a;
-  color: #000000;
 }
 
 #ca-container .btn.acura:hover {
@@ -446,7 +453,6 @@
 #ca-container .btn.audi {
   background: #cd1f35;
   border: 4px solid #cd1f35;
-  color: #000000;
 }
 
 #ca-container .btn.audi:hover {
@@ -458,7 +464,6 @@
 #ca-container .btn.buick {
   background: #f26518;
   border: 4px solid #f26518;
-  color: #000000;
 }
 
 #ca-container .btn.buick:hover {
@@ -470,7 +475,6 @@
 #ca-container .btn.bmw {
   background: #1c69d4;
   border: 4px solid #1c69d4;
-  color: #000000;
 }
 
 #ca-container .btn.bmw:hover {
@@ -482,7 +486,6 @@
 #ca-container .btn.cadillac {
   background: #9e1834;
   border: 4px solid #9e1834;
-  color: #000000;
 }
 
 #ca-container .btn.cadillac:hover {
@@ -494,7 +497,6 @@
 #ca-container .btn.chevy {
   background: #f1b923;
   border: 4px solid #f1b923;
-  color: #000000;
 }
 
 #ca-container .btn.chevy:hover {
@@ -506,7 +508,6 @@
 #ca-container .btn.fiat {
   background: #b11636;
   border: 4px solid #b11636;
-  color: #000000;
 }
 
 #ca-container .btn.fiat:hover {
@@ -518,7 +519,6 @@
 #ca-container .btn.ford {
   background: #2D96CD;
   border: 4px solid #2D96CD;
-  color: #000000;
 }
 
 #ca-container .btn.ford:hover {
@@ -530,7 +530,6 @@
 #ca-container .btn.gmc {
   background: #BC0A0F;
   border: 4px solid #BC0A0F;
-  color: #000000;
 }
 
 #ca-container .btn.gmc:hover {
@@ -542,7 +541,6 @@
 #ca-container .btn.honda {
   background: #2086c1;
   border: 4px solid #2086c1;
-  color: #000000;
 }
 
 #ca-container .btn.honda:hover {
@@ -554,7 +552,6 @@
 #ca-container .btn.hyundai {
   background: #002D73;
   border: 4px solid #002D73;
-  color: #000000;
 }
 
 #ca-container .btn.hyundai:hover {
@@ -566,7 +563,6 @@
 #ca-container .btn.infiniti {
   background: #201d26;
   border: 4px solid #201d26;
-  color: #000000;
 }
 
 #ca-container .btn.infiniti:hover {
@@ -578,7 +574,6 @@
 #ca-container .btn.kia {
   background: #c4172c;
   border: 4px solid #c4172c;
-  color: #000000;
 }
 
 #ca-container .btn.kia:hover {
@@ -590,7 +585,6 @@
 #ca-container .btn.lexus {
   background: #1a1a1a;
   border: 4px solid #1a1a1a;
-  color: #000000;
 }
 
 #ca-container .btn.lexus:hover {
@@ -602,7 +596,6 @@
 #ca-container .btn.lincoln {
   background: #231F1F;
   border: 4px solid #231F1F;
-  color: #000000;
 }
 
 #ca-container .btn.lincoln:hover {
@@ -614,7 +607,6 @@
 #ca-container .btn.maserati {
   background: #0b2749;
   border: 4px solid #0b2749;
-  color: #000000;
 }
 
 #ca-container .btn.maserati:hover {
@@ -626,7 +618,6 @@
 #ca-container .btn.mazda {
   background: #df0000;
   border: 4px solid #df0000;
-  color: #000000;
 }
 
 #ca-container .btn.mazda:hover {
@@ -638,7 +629,6 @@
 #ca-container .btn.mini {
   background: #ac2430;
   border: 4px solid #ac2430;
-  color: #000000;
 }
 
 #ca-container .btn.mini:hover {
@@ -650,7 +640,6 @@
 #ca-container .btn.mercedes {
   background: #222222;
   border: 4px solid #222222;
-  color: #000000;
 }
 
 #ca-container .btn.mercedes:hover {
@@ -662,7 +651,6 @@
 #ca-container .btn.mitsubishi {
   background: #ff0022;
   border: 4px solid #ff0022;
-  color: #000000;
 }
 
 #ca-container .btn.mitsubishi:hover {
@@ -674,7 +662,6 @@
 #ca-container .btn.nissan {
   background: #c3002f;
   border: 4px solid #c3002f;
-  color: #000000;
 }
 
 #ca-container .btn.nissan:hover {
@@ -686,7 +673,6 @@
 #ca-container .btn.subaru {
   background: #20609F;
   border: 4px solid #20609F;
-  color: #000000;
 }
 
 #ca-container .btn.subaru:hover {
@@ -698,7 +684,6 @@
 #ca-container .btn.toyota {
   background: #d71921;
   border: 4px solid #d71921;
-  color: #000000;
 }
 
 #ca-container .btn.toyota:hover {
@@ -710,7 +695,6 @@
 #ca-container .btn.volvo {
   background: #003057;
   border: 4px solid #003057;
-  color: #000000;
 }
 
 #ca-container .btn.volvo:hover {
@@ -722,7 +706,6 @@
 #ca-container .btn.vw {
   background: #00B1EB;
   border: 4px solid #00B1EB;
-  color: #000000;
 }
 
 #ca-container .btn.vw:hover {
@@ -734,7 +717,6 @@
 #ca-container .btn.black {
   background: #000000;
   border: 4px solid #000000;
-  color: #000000;
 }
 
 #ca-container .btn.black:hover {
@@ -971,7 +953,384 @@
   background: #FFFFFF;
 }
 
+#ca-container .header {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: left bottom;
+  min-height: 370px;
+}
+
+#ca-container .header.acura {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23e82c2a; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.audi {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23cd1f35; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.buick {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23f26518; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.bmw {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %231c69d4; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.cadillac {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23inf; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.chevy {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23f1b923; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.fiat {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23b11636; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.ford {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %232D96CD; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.gmc {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23BC0A0F; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.honda {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %232086c1; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.hyundai {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %232D73; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.infiniti {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23201d26; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.kia {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23c4172c; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.lexus {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %231a1a1a; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.lincoln {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23231F1F; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.maserati {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %230b2749; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.mazda {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23df0000; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.mini {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23ac2430; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.mercedes {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23222222; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.mitsubishi {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23ff0022; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.nissan {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23c3002f; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.subaru {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %2320609F; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.toyota {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23d71921; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.volvo {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %233057; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header.vw {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %230B1EB; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
+}
+
+#ca-container .header h1 {
+  margin: 0 !important;
+  padding: 0;
+  font-size: 48px;
+}
+
+#ca-container .header p {
+  font-size: 24px;
+  margin: 0 !important;
+  padding: 0;
+}
+
+#ca-container .slick-prev {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  color: #FFFFFF;
+}
+
+#ca-container .slick-next {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  color: #FFFFFF;
+}
+
+#ca-container .ca-vehicle-slide .super {
+  font-size: 8px;
+  vertical-align: super;
+}
+
+#ca-container .ca-vehicle-slide.acura .slick-prev {
+  background: #e82c2a;
+}
+
+#ca-container .ca-vehicle-slide.acura .slick-next {
+  background: #e82c2a;
+}
+
+#ca-container .ca-vehicle-slide.audi .slick-prev {
+  background: #cd1f35;
+}
+
+#ca-container .ca-vehicle-slide.audi .slick-next {
+  background: #cd1f35;
+}
+
+#ca-container .ca-vehicle-slide.buick .slick-prev {
+  background: #f26518;
+}
+
+#ca-container .ca-vehicle-slide.buick .slick-next {
+  background: #f26518;
+}
+
+#ca-container .ca-vehicle-slide.bmw .slick-prev {
+  background: #1c69d4;
+}
+
+#ca-container .ca-vehicle-slide.bmw .slick-next {
+  background: #1c69d4;
+}
+
+#ca-container .ca-vehicle-slide.cadillac .slick-prev {
+  background: #9e1834;
+}
+
+#ca-container .ca-vehicle-slide.cadillac .slick-next {
+  background: #9e1834;
+}
+
+#ca-container .ca-vehicle-slide.chevy .slick-prev {
+  background: #f1b923;
+}
+
+#ca-container .ca-vehicle-slide.chevy .slick-next {
+  background: #f1b923;
+}
+
+#ca-container .ca-vehicle-slide.fiat .slick-prev {
+  background: #b11636;
+}
+
+#ca-container .ca-vehicle-slide.fiat .slick-next {
+  background: #b11636;
+}
+
+#ca-container .ca-vehicle-slide.ford .slick-prev {
+  background: #2D96CD;
+}
+
+#ca-container .ca-vehicle-slide.ford .slick-next {
+  background: #2D96CD;
+}
+
+#ca-container .ca-vehicle-slide.gmc .slick-prev {
+  background: #BC0A0F;
+}
+
+#ca-container .ca-vehicle-slide.gmc .slick-next {
+  background: #BC0A0F;
+}
+
+#ca-container .ca-vehicle-slide.honda .slick-prev {
+  background: #2086c1;
+}
+
+#ca-container .ca-vehicle-slide.honda .slick-next {
+  background: #2086c1;
+}
+
+#ca-container .ca-vehicle-slide.hyundai .slick-prev {
+  background: #002D73;
+}
+
+#ca-container .ca-vehicle-slide.hyundai .slick-next {
+  background: #002D73;
+}
+
+#ca-container .ca-vehicle-slide.infiniti .slick-prev {
+  background: #201d26;
+}
+
+#ca-container .ca-vehicle-slide.infiniti .slick-next {
+  background: #201d26;
+}
+
+#ca-container .ca-vehicle-slide.kia .slick-prev {
+  background: #c4172c;
+}
+
+#ca-container .ca-vehicle-slide.kia .slick-next {
+  background: #c4172c;
+}
+
+#ca-container .ca-vehicle-slide.lexus .slick-prev {
+  background: #1a1a1a;
+}
+
+#ca-container .ca-vehicle-slide.lexus .slick-next {
+  background: #1a1a1a;
+}
+
+#ca-container .ca-vehicle-slide.lincoln .slick-prev {
+  background: #231F1F;
+}
+
+#ca-container .ca-vehicle-slide.lincoln .slick-next {
+  background: #231F1F;
+}
+
+#ca-container .ca-vehicle-slide.maserati .slick-prev {
+  background: #0b2749;
+}
+
+#ca-container .ca-vehicle-slide.maserati .slick-next {
+  background: #0b2749;
+}
+
+#ca-container .ca-vehicle-slide.mazda .slick-prev {
+  background: #df0000;
+}
+
+#ca-container .ca-vehicle-slide.mazda .slick-next {
+  background: #df0000;
+}
+
+#ca-container .ca-vehicle-slide.mini .slick-prev {
+  background: #ac2430;
+}
+
+#ca-container .ca-vehicle-slide.mini .slick-next {
+  background: #ac2430;
+}
+
+#ca-container .ca-vehicle-slide.mercedes .slick-prev {
+  background: #222222;
+}
+
+#ca-container .ca-vehicle-slide.mercedes .slick-next {
+  background: #222222;
+}
+
+#ca-container .ca-vehicle-slide.mitsubishi .slick-prev {
+  background: #ff0022;
+}
+
+#ca-container .ca-vehicle-slide.mitsubishi .slick-next {
+  background: #ff0022;
+}
+
+#ca-container .ca-vehicle-slide.nissan .slick-prev {
+  background: #c3002f;
+}
+
+#ca-container .ca-vehicle-slide.nissan .slick-next {
+  background: #c3002f;
+}
+
+#ca-container .ca-vehicle-slide.subaru .slick-prev {
+  background: #20609F;
+}
+
+#ca-container .ca-vehicle-slide.subaru .slick-next {
+  background: #20609F;
+}
+
+#ca-container .ca-vehicle-slide.toyota .slick-prev {
+  background: #d71921;
+}
+
+#ca-container .ca-vehicle-slide.toyota .slick-next {
+  background: #d71921;
+}
+
+#ca-container .ca-vehicle-slide.volvo .slick-prev {
+  background: #003057;
+}
+
+#ca-container .ca-vehicle-slide.volvo .slick-next {
+  background: #003057;
+}
+
+#ca-container .ca-vehicle-slide.vw .slick-prev {
+  background: #00B1EB;
+}
+
+#ca-container .ca-vehicle-slide.vw .slick-next {
+  background: #00B1EB;
+}
+
+#ca-container .ca-vehicle-slide.black .slick-prev {
+  background: #000000;
+}
+
+#ca-container .ca-vehicle-slide.black .slick-next {
+  background: #000000;
+}
+
+#ca-container .ca-vehicle-slide.white .slick-prev {
+  background: #FFFFFF;
+}
+
+#ca-container .ca-vehicle-slide.white .slick-next {
+  background: #FFFFFF;
+}
+
+#ca-container .ca-vehicle-slide .vehicle-image {
+  width: 35%;
+  float: left;
+}
+
+#ca-container .ca-vehicle-slide .vehicle-image img {
+  width: 100%;
+}
+
+#ca-container .ca-vehicle-slide .vehicle-about {
+  width: 60%;
+  float: right;
+}
+
+#ca-container .ca-vehicle-slide .vehicle-about ul {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
+  #ca-container #ca-container {
+    padding: 0 20px;
+  }
   #ca-container section {
     margin: 0 !important;
   }

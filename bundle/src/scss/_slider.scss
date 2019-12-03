@@ -1,0 +1,67 @@
+.slick-prev {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    color: $white;
+
+}
+
+
+.slick-next {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    color: $white;
+
+}
+
+
+
+
+
+
+
+.ca-vehicle-slide {
+    & .super {
+        font-size: 8px;
+        vertical-align: super;
+    }
+
+    @each $manufacturer, $color in $manufacturers {
+        &.#{$manufacturer} {
+
+            & .slick-prev {
+                @include background($color);
+            }
+            & .slick-next {
+                @include background($color);
+            }
+        }
+    }
+
+
+    
+    & .vehicle-image {
+        width: 35%;
+        float: left;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    & .vehicle-about {
+        width: 60%;
+        float: right;
+
+        & ul {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+    }
+
+
+}
+
+

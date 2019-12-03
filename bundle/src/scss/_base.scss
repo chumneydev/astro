@@ -34,7 +34,10 @@ body {
 
 
 img {
-    max-width: auto;
-    width: 100%;
-    display: block;
+    &.ca-image {
+        max-width: auto;
+        width: 100%;
+        display: block;
+
+    }
 }

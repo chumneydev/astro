@@ -11,7 +11,7 @@
     font-weight: bold;
 
     @each $manufacturer, $color in $manufacturers {
-        @if $manufacturer = white {
+        @if $manufacturer == white {
             &.#{$manufacturer} {
                 @include buttons($color);
                 color: $black;
