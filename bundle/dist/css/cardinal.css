@@ -1360,16 +1360,16 @@
     padding: 0;
     margin: 5px 0;
   }
-  #ca-container section.two .column {
-    flex: 1 1 0;
-  }
-  #ca-container section.mobile-first {
+  #ca-container section .column.mobile-first {
     order: 1;
   }
-  #ca-container section.mobile-second {
+  #ca-container section .column.mobile-second {
     order: 2;
   }
-  #ca-container section.mobile-third {
+  #ca-container section .column.mobile-third {
     order: 3;
+  }
+  #ca-container section.two .column {
+    flex: 1 1 0;
   }
 }

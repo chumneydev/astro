@@ -122,13 +122,13 @@
 
 
         <section class="align-center">
-            <div class="column">
+            <div class="column mobile-second">
                 <h3 class="ca-title">DESIGN</h3>
                 <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
 
-            <div class="column">
+            <div class="column mobile-first">
                 <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/images/2020-toyota-camry-design.jpg" alt="2020 Toyota Camry Design" class="ca-image" />
             </div>
         </section>

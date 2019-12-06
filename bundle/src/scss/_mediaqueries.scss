@@ -10,6 +10,19 @@
             flex: 1 1 100%;
             padding: 0;
             margin: 5px 0;
+
+
+            &.mobile-first {
+                order: 1;
+            }
+
+            &.mobile-second {
+                order: 2;
+            }
+
+            &.mobile-third {
+                order: 3;
+            }
         }
 
         &.two {
@@ -18,17 +31,6 @@
             }
         }
 
-        &.mobile-first {
-            order: 1;
-        }
-
-        &.mobile-second {
-            order: 2;
-        }
-
-        &.mobile-third {
-            order: 3;
-        }
     }
 
 
