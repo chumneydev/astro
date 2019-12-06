@@ -18,20 +18,17 @@
             }
         }
 
-        &.first {
+        &.mobile-first {
             order: 1;
         }
 
-        &.second {
+        &.mobile-second {
             order: 2;
         }
 
-        &.third {
+        &.mobile-third {
             order: 3;
         }
-
-
-
     }
 
 

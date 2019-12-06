@@ -1363,13 +1363,13 @@
   #ca-container section.two .column {
     flex: 1 1 0;
   }
-  #ca-container section.first {
+  #ca-container section.mobile-first {
     order: 1;
   }
-  #ca-container section.second {
+  #ca-container section.mobile-second {
     order: 2;
   }
-  #ca-container section.third {
+  #ca-container section.mobile-third {
     order: 3;
   }
 }
