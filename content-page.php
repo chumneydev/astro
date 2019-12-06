@@ -38,7 +38,7 @@
             </div>
 
             <div class="column">
-                <img src="bundle/dist/images/car.png" class="ca-image" />
+                <img src="bundle/dist/images/car1.png" class="ca-image" />
 
             </div>
 
@@ -47,7 +47,7 @@
         </section>
 
 
-        <section>
+        <section class="align-center">
             <div class="column">
                 <p>Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.</p>
 
@@ -74,7 +74,7 @@
 
                     <div>
                         <div class="vehicle-image">
-                            <h4>L</h4>
+                            <h4>LE</h4>
                             <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/trims/l.jpg" alt="2020 TOYOTA CAMRY L">
                         </div>
                         <div class="vehicle-about">
@@ -88,7 +88,7 @@
 
                     <div>
                         <div class="vehicle-image">
-                            <h4>L</h4>
+                            <h4>XLE</h4>
                             <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/trims/l.jpg" alt="2020 TOYOTA CAMRY L">
                         </div>
                         <div class="vehicle-about">
@@ -100,23 +100,10 @@
                         </div>
                     </div>
 
-
-
-
                 </div>
                 <!-- slider -->
-
-
-
-
             </div>
-
-
-
-
         </section>
-
-
 
         <section>
             <div class="column">
@@ -131,14 +118,13 @@
             <div class="column">
                 <a href="#" class="btn toyota">Dare to Compare</a>
             </div>
-
         </section>
 
 
         <section class="align-center">
             <div class="column">
                 <h3 class="ca-title">DESIGN</h3>
-                <h4><b><i>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</i></b></h4>
+                <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
 
@@ -154,16 +140,15 @@
             </div>
             <div class="column">
                 <h3 class="ca-title">DESIGN</h3>
-                <h4><b><i>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</i></b></h4>
+                <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
-
         </section>
 
         <section class="align-center">
             <div class="column">
                 <h3 class="ca-title">DESIGN</h3>
-                <h4><b><i>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</i></b></h4>
+                <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
 
@@ -179,12 +164,22 @@
             </div>
             <div class="column">
                 <h3 class="ca-title">DESIGN</h3>
-                <h4><b><i>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</i></b></h4>
+                <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
-
         </section>
 
+        <section>
+            <div class="column">
+                <iframe class="ca-youtube" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <div class="column copywrite">
+                <a href="https://www.chumneyads.com/services/website-management/custom-vehicle-content-pages/" target="_top"><img src="https://www.theautohost.com/_assets/coding/copywrite/powered-by-ca.png" alt="Powered By Chumney & Associates" /></a>
+                <iframe src="https://www.theautohost.com/_assets/coding/copywrite/copywrite-new.html" width="100%"  border="0" frameborder="0"></iframe>
+        </section>
 
 
 

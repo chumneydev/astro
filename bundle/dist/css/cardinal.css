@@ -2,9 +2,6 @@
 #ca-container {
   width: 100%;
   font-family: Helvetica, Arial, sans-serif;
-  /*&.toyota {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='420' viewBox='0 0 1440 420'%3E%3Cmetadata%3E%3C%3Fxpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'%3F%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C%3Fxpacket end='w'%3F%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23#d71921; fill-rule: evenodd; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M1440,0V252.223s-400.96,10.455-823.142,128.6S-2,312.205-2,312.205V0H1440Z'/%3E%3C/svg%3E");
-        }*/
 }
 
 #ca-container p {
@@ -393,6 +390,10 @@
 
 #ca-container section .column.thirds {
   flex: 0 0 33.33333333%;
+}
+
+#ca-container section .column.two-thirds {
+  flex: 0 0 66.666666666%;
 }
 
 #ca-container section .column.half {
@@ -1072,11 +1073,21 @@
   padding: 0;
 }
 
+#ca-container .copywrite {
+  text-align: center;
+}
+
+#ca-container .copywrite iframe {
+  padding: 0 0 0% 0;
+}
+
 #ca-container .slick-prev {
   width: 100%;
   padding: 10px 0;
   border: none;
   color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #ca-container .slick-next {
@@ -1084,6 +1095,8 @@
   padding: 10px 0;
   border: none;
   color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #ca-container .ca-vehicle-slide .super {
@@ -1321,10 +1334,18 @@
   float: right;
 }
 
+#ca-container .ca-vehicle-slide .vehicle-about p {
+  margin: 0 0 10px 0;
+}
+
 #ca-container .ca-vehicle-slide .vehicle-about ul {
   margin: 0;
   padding: 0;
+}
+
+#ca-container .ca-vehicle-slide .vehicle-about ul li {
   font-size: 14px;
+  line-height: 1.5em;
 }
 
 @media screen and (max-width: 768px) {
@@ -1341,5 +1362,14 @@
   }
   #ca-container section.two .column {
     flex: 1 1 0;
+  }
+  #ca-container section.first {
+    order: 1;
+  }
+  #ca-container section.second {
+    order: 2;
+  }
+  #ca-container section.third {
+    order: 3;
   }
 }
