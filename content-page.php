@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Content Page</title>
-    <link rel="stylesheet" href="bundle/dist/css/cardinal.css">
+    <link rel="stylesheet" href="dist/css/cardinal.css">
     <!--<link rel="stylesheet" href="bundle/dist/css/slick-theme.css">-->
-    <link rel="stylesheet" href="bundle/dist/css/slick.css">
+    <link rel="stylesheet" href="dist/css/slick.css">
     <!--<link rel="stylesheet" href="bundle/dist/css/content-page.css">-->
 
 
@@ -38,7 +38,7 @@
             </div>
 
             <div class="column">
-                <img src="bundle/dist/images/car1.png" class="ca-image" />
+                <img src="dist/images/car1.png" class="ca-image" />
 
             </div>
 
@@ -171,7 +171,9 @@
 
         <section>
             <div class="column">
-                <iframe class="ca-youtube" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0"></iframe>
+                <div class="video-embed">
+                    <iframe class="ca-youtube" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0"></iframe>
+                </div>        
             </div>
         </section>
 
@@ -188,9 +190,9 @@
     <!-- containter -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="bundle/dist/js/rainbow-custom.min.js"></script>
-    <script src="bundle/dist/js/slick.min.js"></script>
-    <script src="bundle/dist/js/cardinal-min.js"></script>
+    <script src="dist/js/rainbow-custom.min.js"></script>
+    <script src="dist/js/slick.min.js"></script>
+    <script src="dist/js/cardinal-min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function() {
