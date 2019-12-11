@@ -416,17 +416,6 @@
   order: 3;
 }
 
-#ca-container .docs {
-  padding: 10px;
-  color: #FFFFFF;
-  background: #f26518;
-}
-
-#ca-container .dev {
-  color: #FFFFFF;
-  background: #4A5568;
-}
-
 #ca-container .btn {
   color: #FFFFFF;
   transition: none;

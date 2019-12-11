@@ -1,0 +1,171 @@
+section {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section:first-of-type {
+  margin-top: 0;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+section.collapse {
+  padding: 0;
+  margin: 0;
+}
+
+section.reverse {
+  flex-direction: row-reverse;
+}
+
+section.justify-start {
+  justify-content: flex-start;
+}
+
+section.justify-center {
+  justify-content: center;
+}
+
+section.justify-end {
+  justify-content: flex-end;
+}
+
+section.justify-between {
+  justify-content: space-between;
+}
+
+section.justify-around {
+  justify-content: space-around;
+}
+
+section.align-start {
+  align-items: flex-start;
+}
+
+section.align-center {
+  align-items: center;
+}
+
+section.align-end {
+  align-items: flex-end;
+}
+
+section.align-baseline {
+  align-items: basline;
+}
+
+section.align-stretch {
+  align-items: stretch;
+}
+
+section .column {
+  padding: 10px;
+  flex: 1 1 0%;
+  /*&.collapse {
+            padding: 10px 0;
+            margin: 0;
+
+            &:first-of-type {
+                padding-left: 10px;
+                padding-right: 0;
+            }
+
+            &:last-of-type {
+                padding-left: 0;
+            }
+        }*/
+  /*&:first-of-type {
+            margin-left: 0;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }*/
+}
+
+section .column .inner {
+  width: 100%;
+}
+
+section .column.collapse {
+  padding: 10px 0;
+}
+
+section .column.fourth {
+  flex: 0 0 25%;
+}
+
+section .column.three-fourth {
+  flex: 0 0 75%;
+}
+
+section .column.thirds {
+  flex: 0 0 33.33333333%;
+}
+
+section .column.two-thirds {
+  flex: 0 0 66.666666666%;
+}
+
+section .column.half {
+  flex: 0 0 50%;
+}
+
+section .column.collapse {
+  margin: 0;
+}
+
+section .column.first {
+  order: 1;
+}
+
+section .column.second {
+  order: 2;
+}
+
+section .column.third {
+  order: 3;
+}
+
+.video-embed {
+  position: relative;
+  padding: 25px 0 56.25% 0;
+  height: 0;
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #ca-container {
+    padding: 0 20px;
+  }
+  section {
+    margin: 0 !important;
+  }
+  section .column {
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 5px 0;
+  }
+  section .column.mobile-first {
+    order: 1;
+  }
+  section .column.mobile-second {
+    order: 2;
+  }
+  section .column.mobile-third {
+    order: 3;
+  }
+  section.two .column {
+    flex: 1 1 0;
+  }
+}

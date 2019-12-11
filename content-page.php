@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="dist/css/cardinal.css">
     <!--<link rel="stylesheet" href="bundle/dist/css/slick-theme.css">-->
     <link rel="stylesheet" href="dist/css/slick.css">
+    <link rel="stylesheet" href="dist/css/aos.css">
     <!--<link rel="stylesheet" href="bundle/dist/css/content-page.css">-->
 
 
@@ -121,7 +122,7 @@
         </section>
 
 
-        <section class="align-center">
+        <section class="align-center" data-aos="fade-right" data-aos-duration="2000">
             <div class="column mobile-second">
                 <h3 class="ca-title">DESIGN</h3>
                 <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
@@ -134,7 +135,7 @@
         </section>
 
 
-        <section class="align-center">
+        <section class="align-center" data-aos="fade-left" data-aos-duration="2000">
             <div class="column">
                 <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/images/2020-toyota-camry-design.jpg" alt="2020 Toyota Camry Design" class="ca-image" />
             </div>
@@ -145,7 +146,7 @@
             </div>
         </section>
 
-        <section class="align-center">
+        <section class="align-center" data-aos="fade-right" data-aos-duration="2000">
             <div class="column">
                 <h3 class="ca-title">DESIGN</h3>
                 <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
@@ -158,7 +159,7 @@
         </section>
 
 
-        <section class="align-center">
+        <section class="align-center" data-aos="fade-left" data-aos-duration="2000">
             <div class="column">
                 <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/images/2020-toyota-camry-design.jpg" alt="2020 Toyota Camry Design" class="ca-image" />
             </div>
@@ -169,18 +170,11 @@
             </div>
         </section>
 
-        <section>
-            <div class="column">
-                <div class="video-embed">
-                    <iframe class="ca-youtube" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0"></iframe>
-                </div>        
-            </div>
-        </section>
 
         <section>
             <div class="column copywrite">
                 <a href="https://www.chumneyads.com/services/website-management/custom-vehicle-content-pages/" target="_top"><img src="https://www.theautohost.com/_assets/coding/copywrite/powered-by-ca.png" alt="Powered By Chumney & Associates" /></a>
-                <iframe src="https://www.theautohost.com/_assets/coding/copywrite/copywrite-new.html" width="100%"  border="0" frameborder="0"></iframe>
+                <iframe src="https://www.theautohost.com/_assets/coding/copywrite/copywrite-new.html" width="100%" border="0" frameborder="0"></iframe>
         </section>
 
 
@@ -193,9 +187,13 @@
     <script src="dist/js/rainbow-custom.min.js"></script>
     <script src="dist/js/slick.min.js"></script>
     <script src="dist/js/cardinal-min.js"></script>
-
+    <script src="dist/js/aos.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
+            AOS.init({
+                once: true,
+            });
+
             // slick carousel
             $('.ca-vehicle-slide').slick({
                 dots: false,
