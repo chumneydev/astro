@@ -188,6 +188,8 @@
     <script src="dist/js/slick.min.js"></script>
     <script src="dist/js/cardinal-min.js"></script>
     <script src="dist/js/aos.js"></script>
+
+
     <script type="text/javascript">
         $(document).ready(function() {
             AOS.init({

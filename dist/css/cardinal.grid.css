@@ -130,6 +130,10 @@ section .column.third {
   order: 3;
 }
 
+section .column section.nested > .column {
+  padding: 0;
+}
+
 .video-embed {
   position: relative;
   padding: 25px 0 56.25% 0;

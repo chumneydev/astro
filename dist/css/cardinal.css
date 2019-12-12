@@ -416,6 +416,10 @@
   order: 3;
 }
 
+#ca-container section .column section.nested > .column {
+  padding: 0;
+}
+
 #ca-container .btn {
   color: #FFFFFF;
   transition: none;

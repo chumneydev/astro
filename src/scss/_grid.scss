@@ -146,4 +146,6 @@ section {
 
 }
 
-
+section .column section.nested > .column {
+    padding: 0;
+} 
