@@ -1,6 +1,6 @@
 $gap-horizontal: 10px;
 $gap-vertical: $gap-horizontal;
- 
+
 
 section {
     margin: 10px 0;
@@ -77,8 +77,8 @@ section {
 
         &.collapse {
             padding: 10px 0;
-  
-        
+
+
         }
 
         /*&.collapse {
@@ -146,6 +146,14 @@ section {
 
 }
 
-section .column section.nested > .column {
-    padding: 0;
-} 
+section .column section.nested {
+
+    & .column:first-of-type {
+        padding-left: 0;
+    }
+
+    & .column:last-of-type {
+        padding-right: 0;
+    }
+
+}

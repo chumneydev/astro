@@ -416,8 +416,12 @@
   order: 3;
 }
 
-#ca-container section .column section.nested > .column {
-  padding: 0;
+#ca-container section .column section.nested .column:first-of-type {
+  padding-left: 0;
+}
+
+#ca-container section .column section.nested .column:last-of-type {
+  padding-right: 0;
 }
 
 #ca-container .btn {

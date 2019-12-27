@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cardinal Grid</title>
-    <link rel="stylesheet" href="./bundle/dist/css/cardinal.css">
-    <link rel="stylesheet" href="./bundle/dist/css/home.css">
-    <link rel="stylesheet" href="./bundle/dist/css/default.css">
-    <link rel="stylesheet" href="./bundle/dist/css/monokai.css">
+    <link rel="stylesheet" href="dist/css/cardinal.css">
+    <link rel="stylesheet" href="dist/css/home.css">
+    <link rel="stylesheet" href="dist/css/default.css">
+    <link rel="stylesheet" href="dist/css/monokai.css">
 
 
 
@@ -115,8 +115,8 @@
         <!-- containter -->
 
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="./bundle/dist/js/rainbow-custom.min.js"></script>
-        <script src="./bundle/dist/js/cardinal-min.js"></script>
+        <script src="dist/js/rainbow-custom.min.js"></script>
+        <script src="dist/js/cardinal-min.js"></script>
 
 
 

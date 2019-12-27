@@ -130,8 +130,12 @@ section .column.third {
   order: 3;
 }
 
-section .column section.nested > .column {
-  padding: 0;
+section .column section.nested .column:first-of-type {
+  padding-left: 0;
+}
+
+section .column section.nested .column:last-of-type {
+  padding-right: 0;
 }
 
 .video-embed {
