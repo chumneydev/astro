@@ -1359,6 +1359,18 @@
   line-height: 1.5em;
 }
 
+#ca-container input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+#ca-container textarea {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
   #ca-container #ca-container {
     padding: 0 20px;
