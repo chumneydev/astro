@@ -9,3 +9,41 @@ textarea {
     padding: 10px 5px;
     font-size: 14px;
 }
+
+
+.ca-radio {
+
+    input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+    }
+
+    & label {
+        display: inline-block;
+        background: $grey-100;
+        padding: 10px 20px;
+        font-size: 14px;
+        border: 2px solid $grey-200;
+        border-radius: 4px;
+    }
+
+    & label:hover {
+        background: $blue-100;
+        border-color: $blue-200;
+
+    }
+
+    & input[type="radio"]:focus+label {
+        border: 2px dashed $blue-200;
+    }
+
+    & input[type="radio"]:checked+label {
+        background: $blue-100;
+        border-color: $blue-200;
+    }
+
+
+
+
+}

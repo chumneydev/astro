@@ -37,12 +37,29 @@
                         </div>
                     </section>
 
-                    <div class="column">
-                        <textarea>
-                            At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-                        </textarea>
-                    </div>
+                    <section>
+                        <div class="column">
+                            <textarea>
+                                At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+                            </textarea>
+                        </div>
+                    </section>
 
+                    <section>
+                        <div class="column">
+                            <p>Select Your Options</p>
+                            <div class="ca-radio">
+                                <input type="radio" id="radioApple" name="radioFruit" value="apple" checked>
+                                <label for="radioApple">Apple</label>
+
+                                <input type="radio" id="radioBanana" name="radioFruit" value="banana">
+                                <label for="radioBanana">Banana</label>
+
+                                <input type="radio" id="radioOrange" name="radioFruit" value="orange">
+                                <label for="radioOrange">Orange</label>
+                            </div>
+                        </div>
+                    </section>
 
 
                 </form>
