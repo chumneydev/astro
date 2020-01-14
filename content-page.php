@@ -4,14 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Content Page</title>
-    <link rel="stylesheet" href="dist/css/cardinal.css">
-    <!--<link rel="stylesheet" href="bundle/dist/css/slick-theme.css">-->
-    <link rel="stylesheet" href="dist/css/slick.css">
-    <link rel="stylesheet" href="dist/css/aos.css">
-    <!--<link rel="stylesheet" href="bundle/dist/css/content-page.css">-->
-
-
-
+    <link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.css">
 </head>
 
 <body>
@@ -184,10 +177,9 @@
     <!-- containter -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="dist/js/rainbow-custom.min.js"></script>
-    <script src="dist/js/slick.min.js"></script>
-    <script src="dist/js/cardinal-min.js"></script>
-    <script src="dist/js/aos.js"></script>
+    <script src="https://theautohost.com/_cardinal/dist/js/slick.min.js"></script>
+    <script src="https://theautohost.com/_cardinal/dist/js/cardinal-min.js"></script>
+    <script src="https://theautohost.com/_cardinal/dist/js/aos.js"></script>
 
 
     <script type="text/javascript">

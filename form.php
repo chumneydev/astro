@@ -30,10 +30,10 @@
 
                     <section>
                         <div class="column">
-                            <input type="text" name="fullname" id="fullname" required placeholder="Full Name">
+                            <input type="text" name="email" id="email" required placeholder="Email">
                         </div>
                         <div class="column">
-                            <input type="text" name="fullname" id="fullname" required placeholder="Full Name">
+                            <input type="text" name="phone" id="phone" required placeholder="Phone">
                         </div>
                     </section>
 
