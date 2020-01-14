@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Content Page</title>
     <link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.css">
+    <link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.content.page.min.css">
 </head>
+
 
 <body>
 
@@ -177,27 +179,11 @@
     <!-- containter -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://theautohost.com/_cardinal/dist/js/slick.min.js"></script>
     <script src="https://theautohost.com/_cardinal/dist/js/cardinal-min.js"></script>
-    <script src="https://theautohost.com/_cardinal/dist/js/aos.js"></script>
 
 
     <script type="text/javascript">
-        $(document).ready(function() {
-            AOS.init({
-                once: true,
-            });
 
-            // slick carousel
-            $('.ca-vehicle-slide').slick({
-                dots: false,
-                arrows: true,
-                vertical: true,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                verticalSwiping: true,
-            });
-        });
     </script>
 
 </body>
