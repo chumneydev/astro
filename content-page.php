@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Content Page</title>
-    <link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.css">
-    <link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.content.page.min.css">
+    <!--<link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.css">-->
+    <link rel="stylesheet" href="dist/css/cardinal.css">
+    <!--<link rel="stylesheet" href="https://theautohost.com/_cardinal/dist/css/cardinal.content.page.min.css">-->
+    <link rel="stylesheet" href="dist/css/cardinal.content.page.min.css">
 </head>
 
 
@@ -17,7 +19,7 @@
 
 
 
-        <section class="header toyota align-center">
+        <section class="header bmw align-center">
             <div class="column">
                 <h1 class="white text-center">2020 Camry</h1>
                 <p class="white text-center">MSRP $24,295</p>
@@ -118,23 +120,23 @@
 
 
         <section class="align-center" data-aos="fade-right" data-aos-duration="2000">
-            <div class="column mobile-second">
+            <div class="column order-two">
                 <h3 class="ca-title">DESIGN</h3>
                 <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
 
-            <div class="column mobile-first">
+            <div class="column order-one">
                 <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/images/2020-toyota-camry-design.jpg" alt="2020 Toyota Camry Design" class="ca-image" />
             </div>
         </section>
 
 
         <section class="align-center" data-aos="fade-left" data-aos-duration="2000">
-            <div class="column">
+            <div class="column order-one">
                 <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/images/2020-toyota-camry-design.jpg" alt="2020 Toyota Camry Design" class="ca-image" />
             </div>
-            <div class="column">
+            <div class="column order-two">
                 <h3 class="ca-title">DESIGN</h3>
                 <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
@@ -142,13 +144,13 @@
         </section>
 
         <section class="align-center" data-aos="fade-right" data-aos-duration="2000">
-            <div class="column">
+            <div class="column order-two">
                 <h3 class="ca-title">DESIGN</h3>
                 <h4>MIDNIGHT BLACK METALLIC ROOF AND ACCENTS</h4>
                 <p>Take Camry's sporty look to the next level with XSE's available color-contrasting black roof, side mirrors and rear spoiler. The distinctive two-tone Midnight Black Metallic roof 76 highlights the stylish rear roof pillars and adds to the presence of the lower, wider stance.</p>
             </div>
 
-            <div class="column">
+            <div class="column order-one">
                 <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2020/Camry/images/2020-toyota-camry-design.jpg" alt="2020 Toyota Camry Design" class="ca-image" />
             </div>
         </section>
@@ -179,7 +181,8 @@
     <!-- containter -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://theautohost.com/_cardinal/dist/js/cardinal-min.js"></script>
+    <!--<script src="https://theautohost.com/_cardinal/dist/js/cardinal-min.js"></script>-->
+    <script src="dist/js/cardinal-min.js"></script>
 
 
     <script type="text/javascript">

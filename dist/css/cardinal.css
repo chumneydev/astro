@@ -1412,13 +1412,13 @@
     padding: 0;
     margin: 5px 0;
   }
-  #ca-container section .column.mobile-first {
+  #ca-container section .column.order-one {
     order: 1;
   }
-  #ca-container section .column.mobile-second {
+  #ca-container section .column.order-two {
     order: 2;
   }
-  #ca-container section .column.mobile-third {
+  #ca-container section .column.order-three {
     order: 3;
   }
   #ca-container section.two .column {

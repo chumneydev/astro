@@ -6,8 +6,6 @@
     <title>Cardinal Grid</title>
     <link rel="stylesheet" href="dist/css/cardinal.css">
     <link rel="stylesheet" href="dist/css/home.css">
-    <link rel="stylesheet" href="dist/css/default.css">
-    <link rel="stylesheet" href="dist/css/monokai.css">
 
 
 
