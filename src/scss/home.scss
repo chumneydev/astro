@@ -2,12 +2,12 @@
 
 body {
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 
 .small {
-    float: right !important;
-    width: 80% !important;
 }
 
 .medium {
@@ -15,40 +15,30 @@ body {
     width: 90% !important;
 }
 
-.demo {
-    background: $blue-200;
+.is-demo {
+    background: $grey-200;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-align: center;
 
-    & p {
-        padding: 10px;
+    & span {
+        background: $grey-400;
+        color: $grey-700;
+        padding: 5px 10px;
+        font-weight: bold;
+        border-radius: 4px;
     }
-}
 
-#sidebar {
-    width: 10%;
-    padding: 20px;
-    position: fixed;
-    font-family: Helvetica;
+    &.is-bold {
+        color: $white;
+        background: $blue-200;
 
-    & ul {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-
-        & li {
-            list-style: none;
-            padding: 10px 0;
-
-            & a {
-                color: $white;
-                display: block;
-                padding: 10px 0; 
-                text-decoration: none;
-                background: $grey-400;
-                border-radius: 6px;
-            }
-
+        & span {
+            background: $blue-400;
+            color: $white;
+            padding: 5px 10px; 
+            font-weight: bold;
+            border-radius: 4px;
         }
-
-
     }
 }

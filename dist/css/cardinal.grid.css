@@ -1,7 +1,5 @@
 section {
   margin: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 section:first-of-type {
@@ -61,28 +59,34 @@ section.align-stretch {
   align-items: stretch;
 }
 
+section.is-mobile {
+  display: flex;
+}
+
 section .column {
-  padding: 10px;
-  flex: 1 1 0%;
-  /*&.collapse {
-            padding: 10px 0;
-            margin: 0;
-
-            &:first-of-type {
-                padding-left: 10px;
-                padding-right: 0;
-            }
-
-            &:last-of-type {
-                padding-left: 0;
-            }
-        }*/
-  /*&:first-of-type {
-            margin-left: 0;
+  display: block;
+  padding: 0 .75rem;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  /*section.is-mobile > .is-three-fourths {
+            flex: none;
+            width: 75%;
         }
 
-        &:last-of-type {
-            margin-right: 0;
+        section.is-mobile > .is-one-fourth {
+            flex: none;
+            width: 25%;
+        }
+
+        section.is-mobile > .is-one-half {
+            flex: none;
+            width: 50%;
+        }
+
+        section.is-mobile > .is-one-fourth {
+            flex: none;
+            width: 25%;
         }*/
 }
 
@@ -94,40 +98,27 @@ section .column.collapse {
   padding: 10px 0;
 }
 
-section .column.fourth {
-  flex: 0 0 25%;
-}
-
-section .column.three-fourth {
-  flex: 0 0 75%;
-}
-
-section .column.thirds {
-  flex: 0 0 33.33333333%;
-}
-
-section .column.two-thirds {
-  flex: 0 0 66.666666666%;
-}
-
-section .column.half {
-  flex: 0 0 50%;
-}
-
 section .column.collapse {
   margin: 0;
 }
 
-section .column.first {
+section .column.is-dt-first {
   order: 1;
 }
 
-section .column.second {
+section .column.is-dt-second {
   order: 2;
 }
 
-section .column.third {
+section .column.is-dt-third {
   order: 3;
+}
+
+@media screen and (max-width: 790px) {
+  .is-three-fourths {
+    flex: none;
+    width: 75%;
+  }
 }
 
 section .column section.nested .column:first-of-type {
@@ -152,7 +143,7 @@ section .column section.nested .column:last-of-type {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1330px) {
   #ca-container {
     padding: 0 20px;
   }
@@ -161,17 +152,7 @@ section .column section.nested .column:last-of-type {
   }
   section .column {
     flex: 1 1 100%;
-    padding: 0;
     margin: 5px 0;
-  }
-  section .column.order-one {
-    order: 1;
-  }
-  section .column.order-two {
-    order: 2;
-  }
-  section .column.order-three {
-    order: 3;
   }
   section.two .column {
     flex: 1 1 0;

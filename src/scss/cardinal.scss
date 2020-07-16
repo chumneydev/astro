@@ -3,16 +3,16 @@
     font-family: Helvetica, Arial, sans-serif;
 
 
-    @import "variables";
-    @import "mixins";
-    @import "fonts";
-    @import "base";
+    @import "cardinal/variables";
+    @import "cardinal/mixins";
+    @import "cardinal/fonts";
+    @import "cardinal/base";
     //@import "grid-test";
-    @import "grid";
-    @import "buttons";
-    @import "iframes";
-    @import "content-page";
-    @import "slider";
-    @import "forms";
-    @import "mediaqueries";
+    @import "cardinal/grid";
+    @import "cardinal/buttons";
+    @import "cardinal/iframes";
+    @import "cardinal/content-page";
+    @import "cardinal/slider";
+    @import "cardinal/forms";
+    @import "cardinal/mediaqueries";
 }

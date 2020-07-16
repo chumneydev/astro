@@ -1,0 +1,8 @@
+#ca-container {
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#ca-container.has-padding {
+  padding: 10px;
+}

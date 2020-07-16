@@ -2,3 +2,5 @@
 node_modules/
 ./gulpfile.js
 gulpfile.js
+_backup
+test
