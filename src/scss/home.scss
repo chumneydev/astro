@@ -1,4 +1,4 @@
-@import "variables";
+@import "cdl/variables";
 
 body {
     position: relative;
@@ -6,7 +6,9 @@ body {
     margin: 0;
 }
 
-
+.is-dev {
+    background: $warning;
+}
 .small {
 }
 
@@ -41,4 +43,18 @@ body {
             border-radius: 4px;
         }
     }
+}
+
+
+pre {
+    overflow-x: auto;
+    padding: 1.25em;
+    border: 1px solid #e6e6e6;
+    border-left-width: 5px;
+    margin:1.6em 0;
+    font-size: .875em;
+    background: #fcfcfc;
+    white-space: pre;
+    color: $blue-400;
+    font-size: $text-medium;
 }

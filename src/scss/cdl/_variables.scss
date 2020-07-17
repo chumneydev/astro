@@ -146,8 +146,12 @@ $text-alignment: (
     right: right
 );
 
+$gap: 10px;
+
+
+$text-medium: 14px;
 
 $mobile-width: 790px;
 $desktop-width: 960px+(2 * $gap);
-$tablet-width: 769px !default;
+$tablet-width: 1080px !default;
 

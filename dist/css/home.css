@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.is-dev {
+  background: #d0060e;
+}
+
 .medium {
   float: right;
   width: 90% !important;
@@ -35,4 +39,17 @@ body {
   padding: 5px 10px;
   font-weight: bold;
   border-radius: 4px;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1.25em;
+  border: 1px solid #e6e6e6;
+  border-left-width: 5px;
+  margin: 1.6em 0;
+  font-size: .875em;
+  background: #fcfcfc;
+  white-space: pre;
+  color: #63B3ED;
+  font-size: 14px;
 }
