@@ -1,0 +1,152 @@
+$gap: 15px;
+
+ & *,
+ ::before,
+ ::after {
+     box-sizing: inherit;
+ }
+
+
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0 10px 0;
+
+    & .column {
+        display: block;
+        flex-basis: 0;
+        flex-grow: 1;
+        min-width: 0;
+        max-width: 100%;
+
+        &.is-one-third {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+
+        &.is-two-thirds {
+            flex: 0 0 66.6666%;
+            max-width: 66.6666%;
+        }
+
+        &.is-one-fourth {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        &.is-three-fourths {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+
+        &.is-half {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        &.is-one {
+            flex: 0 0 8.333333%;
+            max-width: 8.333333%;
+        }
+
+        &.is-two {
+            flex: 0 0 16.66667%;
+            max-width: 16.66667%;
+        }
+
+        &.is-three {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        &.is-four {
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+
+        &.is-five {
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%;
+        }
+
+        &.is-six {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        &.is-seven {
+            flex: 0 0 58.333333%;
+            max-width: 58.333333%;
+        }
+
+        &.is-eight {
+            flex: 0 0 66.666667%;
+            max-width: 66.666667%;
+        }
+
+        &.is-nine {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+
+        &.is-ten {
+            flex: 0 0 83.333333%;
+            max-width: 83.333333%;
+        }
+
+        &.is-eleven {
+            flex: 0 0 91.666667%;
+            max-width: 91.666667%;
+        }
+
+        &.is-twelve {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+
+    }
+
+    .is-one,
+    .is-two,
+    .is-three,
+    .is-four,
+    .is-five,
+    .is-six,
+    .is-seven,
+    .is-eight,
+    .is-nine,
+    .is-ten,
+    .is-eleven,
+    .is-twelve,
+    .column {
+        position: relative;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+
+@include mobile {
+    section {
+
+        &:not(.is-mobile) {
+            .column {
+                flex: 0 0 100%;
+                padding: 0;
+
+
+
+                /*&[class*="is-"] {
+                    flex: 0 0 100%;
+                }*/
+
+            }
+        }
+    }
+}

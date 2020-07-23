@@ -4,6 +4,17 @@ body {
   margin: 0;
 }
 
+.demo {
+  padding: 1rem;
+  background: #63B3ED;
+  text-align: center;
+}
+
+.demo::before {
+  content: 'Column';
+  color: #FFFFFF;
+}
+
 .is-dev {
   background: #d0060e;
 }
@@ -41,6 +52,11 @@ body {
   border-radius: 4px;
 }
 
+h1 {
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #EDF2F7;
+}
+
 pre {
   overflow-x: auto;
   padding: 1.25em;
@@ -52,4 +68,14 @@ pre {
   white-space: pre;
   color: #63B3ED;
   font-size: 14px;
+}
+
+ul {
+  padding: 0 0 0 15px;
+  border-left: 5px solid #63B3ED;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px 0;
 }

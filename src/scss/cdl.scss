@@ -1,14 +1,26 @@
 #ca-container {
-    width: 100%;
-    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    max-width: 1140px;
+    font-family: Helvetica,
+    Arial,
+    sans-serif;
+    margin: 0 auto;
+    padding: 0 15px;
 
-    @import "cdl/variables";
-    @import "cdl/mixins";
+    &.no-padding {
+        padding: 0;
+    }
+
+
+
+    @import "variables";
+    @import "mixins";
     //@import "base";
-    @import "cdl/grid";
-    //@import "buttons";
+    @import "grid";
+    @import "helpers";
+    @import "buttons";
     //@import "iframes";
-    @import "cdl/forms";  
+    @import "forms";  
 
 
     &.is-mobile {

@@ -45,31 +45,30 @@ $volvo: #003057;
 $vw: #00B1EB;
 
 // Hover States
-$acuradarken: darken($acura,15%);
-$audidarken: darken($audi,15%);
-$bmwdarken: darken($bmw,15%);
-$chevydarken: darken($chevy,15%);
-$forddarken: darken($ford,15%);
-$gmcdarken: darken($gmc,15%);
-$hondadarken: darken($honda,15%);
-$hyundaidarken: darken($hyundai,15%);
-$infinitidarken: darken($infiniti,15%);
-$kiadarken: darken($kia,15%);
-$lexusdarken: darken($lexus,15%);
-$lincolndarken: darken($lincoln,15%);
-$maseratidarken: darken($maserati,15%);
-$mazdadarken: darken($mazda,15%);
-$mercedesdarken: darken($mercedes,15%);
-$mitsubishidarken: darken($mitsubishi,15%);
-$nissandarken: darken($nissan,15%);
-$subarudarken: darken($subaru,15%);
-$toyotadarken: darken($toyota,15%);
-$volvodarken: darken($volvo,15%);
-$vwdarken: darken($vw,15%);
+$acuradarken: darken($acura, 15%);
+$audidarken: darken($audi, 15%);
+$bmwdarken: darken($bmw, 15%);
+$chevydarken: darken($chevy, 15%);
+$forddarken: darken($ford, 15%);
+$gmcdarken: darken($gmc, 15%);
+$hondadarken: darken($honda, 15%);
+$hyundaidarken: darken($hyundai, 15%);
+$infinitidarken: darken($infiniti, 15%);
+$kiadarken: darken($kia, 15%);
+$lexusdarken: darken($lexus, 15%);
+$lincolndarken: darken($lincoln, 15%);
+$maseratidarken: darken($maserati, 15%);
+$mazdadarken: darken($mazda, 15%);
+$mercedesdarken: darken($mercedes, 15%);
+$mitsubishidarken: darken($mitsubishi, 15%);
+$nissandarken: darken($nissan, 15%);
+$subarudarken: darken($subaru, 15%);
+$toyotadarken: darken($toyota, 15%);
+$volvodarken: darken($volvo, 15%);
+$vwdarken: darken($vw, 15%);
 
 // Map Variables
-$manufacturers: (
-    acura: $acura,
+$manufacturers: (acura: $acura,
     audi: $audi,
     buick: $buick,
     bmw: $bmw,
@@ -95,11 +94,9 @@ $manufacturers: (
     volvo: $volvo,
     vw: $vw,
     black: $black,
-    white: $white
-);
+    white: $white);
 
-$headers: (
-    acura: e82c2a,
+$headers: (acura: e82c2a,
     audi: cd1f35,
     buick: f26518,
     bmw: 1c69d4,
@@ -127,8 +124,7 @@ $headers: (
 );
 
 
-$elements: (
-    h1: h1,
+$elements: (h1: h1,
     h2: h2,
     h3: h3,
     h4: h4,
@@ -137,14 +133,11 @@ $elements: (
     span: span,
     li: li,
     a: a,
-    div: div
-);
+    div: div);
 
-$text-alignment: (
-    left: left,
+$text-alignment: (left: left,
     center: center,
-    right: right
-);
+    right: right);
 
 $gap: 10px;
 
@@ -155,3 +148,6 @@ $mobile-width: 790px;
 $desktop-width: 960px+(2 * $gap);
 $tablet-width: 1080px !default;
 
+$columns: 12;
+
+$sizes: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve;
