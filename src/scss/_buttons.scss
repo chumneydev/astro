@@ -24,31 +24,25 @@
         }
 
     }
-
-
-
-
-
-
-
-
-
-
 }
 
 
-
 @each $manufacturer, $color in $manufacturers {
-        .column[class~=is-#{$manufacturer}] {
+    .column {
+        &.is-#{$manufacturer} {
             @include background($color);
         }
     }
-
-@each $manufacturer,
-$color in $manufacturers {
-    .column[class~=is-#{$manufacturer}] {
-        @include background($color);
-    }
+    
+    
+    /*.column {
+        & .inner {
+            display: block;
+            &.is-#{$manufacturer} {
+                @include background($color);
+            }
+        }
+    }*/
 }
 
 

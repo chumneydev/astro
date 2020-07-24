@@ -138,8 +138,27 @@ section {
         &:not(.is-mobile) {
             .column {
                 flex: 0 0 100%;
-                padding: 0;
+                max-width: 100%;
+                margin: 0 0 10px 0;
 
+            &.is-one,
+            &.is-two,
+            &.is-three,
+            &.is-four,
+            &.is-five,
+            &.is-six,
+            &.is-seven,
+            &.is-eight,
+            &.is-nine,
+            &.is-ten,
+            &.is-eleven,
+            &.is-twelve {
+                position: relative;
+                flex: 0 0 100%;
+                max-width: 100%;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
 
 
                 /*&[class*="is-"] {

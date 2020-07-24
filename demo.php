@@ -17,7 +17,7 @@
 
 
         .column {
-            background: #dfe0e3;
+            /*background: #dfe0e3;*/
             border: 1px solid #009ffe;
         }
 
@@ -46,9 +46,10 @@
     <!-- grid -->
         
         <section>
-            <div class="column">
-                Column
-            </div>
+            <div class="column is-acura">
+Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+
+Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.            </div>
             <div class="column">
                 Column
             </div>
@@ -70,7 +71,14 @@
 
         <section>
             <div class="column is-half">
-                Column
+                <div class="inner is-acura">
+                    Column
+                </div>    
+            </div>
+            <div class="column is-half">
+                <div class="inner is-acura">
+                    Column
+                </div>    
             </div>
         </section>
 

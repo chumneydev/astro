@@ -6,9 +6,9 @@ body {
     margin: 0;
 }
 
-.demo {
+.feature {
     padding: 1rem;
-    background: $blue-400;
+    background: $dev;
     text-align: center;
 
     &::before {
@@ -19,8 +19,21 @@ body {
 
 }
 
+.auto {
+    padding: 1rem;
+    background: $dev-2;
+    text-align: center;
+
+    &::before {
+        content: 'Auto Column';
+        color: $white;
+
+    }
+
+}
+
 .is-dev {
-    background: $warning;
+    background: $dev;
 }
 .small {
 }
@@ -49,7 +62,7 @@ body {
         background: $blue-200;
 
         & span {
-            background: $blue-400;
+            background: $dev;
             color: $white;
             padding: 5px 10px; 
             font-weight: bold;
@@ -73,13 +86,13 @@ pre {
     font-size: .875em;
     background: #fcfcfc;
     white-space: pre;
-    color: $blue-400;
+    color: $dev;
     font-size: $text-medium;
 }
 
 ul {
     padding: 0 0 0 15px;
-    border-left: 5px solid $blue-400;
+    border-left: 5px solid $dev;
 
     & li {
         list-style: none;

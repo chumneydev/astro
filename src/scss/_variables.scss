@@ -16,6 +16,8 @@ $dark-grey: darken($grey, 90%);
 $light-grey: lighten($grey, 10%);
 
 $warning: #d0060e;
+$dev: #e82e47;
+$dev-2: #333434;
 
 // Manufacturer Colors
 $acura: #e82c2a;
@@ -26,7 +28,6 @@ $cadillac: #9e1834;
 $chevy: #f1b923;
 $fiat: #b11636;
 $ford: #2D96CD;
-$gmc: #BC0A0F;
 $honda: #2086c1;
 $hyundai: #002D73;
 $infiniti: #201d26;
@@ -43,6 +44,11 @@ $subaru: #20609F;
 $toyota: #d71921;
 $volvo: #003057;
 $vw: #00B1EB;
+$chrysler: #063e77;
+$dodge: #d50000;
+$jeep: #ffba00;
+$ram: #880d00;
+
 
 // Hover States
 $acuradarken: darken($acura, 15%);
@@ -50,7 +56,6 @@ $audidarken: darken($audi, 15%);
 $bmwdarken: darken($bmw, 15%);
 $chevydarken: darken($chevy, 15%);
 $forddarken: darken($ford, 15%);
-$gmcdarken: darken($gmc, 15%);
 $hondadarken: darken($honda, 15%);
 $hyundaidarken: darken($hyundai, 15%);
 $infinitidarken: darken($infiniti, 15%);
@@ -66,6 +71,10 @@ $subarudarken: darken($subaru, 15%);
 $toyotadarken: darken($toyota, 15%);
 $volvodarken: darken($volvo, 15%);
 $vwdarken: darken($vw, 15%);
+$chryslerdarken: darken($chrysler, 15%);
+$dodgedarken: darken($dodge, 15%);
+$jeepdarken: darken($jeep, 15%);
+$ramdarken: darken($ram, 15%);
 
 // Map Variables
 $manufacturers: (acura: $acura,
@@ -76,7 +85,6 @@ $manufacturers: (acura: $acura,
     chevy: $chevy,
     fiat: $fiat,
     ford: $ford,
-    gmc: $gmc,
     honda: $honda,
     hyundai: $hyundai,
     infiniti: $infiniti,
@@ -93,6 +101,10 @@ $manufacturers: (acura: $acura,
     toyota: $toyota,
     volvo: $volvo,
     vw: $vw,
+    chrysler: $chrysler,
+    dodge: $dodge,
+    jeep: $jeep,
+    ram: $ram,
     black: $black,
     white: $white);
 
@@ -104,7 +116,6 @@ $headers: (acura: e82c2a,
     chevy: f1b923,
     fiat: b11636,
     ford: 2D96CD,
-    gmc: BC0A0F,
     honda: 2086c1,
     hyundai: 002D73,
     infiniti: 201d26,
@@ -121,6 +132,11 @@ $headers: (acura: e82c2a,
     toyota: d71921,
     volvo: 003057,
     vw: 00B1EB,
+    chrysler: 063e77,
+    dodge: d50000,
+    jeep: ffba00,
+    ram: 880d00,
+
 );
 
 

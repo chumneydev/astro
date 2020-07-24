@@ -8,119 +8,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/cdl.css">
     <link rel="stylesheet" href="dist/css/home.css">
+
+<style type="text/css">
+
+    /*.column {
+        background: #dfe0e3;
+        border: 1px solid #009ffe;
+    }*/
+
+</style>
+
+
+
 </head>
 <body>
 
 <!-- container -->
 <div id="ca-container" class="is-tablet" >
-    
+    <section>
+        <div class="column is-half is-acura">
+                <p>Column</p>
+        </div>
+        <div class="column is-half">
+        <a href="#" class="btn is-bmw">Hello</a>
+        </div>
+    </section>
+
+
+
+
     <!-- grid -->
     <div id="grid">
-        
-        <section>
-            <div class="column">
-                <h1>Grid</h1>
-                <p>The new grid structure should be the easiest grid to implement that we have ever had. We have slimmed down the markup to hopefully be easier to understand. All you need for a simple grid is the following:</p>
-            </div>
-        </section>
-
-        <pre>
-        <code>    
-            &lt;section>
-                &lt;div class="column">&lt;/div>
-            &lt;/section>    
-        </code>    
-        </pre>
-
-        <section>
-            <div class="column">
-                <p>To break it down, section is your row and the div "column" is your column. The interesting part of the new grid is that columns will automatically fill the remaining space of the section.</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="column">
-                <div class="demo"></div>
-            </div>
-            <div class="column">
-                <div class="demo"></div>
-            </div>
-        </section>
-
-        <pre>
-        <code>    
-            &lt;section>
-                &lt;div class="column">&lt;/div>
-                &lt;div class="column">&lt;/div>
-            &lt;/section>    
-        </code>    
-        </pre>
-
-        <section>
-            <div class="column">
-                <p>If you need a column to take up a more specific width, we have the following modifiers to use:</p>
-                <ul>
-                    <li>.is-one-fourth</li>
-                    <li>.is-three-fourths</li>
-                    <li>.is-one-third</li>
-                    <li>.is-two-thirds</li>
-                </ul>
-                <p>Just add one of the following to your column to achieve the new width. The sibling column will automatically resize to fill the remain space.</p>    
-            </div>
-        </section>
-
-        <section>
-            <div class="column is-three-fourths">
-                <div class="demo"></div>
-            </div>
-            <div class="column">
-                <div class="demo"></div>
-            </div>
-        </section>
-
-        <pre>
-        <code>    
-            &lt;section>
-                &lt;div class="column is-three-fourths">&lt;/div>
-                &lt;div class="column">&lt;/div>
-            &lt;/section>    
-        </code>    
-        </pre>
-
-         <section>
-            <div class="column">
-                <p>Note: Only use one of these modifiers per row.</p>
-            </div>
-        </section>
-
-      <section>
-            <div class="column">
-                <p>If you need more granular control over the widths, you can use the following modifiers as well:</p>
-                <ul>
-                    <li>.is-one</li>
-                    <li>.is-two</li>
-                    <li>.is-three</li>
-                    <li>.is-four</li>
-                    <li>.is-five</li>
-                    <li>.is-six</li>
-                    <li>.is-seven</li>
-                    <li>.is-eight</li>
-                    <li>.is-nine</li>
-                    <li>.is-ten</li>
-                    <li>.is-eleven</li>
-                    <li>.is-twelve</li>
-                </ul>
-            </div>
-        </section>
-
-
-     <section>
-            <div class="column is-one">
-                <div class="demo"></div>
-            </div>
-        </section>
-
-
+        <?php include("docs/grid.php"); ?>
     </div>
     <!-- grid -->
 
@@ -128,62 +47,9 @@
 
  
     <!-- form -->
-    <section id="forms">
-        <div class="column">
-            <h1>Forms</h1>
-            <form class="ca-form">
-                <section>
-                    <div class="column">
-                        <label for="" class="is-required">Ridiculus Cras</label>
-                        <input type="text" name="" id="" placeholder="Ridiculus Cras"  required>
-                    </div>
-    
-                    <div class="column">
-                        <label for="">Ridiculus Cras</label>
-                        <input type="text" name="" id="" placeholder="Ridiculus Cras"  required>
-                    </div>
-                </section>
-                <section>
-                    <div class="column">
-                        <label for="" class="is-required">Ridiculus Cras</label>
-                        <textarea id="" name="" rows="4" cols="50" >Comments</textarea>
-                    </div>
-    
-                </section>
-
-                <section>
-                    <div class="column">
-                        <p>Contact Me By</p>
-                        <div class="ca-radio">
-           
-
-                            <input type="radio" id="phone" name="contact-method" value="phone">
-                            <label for="phone">Phone</label>
-
-                            <input type="radio" id="email" name="contact-method" value="email">
-                            <label for="email">Email</label>
-
-
-                        </div>
-                    </div>
-                </section>
-
-
-                <section>
-                    <div class="column">
-                        <select class="ca-select">
-                            <option>This is a native select element</option>
-                            <option>Apples</option>
-                            <option>Bananas</option>
-                            <option>Grapes</option>
-                            <option>Oranges</option>
-                        </select>
-                    </div>
-                </section>
-            </form>
-    
-        </div>
-    </section>
+    <div id="forms">
+        <?php include("docs/forms.php"); ?>
+    </div>
     <!-- form -->
 
 
@@ -289,7 +155,6 @@
 
     </div>
     <!-- form -->
-
 
 
 

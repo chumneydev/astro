@@ -4,6 +4,246 @@
   font-family: Helvetica, Arial, sans-serif;
   margin: 0 auto;
   padding: 0 15px;
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-acura {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-audi {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-buick {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-bmw {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-cadillac {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-chevy {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-fiat {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-ford {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-honda {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-hyundai {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-infiniti {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-kia {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-lexus {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-lincoln {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-maserati {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-mazda {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-mini {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-mercedes {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-mitsubishi {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-nissan {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-subaru {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-toyota {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-volvo {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-vw {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-chrysler {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-dodge {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-jeep {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-ram {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-black {
+                @include background($color);
+            }
+        }
+    }*/
+  /*.column {
+        & .inner {
+            display: block;
+            &.is-white {
+                @include background($color);
+            }
+        }
+    }*/
 }
 
 #ca-container.no-padding {
@@ -138,10 +378,18 @@
 @media screen and (max-width: 790px) {
   #ca-container section:not(.is-mobile) .column {
     flex: 0 0 100%;
-    padding: 0;
+    max-width: 100%;
+    margin: 0 0 10px 0;
     /*&[class*="is-"] {
                     flex: 0 0 100%;
                 }*/
+  }
+  #ca-container section:not(.is-mobile) .column.is-one, #ca-container section:not(.is-mobile) .column.is-two, #ca-container section:not(.is-mobile) .column.is-three, #ca-container section:not(.is-mobile) .column.is-four, #ca-container section:not(.is-mobile) .column.is-five, #ca-container section:not(.is-mobile) .column.is-six, #ca-container section:not(.is-mobile) .column.is-seven, #ca-container section:not(.is-mobile) .column.is-eight, #ca-container section:not(.is-mobile) .column.is-nine, #ca-container section:not(.is-mobile) .column.is-ten, #ca-container section:not(.is-mobile) .column.is-eleven, #ca-container section:not(.is-mobile) .column.is-twelve {
+    position: relative;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -259,17 +507,6 @@
 #ca-container .btn.is-ford:hover {
   background: transparent;
   color: #2D96CD;
-  transition: .7s ease;
-}
-
-#ca-container .btn.is-gmc {
-  background: #BC0A0F;
-  border: 4px solid #BC0A0F;
-}
-
-#ca-container .btn.is-gmc:hover {
-  background: transparent;
-  color: #BC0A0F;
   transition: .7s ease;
 }
 
@@ -449,6 +686,50 @@
   transition: .7s ease;
 }
 
+#ca-container .btn.is-chrysler {
+  background: #063e77;
+  border: 4px solid #063e77;
+}
+
+#ca-container .btn.is-chrysler:hover {
+  background: transparent;
+  color: #063e77;
+  transition: .7s ease;
+}
+
+#ca-container .btn.is-dodge {
+  background: #d50000;
+  border: 4px solid #d50000;
+}
+
+#ca-container .btn.is-dodge:hover {
+  background: transparent;
+  color: #d50000;
+  transition: .7s ease;
+}
+
+#ca-container .btn.is-jeep {
+  background: #ffba00;
+  border: 4px solid #ffba00;
+}
+
+#ca-container .btn.is-jeep:hover {
+  background: transparent;
+  color: #ffba00;
+  transition: .7s ease;
+}
+
+#ca-container .btn.is-ram {
+  background: #880d00;
+  border: 4px solid #880d00;
+}
+
+#ca-container .btn.is-ram:hover {
+  background: transparent;
+  color: #880d00;
+  transition: .7s ease;
+}
+
 #ca-container .btn.is-black {
   background: #000000;
   border: 4px solid #000000;
@@ -472,219 +753,123 @@
   transition: .7s ease;
 }
 
-#ca-container .column[class~=is-acura] {
+#ca-container .column.is-acura {
   background: #e82c2a;
 }
 
-#ca-container .column[class~=is-audi] {
+#ca-container .column.is-audi {
   background: #cd1f35;
 }
 
-#ca-container .column[class~=is-buick] {
+#ca-container .column.is-buick {
   background: #f26518;
 }
 
-#ca-container .column[class~=is-bmw] {
+#ca-container .column.is-bmw {
   background: #1c69d4;
 }
 
-#ca-container .column[class~=is-cadillac] {
+#ca-container .column.is-cadillac {
   background: #9e1834;
 }
 
-#ca-container .column[class~=is-chevy] {
+#ca-container .column.is-chevy {
   background: #f1b923;
 }
 
-#ca-container .column[class~=is-fiat] {
+#ca-container .column.is-fiat {
   background: #b11636;
 }
 
-#ca-container .column[class~=is-ford] {
+#ca-container .column.is-ford {
   background: #2D96CD;
 }
 
-#ca-container .column[class~=is-gmc] {
-  background: #BC0A0F;
-}
-
-#ca-container .column[class~=is-honda] {
+#ca-container .column.is-honda {
   background: #2086c1;
 }
 
-#ca-container .column[class~=is-hyundai] {
+#ca-container .column.is-hyundai {
   background: #002D73;
 }
 
-#ca-container .column[class~=is-infiniti] {
+#ca-container .column.is-infiniti {
   background: #201d26;
 }
 
-#ca-container .column[class~=is-kia] {
+#ca-container .column.is-kia {
   background: #c4172c;
 }
 
-#ca-container .column[class~=is-lexus] {
+#ca-container .column.is-lexus {
   background: #1a1a1a;
 }
 
-#ca-container .column[class~=is-lincoln] {
+#ca-container .column.is-lincoln {
   background: #231F1F;
 }
 
-#ca-container .column[class~=is-maserati] {
+#ca-container .column.is-maserati {
   background: #0b2749;
 }
 
-#ca-container .column[class~=is-mazda] {
+#ca-container .column.is-mazda {
   background: #df0000;
 }
 
-#ca-container .column[class~=is-mini] {
+#ca-container .column.is-mini {
   background: #ac2430;
 }
 
-#ca-container .column[class~=is-mercedes] {
+#ca-container .column.is-mercedes {
   background: #222222;
 }
 
-#ca-container .column[class~=is-mitsubishi] {
+#ca-container .column.is-mitsubishi {
   background: #ff0022;
 }
 
-#ca-container .column[class~=is-nissan] {
+#ca-container .column.is-nissan {
   background: #c3002f;
 }
 
-#ca-container .column[class~=is-subaru] {
+#ca-container .column.is-subaru {
   background: #20609F;
 }
 
-#ca-container .column[class~=is-toyota] {
+#ca-container .column.is-toyota {
   background: #d71921;
 }
 
-#ca-container .column[class~=is-volvo] {
+#ca-container .column.is-volvo {
   background: #003057;
 }
 
-#ca-container .column[class~=is-vw] {
+#ca-container .column.is-vw {
   background: #00B1EB;
 }
 
-#ca-container .column[class~=is-black] {
+#ca-container .column.is-chrysler {
+  background: #063e77;
+}
+
+#ca-container .column.is-dodge {
+  background: #d50000;
+}
+
+#ca-container .column.is-jeep {
+  background: #ffba00;
+}
+
+#ca-container .column.is-ram {
+  background: #880d00;
+}
+
+#ca-container .column.is-black {
   background: #000000;
 }
 
-#ca-container .column[class~=is-white] {
-  background: #FFFFFF;
-}
-
-#ca-container .column[class~=is-acura] {
-  background: #e82c2a;
-}
-
-#ca-container .column[class~=is-audi] {
-  background: #cd1f35;
-}
-
-#ca-container .column[class~=is-buick] {
-  background: #f26518;
-}
-
-#ca-container .column[class~=is-bmw] {
-  background: #1c69d4;
-}
-
-#ca-container .column[class~=is-cadillac] {
-  background: #9e1834;
-}
-
-#ca-container .column[class~=is-chevy] {
-  background: #f1b923;
-}
-
-#ca-container .column[class~=is-fiat] {
-  background: #b11636;
-}
-
-#ca-container .column[class~=is-ford] {
-  background: #2D96CD;
-}
-
-#ca-container .column[class~=is-gmc] {
-  background: #BC0A0F;
-}
-
-#ca-container .column[class~=is-honda] {
-  background: #2086c1;
-}
-
-#ca-container .column[class~=is-hyundai] {
-  background: #002D73;
-}
-
-#ca-container .column[class~=is-infiniti] {
-  background: #201d26;
-}
-
-#ca-container .column[class~=is-kia] {
-  background: #c4172c;
-}
-
-#ca-container .column[class~=is-lexus] {
-  background: #1a1a1a;
-}
-
-#ca-container .column[class~=is-lincoln] {
-  background: #231F1F;
-}
-
-#ca-container .column[class~=is-maserati] {
-  background: #0b2749;
-}
-
-#ca-container .column[class~=is-mazda] {
-  background: #df0000;
-}
-
-#ca-container .column[class~=is-mini] {
-  background: #ac2430;
-}
-
-#ca-container .column[class~=is-mercedes] {
-  background: #222222;
-}
-
-#ca-container .column[class~=is-mitsubishi] {
-  background: #ff0022;
-}
-
-#ca-container .column[class~=is-nissan] {
-  background: #c3002f;
-}
-
-#ca-container .column[class~=is-subaru] {
-  background: #20609F;
-}
-
-#ca-container .column[class~=is-toyota] {
-  background: #d71921;
-}
-
-#ca-container .column[class~=is-volvo] {
-  background: #003057;
-}
-
-#ca-container .column[class~=is-vw] {
-  background: #00B1EB;
-}
-
-#ca-container .column[class~=is-black] {
-  background: #000000;
-}
-
-#ca-container .column[class~=is-white] {
+#ca-container .column.is-white {
   background: #FFFFFF;
 }
 
