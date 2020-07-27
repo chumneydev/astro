@@ -109,3 +109,116 @@
         <a href="#" class="btn is-vw">.is-vw</a>
     </div>
 </section>  
+
+<section>
+    <div class="column">
+        <p>We also now have button outlines as well. Simply add the class .is-outline-* in addition to .btn.</p>
+        <p>White and black are both options for buttons as well.</p>
+    </div>
+</section>    
+
+
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-acura">.is-outline-acura</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-audi">.is-outline-audi</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-buick">.is-outline-buick</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-bmw">.is-outline-bmw</a>
+    </div>
+</section>    
+        
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-cadillac">.is-outline-cadillac</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-chevy">.is-outline-chevy</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-chrysler">.is-outline-chrysler</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-dodge">.is-outline-dodge</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-fiat">.is-outline-fiat</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-ford">.is-outline-ford</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-honda">.is-outline-honda</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-hyundai">.is-outline-hyundai</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-infiniti">.is-outline-infiniti</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-jeep">.is-outline-jeep</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-kia">.is-outline-kia</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-lexus">.is-outline-lexus</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-lincoln">.is-outline-lincoln</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-maserati">.is-outline-maserati</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-mazda">.is-outline-mazda</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-mini">.is-outline-mini</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-mercedes">.is-outline-mercedes</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-mitsubishi">.is-outline-mitsubishi</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-nissan">.is-outline-nissan</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-ram">.is-outline-ram</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="btn is-outline-subaru">.is-outline-subaru</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-toyota">.is-outline-toyota</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-volvo">.is-outline-volvo</a>
+    </div>
+    <div class="column">
+        <a href="#" class="btn is-outline-vw">.is-outline-vw</a>
+    </div>
+</section>  

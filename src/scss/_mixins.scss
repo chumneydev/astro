@@ -30,6 +30,18 @@
     }
 }
 
+@mixin buttons-outline($bg) {
+    color: $bg;
+    background: transparent;
+    border: 4px solid $bg;
+
+    &:hover {
+        background: $bg;
+        color: $white;
+        transition: .7s ease;
+    }
+}
+
 
 @mixin background($bg) {
     background: $bg;
