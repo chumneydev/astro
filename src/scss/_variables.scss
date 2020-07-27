@@ -26,11 +26,14 @@ $buick: #f26518;
 $bmw: #1c69d4;
 $cadillac: #9e1834;
 $chevy: #f1b923;
+$chrysler: #063e77;
+$dodge: #d50000;
 $fiat: #b11636;
 $ford: #2D96CD;
 $honda: #2086c1;
 $hyundai: #002D73;
 $infiniti: #201d26;
+$jeep: #ffba00;
 $kia: #c4172c;
 $lexus: #1a1a1a;
 $lincoln: #231F1F;
@@ -40,14 +43,11 @@ $mini: #ac2430;
 $mercedes: #222222;
 $mitsubishi: #ff0022;
 $nissan: #c3002f;
+$ram: #880d00;
 $subaru: #20609F;
 $toyota: #d71921;
 $volvo: #003057;
 $vw: #00B1EB;
-$chrysler: #063e77;
-$dodge: #d50000;
-$jeep: #ffba00;
-$ram: #880d00;
 
 
 // Hover States
@@ -55,10 +55,13 @@ $acuradarken: darken($acura, 15%);
 $audidarken: darken($audi, 15%);
 $bmwdarken: darken($bmw, 15%);
 $chevydarken: darken($chevy, 15%);
+$chryslerdarken: darken($chrysler, 15%);
+$dodgedarken: darken($dodge, 15%);
 $forddarken: darken($ford, 15%);
 $hondadarken: darken($honda, 15%);
 $hyundaidarken: darken($hyundai, 15%);
 $infinitidarken: darken($infiniti, 15%);
+$jeepdarken: darken($jeep, 15%);
 $kiadarken: darken($kia, 15%);
 $lexusdarken: darken($lexus, 15%);
 $lincolndarken: darken($lincoln, 15%);
@@ -67,14 +70,11 @@ $mazdadarken: darken($mazda, 15%);
 $mercedesdarken: darken($mercedes, 15%);
 $mitsubishidarken: darken($mitsubishi, 15%);
 $nissandarken: darken($nissan, 15%);
+$ramdarken: darken($ram, 15%);
 $subarudarken: darken($subaru, 15%);
 $toyotadarken: darken($toyota, 15%);
 $volvodarken: darken($volvo, 15%);
 $vwdarken: darken($vw, 15%);
-$chryslerdarken: darken($chrysler, 15%);
-$dodgedarken: darken($dodge, 15%);
-$jeepdarken: darken($jeep, 15%);
-$ramdarken: darken($ram, 15%);
 
 // Map Variables
 $manufacturers: (acura: $acura,
@@ -83,11 +83,14 @@ $manufacturers: (acura: $acura,
     bmw: $bmw,
     cadillac: $cadillac,
     chevy: $chevy,
+    chrysler: $chrysler,
+    dodge: $dodge,
     fiat: $fiat,
     ford: $ford,
     honda: $honda,
     hyundai: $hyundai,
     infiniti: $infiniti,
+    jeep: $jeep,
     kia: $kia,
     lexus: $lexus,
     lincoln: $lincoln,
@@ -97,14 +100,11 @@ $manufacturers: (acura: $acura,
     mercedes: $mercedes,
     mitsubishi: $mitsubishi,
     nissan: $nissan,
+    ram: $ram,
     subaru: $subaru,
     toyota: $toyota,
     volvo: $volvo,
     vw: $vw,
-    chrysler: $chrysler,
-    dodge: $dodge,
-    jeep: $jeep,
-    ram: $ram,
     black: $black,
     white: $white);
 
@@ -114,11 +114,14 @@ $headers: (acura: e82c2a,
     bmw: 1c69d4,
     cadillac: 9e1834,
     chevy: f1b923,
+    chrysler: 063e77,
+    dodge: d50000,
     fiat: b11636,
     ford: 2D96CD,
     honda: 2086c1,
     hyundai: 002D73,
     infiniti: 201d26,
+    jeep: ffba00,
     kia: c4172c,
     lexus: 1a1a1a,
     lincoln: 231F1F,
@@ -128,14 +131,11 @@ $headers: (acura: e82c2a,
     mercedes: 222222,
     mitsubishi: ff0022,
     nissan: c3002f,
+    ram: 880d00,
     subaru: 20609F,
     toyota: d71921,
     volvo: 003057,
     vw: 00B1EB,
-    chrysler: 063e77,
-    dodge: d50000,
-    jeep: ffba00,
-    ram: 880d00,
 
 );
 
@@ -151,18 +151,41 @@ $elements: (h1: h1,
     a: a,
     div: div);
 
+$text-elements: (
+    h1: h1,
+    h2: h2,
+    h3: h3,
+    h4: h4,
+    h5: h5,
+    p: p,
+    span: span,
+    li: li,
+    a: a,
+    );
+
 $text-alignment: (left: left,
     center: center,
     right: right);
+
+$font-sizes:  (
+    8: 0.5rem,
+    7: 0.75rem,
+    6: 1rem,
+    5: 1.5rem,
+    4: 1.8rem,
+    3: 2rem,
+    2: 2.5rem,
+    1: 3.0rem,
+);
 
 $gap: 10px;
 
 
 $text-medium: 14px;
 
-$mobile-width: 790px;
-$desktop-width: 960px+(2 * $gap);
-$tablet-width: 1080px !default;
+$mobile: 39.9375em;
+$tablet: 40em;
+$desktop: 64em;
 
 $columns: 12;
 

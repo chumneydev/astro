@@ -40,10 +40,10 @@
                 <div class="column">
                     <select class="ca-select">
                         <option>Please Make a Selection</option>
-                        <option>Apples</option>
-                        <option>Bananas</option>
-                        <option>Grapes</option>
-                        <option>Oranges</option>
+                        <option value="apples">Apples</option>
+                        <option value="bananas">Bananas</option>
+                        <option value="grapes">Grapes</option>
+                        <option value="oranges">Oranges</option>
                     </select>
                 </div>
             </section>

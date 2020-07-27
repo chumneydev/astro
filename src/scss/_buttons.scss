@@ -29,7 +29,7 @@
 
 @each $manufacturer, $color in $manufacturers {
     .column {
-        &.is-#{$manufacturer} {
+        &.has-background-#{$manufacturer} {
             @include background($color);
         }
     }

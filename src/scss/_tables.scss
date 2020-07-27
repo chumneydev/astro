@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+
+
+    & caption {
+        font-size: 1.5em;
+        margin: .5em 0 .75em;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    table {
+
+        & caption {
+            font-size: 1.3em;
+        }
+
+        & thead {
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        tr {
+            display: block;
+            margin: 0 0 .625em 0;
+        }
+
+        & td {
+            font-size: .8em;
+            text-align: right;
+
+            &::before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+
+
+
+
+
+
+}

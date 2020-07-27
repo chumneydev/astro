@@ -1,11 +1,11 @@
 #ca-container {
     box-sizing: border-box;
-    max-width: 1140px;
+    //max-width: 1140px;
     font-family: Helvetica,
     Arial,
     sans-serif;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 0;
 
     &.no-padding {
         padding: 0;
@@ -21,6 +21,7 @@
     @import "buttons";
     //@import "iframes";
     @import "forms";  
+    @import "tables";  
 
 
     &.is-mobile {
@@ -30,12 +31,12 @@
 
     &.is-tablet {
         margin: 0 auto;
-        max-width: $tablet-width;
+        max-width: $tablet;
     }
 
     &.is-desktop {
         margin: 0 auto;
-        max-width: $desktop-width;
+        max-width: $desktop;
     }
 
     &.has-padding {

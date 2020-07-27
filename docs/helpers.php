@@ -1,0 +1,77 @@
+<section>
+    <div class="column">
+        <h1>Helpers</h1>
+        <p>The new grid has several built in helper classes to adjust padding, alignment, sizes, colors, and background colors.</p>
+    </div> 
+</section>    
+
+<section>
+    <div class="column">
+        <h3>Text Alignment</h3>
+        <ul class="has-two-columns">
+            <li>.has-text-left</li>
+            <li>.has-text-center</li>
+            <li>.has-text-right</li>
+            <li>Left Align Text</li>
+            <li>Center Align Text</li>
+            <li>Right Align Text</li>
+        </ul>    
+
+        <h3>Text Alignment</h3>
+        <ul class="has-two-columns">
+            <li>.has-text-left</li>
+            <li>.has-text-center</li>
+            <li>.has-text-right</li>
+            <li>Left Align Text</li>
+            <li>Center Align Text</li>
+            <li>Right Align Text</li>
+        </ul>    
+
+        <h3>Text Colors</h3>
+        <ul class="has-four-columns">
+            <li class="has-color-acura">.has-color-acura</li>
+            <li class="has-color-audi">.has-color-audi</li>
+            <li class="has-color-buick">.has-color-buick</li>
+            <li class="has-color-bmw">.has-color-bmw</li>
+            <li class="has-color-cadillac">.has-color-cadillac</li>
+            <li class="has-color-chevy">.has-color-chevy</li>
+            <li class="has-color-chrysler">.has-color-chrysler</li>
+            <li class="has-color-fiat">.has-color-fiat</li>
+            <li class="has-color-ford">.has-color-ford</li>
+            <li class="has-color-honda">.has-color-honda</li>
+            <li class="has-color-hyundai">.has-color-hyundai</li>
+            <li class="has-color-infiniti">.has-color-infiniti</li>
+            <li class="has-color-jeep">.has-color-jeep</li>
+            <li class="has-color-kia">.has-color-kia</li>
+            <li class="has-color-lexus">.has-color-lexus</li>
+            <li class="has-color-lincoln">.has-color-lincoln</li>
+            <li class="has-color-maserati">.has-color-maserati</li>
+            <li class="has-color-mazda">.has-color-mazda</li>
+            <li class="has-color-mini">.has-color-mini</li>
+            <li class="has-color-mercedes">.has-color-mercedes</li>
+            <li class="has-color-mitsubishi">.has-color-mitsubishi</li>
+            <li class="has-color-nissan">.has-color-nissan</li>
+            <li class="has-color-ram">.has-color-ram</li>
+            <li class="has-color-subaru">.has-color-subaru</li>
+            <li class="has-color-toyota">.has-color-toyota</li>
+            <li class="has-color-volvo">.has-color-volvo</li>
+            <li class="has-color-vw">.has-color-vw</li>
+        </ul>
+        
+        <h3>Background Colors</h3>
+        <p>Background colors are set up the same as text colors, simply replace .has-color-* with .has-background-*.</p>
+        <p>If you want the background color to line up with the column, use a div with a class of "inner" inside the columns.</p>
+        
+        <pre>
+        <code>
+            &lt;section>
+                &lt;div class="column">
+                    &lt;div class="inner has-background-bmw">&lt;/div>
+                &lt;/div>
+            &lt;/section>
+        </code>
+        </pre>
+
+
+    </div>
+</section>
