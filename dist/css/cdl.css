@@ -482,6 +482,11 @@
   background: #FFFFFF;
 }
 
+#ca-container .ca-image {
+  max-width: 100%;
+  display: block;
+}
+
 #ca-container .btn {
   color: #FFFFFF;
   transition: none;
