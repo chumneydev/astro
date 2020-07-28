@@ -71,7 +71,167 @@
             &lt;/section>
         </code>
         </pre>
-
-
     </div>
 </section>
+
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-acura">
+            <p>Acura</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-audi">
+            <p>Audi</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-buick">
+            <p>Buick</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-bmw">
+            <p>BMW</p>
+        </div>
+    </div>
+</section>
+        
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-cadillac">
+            <p>Cadillac</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-chevy">
+            <p>Chevy</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-chrysler">
+            <p>chrysler</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-dodge">
+            <p>dodge</p>
+        </div>
+    </div>
+</section>
+        
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-fiat">
+            <p>fiat</p>
+            </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-ford">
+            <p>ford</p>
+            </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-honda">
+            <p>honda</p>
+            </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-hyundai">
+            <p>hyundai</p>
+            </div>
+    </div>
+</section>
+        
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-infiniti">
+            <p>infiniti</p>
+            </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-jeep">
+            <p>jeep</p>
+            </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-kia">
+            <p>kia</p>
+            </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-lexus">
+            <p>lexus</p>
+            </div>
+    </div>
+</section>
+        
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-lincoln">
+        <p>lincoln</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-maserati">
+        <p>maserati</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-mazda">
+        <p>mazda</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-mini">
+        <p>mini</p>
+        </div>
+    </div>
+</section>
+        
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-mercedes">
+        <p>mercedes</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-mitsubishi">
+        <p>mitsubishi</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-nissan">
+        <p>nissan</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-ram">
+        <p>ram</p>
+        </div>
+    </div>
+</section>
+        
+<section class="presentation">
+    <div class="column">
+        <div class="inner has-background-subaru">
+        <p>subaru</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-toyota">
+        <p>toyota</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-volvo">
+        <p>volvo</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="inner has-background-vw">
+        <p>vw</p>
+        </div>
+    </div>
+</section>
+        

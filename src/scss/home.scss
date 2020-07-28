@@ -99,3 +99,41 @@ ul {
         padding: 5px 0;
     }
 }
+
+
+#docs {
+    display: grid;
+    grid-template-areas: "sidebar docs";
+    grid-template-columns: 300px 1fr;
+    position: relative;
+}
+
+
+#sidebar {
+    grid-area: "sidebar";
+
+    & ul {
+        position: fixed;
+        border-left: none;
+    }
+}
+
+
+#ca-container {
+    grid-area: "docs";
+
+}
+
+
+.test {
+    background-size: cover;
+}
+
+
+.presentation {
+    & p {
+        color: $white;
+        text-transform: capitalize;
+        padding: 10px;
+    }
+}

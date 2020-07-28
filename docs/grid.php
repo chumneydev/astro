@@ -90,7 +90,7 @@
 <section>
     <div class="column">
         <p>If you need more granular control over the widths, you can use the following modifiers as well:</p>
-        <ul>
+        <ul class="has-two-columns">
             <li>.is-one</li>
             <li>.is-two</li>
             <li>.is-three</li>

@@ -22,7 +22,7 @@
 
 </head>
 <body>
-
+<div id="docs">
 <div id="sidebar">
     <ul>
         <li><a href="#grid">Grid</a></li>
@@ -34,7 +34,7 @@
 </div>    
 
 <!-- container -->
-<div id="ca-container" class="is-desktop" >
+<div id="ca-container" class="home is-desktop" >
     <!-- grid -->
     <div id="grid">
         <?php include("docs/grid.php"); ?>
@@ -64,9 +64,13 @@
     <!-- helpers -->
 
 
+ 
+
     <section>
-        <div class="column">
-            <a href="#" class="btn is-outline-black">Hello</a>
+        <div class="column" >
+            <div class="inner test" data-image="http://192.168.12.3:8888/internal-projects/cardinal-grid/dist/images/header.png">
+                <h3>Background Image Placeholder</h3>
+            </div>
         </div>
     </section>
 
@@ -93,10 +97,9 @@
 
 
 
-
-
 </div>
 <!-- container -->
+</div>
 
 
 
@@ -115,7 +118,12 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
+var list = document.querySelectorAll("div[data-image]");
 
+for (var i = 0; i < list.length; i++) {
+  var url = list[i].getAttribute('data-image');
+  list[i].style.backgroundImage="url('" + url + "')";
+}
 
 </script>
 
