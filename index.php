@@ -34,7 +34,7 @@
 </div>    
 
 <!-- container -->
-<div id="ca-container" class="home is-desktop" >
+<div id="ca-container" class="home" >
     <!-- grid -->
     <div id="grid">
         <?php include("docs/grid.php"); ?>
