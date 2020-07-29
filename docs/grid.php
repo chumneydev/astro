@@ -211,10 +211,77 @@
 </section>
 
 <section>
-    <div class="column is-acura">
-        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor.</p>
+    <div class="column">
+        <h3>Grid Offsets</h3>
+        <ul class="has-two-columns">
+            <li>.is-offset-one</li>
+            <li>.is-offset-two</li>
+            <li>.is-offset-three</li>
+            <li>.is-offset-four</li>
+            <li>.is-offset-five</li>
+            <li>.is-offset-six</li>
+            <li>.is-offset-seven</li>
+            <li>.is-offset-eight</li>
+            <li>.is-offset-nine</li>
+            <li>.is-offset-ten</li>
+            <li>.is-offset-eleven</li>
+            <li>.is-offset-twelve</li>
+        </ul>
     </div>
-    <div class="column is-buick">
-        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor.</p>
+</section>
+
+<section>
+    <div class="column is-eleven is-offset-one">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-ten is-offset-two">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-nine is-offset-three">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-eight is-offset-four">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-seven is-offset-five">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-six is-offset-six">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-five is-offset-seven">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-four is-offset-eight">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-three is-offset-nine">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-two is-offset-ten">
+        <div class="feature"></div>
+    </div>
+</section>
+<section>
+    <div class="column is-one is-offset-eleven">
+        <div class="feature"></div>
     </div>
 </section>
