@@ -24,16 +24,20 @@
 <body>
 
 <!-- container -->
-<div id="ca-container" class="home" >
+<div id="ca-container" class="home has-font" >
+    <!-- started -->
+    <div id="started">
+        <?php include("docs/started.php"); ?>
+    </div>
+    <!-- started -->
+
+
     <!-- grid -->
     <div id="grid">
         <?php include("docs/grid.php"); ?>
     </div>
     <!-- grid -->
 
-    
-
- 
     <!-- form -->
     <div id="forms">
         <?php include("docs/forms.php"); ?>
