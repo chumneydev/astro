@@ -482,9 +482,131 @@
   background: #FFFFFF;
 }
 
+#ca-container .is-relative {
+  position: relative;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+#ca-container .is-overlay {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#ca-container [class*='is-top'],
+#ca-container [class*='is-bottom'],
+#ca-container [class*='is-middle'],
+#ca-container [class*='is-left'],
+#ca-container [class*='is-right'] {
+  position: absolute !important;
+  max-width: 100%;
+}
+
+#ca-container .is-top {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#ca-container .is-top-left {
+  top: 0;
+  left: 0;
+}
+
+#ca-container .is-top-center {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 100%;
+}
+
+#ca-container .is-top-right {
+  top: 0;
+  right: 0;
+}
+
+#ca-container .is-middle-left {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#ca-container .is-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: 100%;
+}
+
+#ca-container .is-middle-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: 100%;
+}
+
+#ca-container .is-middle-right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#ca-container .is-bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#ca-container .is-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+#ca-container .is-bottom-center {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 100%;
+}
+
+#ca-container .is-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
 #ca-container .ca-image {
   max-width: 100%;
   display: block;
+  height: auto;
+  width: 100%;
+}
+
+#ca-container .has-size-300 {
+  height: 300px;
+}
+
+#ca-container .has-size-350 {
+  height: 350px;
+}
+
+#ca-container .has-size-400 {
+  height: 400px;
+}
+
+#ca-container .has-size-450 {
+  height: 450px;
+}
+
+#ca-container .has-size-500 {
+  height: 500px;
+}
+
+#ca-container .has-size-550 {
+  height: 550px;
 }
 
 #ca-container .btn {

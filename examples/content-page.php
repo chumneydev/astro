@@ -81,13 +81,13 @@ MSRP STARTING AT $41,425*</p>
         <section>
             <div class="column">
                 <h3 class="ca-title">DESIGN</h3>
-                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-design.jpg" alt="Design" class="caimage" />
+                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-design.jpg" alt="Design" class="ca-image" />
                 <h3>Unique front end.</h3>
                 <p>Tough looks come standard. The unique front end of RAV4 Prime features a uniquely painted grille, a sculpted front chin spoiler and more to remind all why this ride perfectly puts the "sport" back in "SUV."</p>
             </div>
             <div class="column">
                 <h3 class="ca-title">TECHNOLOGY</h3>
-                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-technology.jpg" alt="technology" class="caimage" />
+                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-technology.jpg" alt="technology" class="ca-image" />
                 <h3>A smarter connection.</h3>
                 <p>Pairing your smartphone to RAV4 Prime allows you to bring a familiar interface along for the ride and have its features conveniently within arm's reach.</p>
             </div>
@@ -96,13 +96,13 @@ MSRP STARTING AT $41,425*</p>
         <section>
             <div class="column">
                 <h3 class="ca-title">PERFORMANCE</h3>
-                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-performance.jpg" alt="Performance" class="caimage" />
+                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-performance.jpg" alt="Performance" class="ca-image" />
                 <h3>Feel the power.</h3>
                 <p>RAV4 Prime is our most powerful RAV4 yet, with an impressive 302 combined net horsepower. Its 5.7-second 0-60 time means that this SUV is quick, too. The advanced gas/electric powertrain provides the response you crave, giving you the power you want, when you want it.</p>
             </div>
             <div class="column">
                 <h3 class="ca-title">SAFETY</h3>
-                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-safety.jpg" alt="safety" class="caimage" />
+                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/rav4-prime/images/toyota-2021-rav4-prime-safety.jpg" alt="safety" class="ca-image" />
                 <h3>No cost maintenance plan and Roadside Assistance.</h3>
                 <p>Every new Toyota comes with ToyotaCare, a maintenance plan that covers normal factory scheduled service for 2 years or 25,000 miles, whichever comes first and 24-hour Roadside Assistance for 2 years, unlimited mileage.</p>
             </div>

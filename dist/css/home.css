@@ -111,10 +111,6 @@ ul li {
   grid-area: "docs";
 }
 
-.test {
-  background-size: cover;
-}
-
 .presentation p {
   color: #FFFFFF;
   text-transform: capitalize;
