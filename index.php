@@ -8,88 +8,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/cdl.css">
     <link rel="stylesheet" href="dist/css/home.css">
-
-<style type="text/css">
-
-    /*.column {
-        background: #dfe0e3;
-        border: 1px solid #009ffe;
-    }*/
-
-</style>
-
-
-
 </head>
 <body>
 
-<!-- container -->
-<div id="ca-container" class="home has-font" >
-    <!-- started -->
-    <div id="started">
-        <?php include("docs/started.php"); ?>
+
+
+<!-- app -->
+<div id="app">
+
+
+    <!-- header -->
+    <div id="header">
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
     </div>
-    <!-- started -->
+    <!-- header -->
 
-
-    <!-- grid -->
-    <div id="grid">
-        <?php include("docs/grid.php"); ?>
+    <!-- sidebar -->
+    <div id="sidebar">
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
     </div>
-    <!-- grid -->
+    <!-- sidebar -->
 
-    <!-- form -->
-    <div id="forms">
-        <?php include("docs/forms.php"); ?>
+
+    <!-- content -->
+    <div id="content">
+        <!--<p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+
+        <?php include("docs/docs.php"); ?>
     </div>
-    <!-- form -->
-
-    <!-- buttons -->
-    <div id="buttons">
-        <?php include("docs/buttons.php"); ?>
-    </div>
-    <!-- buttons -->
-
-
-    <!-- helpers -->
-    <div id="helpers">
-        <?php include("docs/helpers.php"); ?>
-    </div>
-    <!-- helpers -->
-
-    <!-- overlays -->
-    <div id="overlays">
-        <?php include("docs/overlays.php"); ?>
-    </div>
-    <!-- overlays -->
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- content -->
 
 
 
 </div>
-<!-- container -->
-
-
+<!-- app -->
 
 
 
@@ -104,17 +73,8 @@
 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-<script type="text/javascript">
-/*var list = document.querySelectorAll("div[data-image]");
-
-for (var i = 0; i < list.length; i++) {
-  var url = list[i].getAttribute('data-image');
-  list[i].style.backgroundImage="url('" + url + "')";
-}*/
-
-</script>
-
-
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<script src="dist/js/pop.js"></script>
 </body>
 </html>

@@ -14,6 +14,20 @@ section {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 0 10px 0;
+    
+    &.is-aligned-left {
+      align-items: flex-start;
+    }
+
+    &.is-aligned-middle {
+      align-items: center;
+    }
+
+    &.is-aligned-right {
+      display: flex;
+      align-items: flex-end;
+    }
+
 
     & .column {
         display: block;

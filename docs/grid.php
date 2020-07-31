@@ -34,6 +34,7 @@
 
 <section>
     <div class="column">
+        <button id="columnsButton">Get Code</button>
         <pre>
         <code>    
             &lt;section>

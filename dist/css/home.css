@@ -4,71 +4,86 @@ body {
   margin: 0;
 }
 
-.feature {
+#app {
+  font-family: Helvetica;
+  display: grid;
+  grid-template-areas: "header header" "sidebar content";
+  grid-template-columns: 1fr 4fr;
+}
+
+#header {
+  grid-area: header;
+  background: #CBD5E0;
+}
+
+#header ul {
+  list-style: none;
+}
+
+#header ul li {
+  padding: 0 10px;
+  display: inline-block;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background: #f9e5e9;
+}
+
+#sidebar ul {
+  position: fixed;
+  border-left: none;
+  list-style: none;
+}
+
+#sidebar ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+#content {
+  grid-area: content;
+}
+
+#content .presentation p {
+  color: #FFFFFF;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+#content .feature {
   padding: 1rem;
   background: #e82e47;
   text-align: center;
 }
 
-.feature::before {
+#content .feature::before {
   content: 'Column';
   color: #FFFFFF;
 }
 
-.auto {
+#content .auto {
   padding: 1rem;
   background: #333434;
   text-align: center;
 }
 
-.auto::before {
+#content .auto::before {
   content: 'Auto Column';
   color: #FFFFFF;
 }
 
-.is-dev {
-  background: #e82e47;
-}
-
-.medium {
-  float: right;
-  width: 90% !important;
-}
-
-.is-demo {
-  background: #EDF2F7;
-  padding: 10px 10px;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.is-demo span {
-  background: #CBD5E0;
-  color: #4A5568;
-  padding: 5px 10px;
-  font-weight: bold;
-  border-radius: 4px;
-}
-
-.is-demo.is-bold {
-  color: #FFFFFF;
-  background: #BEE3F8;
-}
-
-.is-demo.is-bold span {
-  background: #e82e47;
-  color: #FFFFFF;
-  padding: 5px 10px;
-  font-weight: bold;
-  border-radius: 4px;
-}
-
-h1 {
+#content h1 {
   padding: 0 0 10px 0;
   border-bottom: 1px solid #EDF2F7;
 }
 
-pre {
+#content pre {
   overflow-x: auto;
   padding: 1.25em;
   border: 1px solid #e6e6e6;
@@ -81,38 +96,12 @@ pre {
   font-size: 14px;
 }
 
-ul {
+#content ul {
   padding: 0 0 0 15px;
   border-left: 5px solid #e82e47;
 }
 
-ul li {
+#content ul li {
   list-style: none;
   padding: 5px 0;
-}
-
-#docs {
-  display: grid;
-  grid-template-areas: "sidebar docs";
-  grid-template-columns: 300px 1fr;
-  position: relative;
-}
-
-#sidebar {
-  grid-area: "sidebar";
-}
-
-#sidebar ul {
-  position: fixed;
-  border-left: none;
-}
-
-#ca-container {
-  grid-area: "docs";
-}
-
-.presentation p {
-  color: #FFFFFF;
-  text-transform: capitalize;
-  padding: 10px;
 }

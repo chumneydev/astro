@@ -7,7 +7,7 @@
 <section>
     <div class="column" >
         <div class="inner is-relative">
-            <img src="https://picsum.photos/id/866/1800/450" class="ca-image">
+            <img src="https://picsum.photos/id/866/1800/550" class="ca-image">
             <div class="is-overlay is-top">
                 <p>Top</p>
             </div>    
@@ -15,7 +15,7 @@
     </div>
     <div class="column" >
         <div class="inner is-relative">
-            <img src="https://picsum.photos/id/866/1800/450" class="ca-image">
+            <img src="https://picsum.photos/id/866/1800/550" class="ca-image">
             <div class="is-overlay is-middle">
                 <p>Middle</p>
             </div>    
@@ -23,7 +23,7 @@
         </div>
     <div class="column" >
         <div class="inner is-relative">
-            <img src="https://picsum.photos/id/866/1800/450" class="ca-image">
+            <img src="https://picsum.photos/id/866/1800/550" class="ca-image">
             <div class="is-overlay is-bottom">
                 <p>Bottom</p>
             </div>    

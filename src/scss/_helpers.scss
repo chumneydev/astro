@@ -239,3 +239,20 @@
 }
 
 
+section {
+
+    &.is-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        & .is-aligned-left {
+            display: flex;
+            align-items: center;
+        }
+        & .is-aligned-right {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+    }
+}
