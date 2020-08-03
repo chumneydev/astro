@@ -29,14 +29,15 @@
 
     <!-- sidebar -->
     <div id="sidebar">
+        <h2>Components</h2>
         <ul>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Grid</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Buttons</a></li>
+            <li><a href="#">Backgrounds</a></li>
+            <li><a href="#">Helpers</a></li>
+            <li><a href="#">Text Overlays</a></li>
         </ul>
     </div>
     <!-- sidebar -->
@@ -44,14 +45,14 @@
 
     <!-- content -->
     <div id="content">
-        <!--<p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
 
         <?php include("docs/docs.php"); ?>
+
+
+
+
+
+
     </div>
     <!-- content -->
 
@@ -73,8 +74,9 @@
 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+
 <script src="dist/js/pop.js"></script>
 </body>
 </html>

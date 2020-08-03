@@ -39,5 +39,11 @@
     </div>
     <!-- overlays -->
 
+    <!-- cards -->
+    <div id="cards">
+        <?php include("cards.php"); ?>
+    </div>
+    <!-- cards -->
+
 </div>
 <!-- container -->
