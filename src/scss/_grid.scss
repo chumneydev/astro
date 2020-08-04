@@ -15,15 +15,18 @@ section {
     width: 100%;
     margin: 0 0 10px 0;
     
-    &.is-aligned-left {
+    &.has-content-left {
       align-items: flex-start;
     }
 
-    &.is-aligned-middle {
+    &.has-content-centered {
       align-items: center;
     }
 
-    &.is-aligned-right {
+    &.test {
+        justify-content: center;
+    }
+    &.has-content-right {
       display: flex;
       align-items: flex-end;
     }

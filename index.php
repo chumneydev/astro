@@ -6,6 +6,8 @@
     <title>Cardinal Grid</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+
     <link rel="stylesheet" href="dist/css/cdl.css">
     <link rel="stylesheet" href="dist/css/home.css">
 </head>
@@ -31,20 +33,20 @@
     <div id="sidebar">
         <h2>Components</h2>
         <ul>
-            <li><a href="#">Getting Started</a></li>
-            <li><a href="#">Grid</a></li>
-            <li><a href="#">Forms</a></li>
-            <li><a href="#">Buttons</a></li>
-            <li><a href="#">Backgrounds</a></li>
-            <li><a href="#">Helpers</a></li>
-            <li><a href="#">Text Overlays</a></li>
+            <li><a href="#started">Getting Started</a></li>
+            <li><a href="#grid">Grid</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#backgrounds">Backgrounds</a></li>
+            <li><a href="#helpers">Helpers</a></li>
+            <li><a href="#overlays">Text Overlays</a></li>
         </ul>
     </div>
     <!-- sidebar -->
 
 
     <!-- content -->
-    <div id="content">
+    <div id="content" data-simplebar>
 
         <?php include("docs/docs.php"); ?>
 
@@ -74,9 +76,8 @@
 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 
 
-<script src="dist/js/pop.js"></script>
 </body>
 </html>

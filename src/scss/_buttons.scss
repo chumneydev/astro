@@ -1,4 +1,4 @@
-.btn {
+.cabtn {
 	color: #FFFFFF;
 	transition: none;
 	text-decoration: none;
@@ -15,32 +15,28 @@
             &.is-#{$manufacturer} {
                 @include buttons($color);
                 color: $black;
+
             }
+
+
+
         } @else {
             &.is-#{$manufacturer} {
                 @include buttons($color);
+
+                &.has-outline {
+                    @include buttons-outline($color);
+                }
+
+
+
             }
 
         }
 
     }
 
-    @each $manufacturer,$color in $manufacturers {
-        @if $manufacturer ==white {
-            &.is-outline-#{$manufacturer} {
-                @include buttons-outline($color);
-                color: $black;
-            }
-        }
 
-        @else {
-            &.is-outline-#{$manufacturer} {
-                @include buttons-outline($color);
-            }
-
-        }
-
-    }
 
 
 
