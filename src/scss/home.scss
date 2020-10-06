@@ -42,13 +42,15 @@ body {
     background: $pink;
 
     & ul {
-        position: fixed;
+        padding: 0;
+        background: $blue-400;
         border-left: none;
         list-style: none;
 
         & li {
 
             & a {
+                padding: 10px 0;
                 display: block;
                 text-decoration: none;
             }

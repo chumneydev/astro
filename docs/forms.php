@@ -1,3 +1,21 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cardinal Grid</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+
+    <link rel="stylesheet" href="../dist/css/cdl.css">
+    <link rel="stylesheet" href="../dist/css/home.css">
+</head>
+<body>
+
+
+<div class="ca-container">-->
+
 <section>
     <div class="column">
         <h1>Forms</h1>
@@ -10,19 +28,19 @@
     <div class="column">
         <form class="ca-form">
             <section>
-                <div class="column">
-                    <label for="" class="is-required">Ridiculus Cras</label>
-                    <input type="text" name="" id="" placeholder="Ridiculus Cras"  required>
+                <div class="column has-field">
+                    <input type="text" name="firstname" id="firstname" required>
+                    <label for="firstname" class="is-required">First Name</label>
                 </div>
-                <div class="column">
-                    <label for="">Ridiculus Cras</label>
-                    <input type="text" name="" id="" placeholder="Ridiculus Cras"  required>
+                <div class="column has-field">
+                    <input type="text" name="lastname" id="lastname" required>
+                    <label for="lastname" class="is-required">Last Name</label>
                 </div>
             </section>
             <section>
-                <div class="column">
-                    <label for="" class="is-required">Ridiculus Cras</label>
-                    <textarea id="" name="" rows="4" cols="50" >Comments</textarea>
+                <div class="column has-field">
+                    <textarea id="" name="" rows="4" cols="50" ></textarea>
+                    <label for="" class="is-required">Comments</label>
                 </div>
             </section>
             <section>
@@ -51,3 +69,12 @@
         </form>
     </div>
 </section>
+
+<!--</div>
+
+
+
+
+
+</body>
+</html>-->

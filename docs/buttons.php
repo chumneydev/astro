@@ -120,7 +120,7 @@
 
 <section>
     <div class="column">
-        <a href="#" class="cabtn is-toyota has-outline">.has-outline</a>
+        <a href="#" class="cabtn is-acura has-outline">.has-outline</a>
     </div>
     <div class="column">
         <a href="#" class="cabtn is-audi has-outline">.has-outline</a>

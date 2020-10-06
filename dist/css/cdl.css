@@ -1381,7 +1381,45 @@
 }
 
 .ca-container .ca-form {
-  padding: 10px;
+  padding: 10px 0;
+  /*label {
+        font-size: 70%;
+        display: block;
+        padding: 10px 0;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+        &.is-required {
+            &::after {
+                content: "*";
+                color: $warning;
+            }
+
+        }
+        
+
+    }*/
+  /*input[type="text"] {
+        font-size: $text-medium;
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+        text-indent: 5px;
+        font-size: 14px;
+        border: 1px solid $grey-300;
+        position: relative;
+        transition: border-color .5s;
+
+
+
+        &:hover {
+            border-color: $blue-400;
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $blue-400;
+        }
+    } */
   /* class applies to select element itself, not a wrapper element */
   /* Hide arrow icon in IE browsers */
   /* Hover style */
@@ -1391,53 +1429,73 @@
   /* Disabled styles */
 }
 
-.ca-container .ca-form label {
-  display: block;
-  padding: 10px 0;
+.ca-container .ca-form .has-field {
+  position: relative;
 }
 
-.ca-container .ca-form label.is-required::after {
+.ca-container .ca-form .has-field label {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  font-size: 12px;
+  transition: color .5s;
+}
+
+.ca-container .ca-form .has-field label.is-required::after {
   content: "*";
   color: #d0060e;
 }
 
-.ca-container .ca-form input {
-  font-size: 14px;
+.ca-container .ca-form .has-field input[type="text"] {
   width: 100%;
-  display: block;
-  padding: 10px 0;
-  text-indent: 5px;
-  font-size: 14px;
+  padding: 25px 10px 10px;
+  outline: 0;
   border: 1px solid #E2E8F0;
   transition: border-color .5s;
 }
 
-.ca-container .ca-form input:hover {
+.ca-container .ca-form .has-field input[type="text"]:hover {
   border-color: #63B3ED;
 }
 
-.ca-container .ca-form input:focus {
+.ca-container .ca-form .has-field input[type="text"]:hover ~ label {
+  color: #63B3ED;
+}
+
+.ca-container .ca-form .has-field input[type="text"]:focus {
   outline: none;
   border: 1px solid #63B3ED;
 }
 
-.ca-container .ca-form textarea {
+.ca-container .ca-form .has-field input[type="text"]:focus ~ label {
+  color: #63B3ED;
+}
+
+.ca-container .ca-form .has-field textarea {
   width: 100%;
   display: block;
-  padding: 10px 0;
+  padding: 25px 10px 10px;
   font-size: 14px;
   text-indent: 5px;
   border: 1px solid #E2E8F0;
   transition: border-color .5s;
 }
 
-.ca-container .ca-form textarea:hover {
+.ca-container .ca-form .has-field textarea:hover {
   border-color: #63B3ED;
 }
 
-.ca-container .ca-form textarea:focus {
+.ca-container .ca-form .has-field textarea:hover ~ label {
+  color: #63B3ED;
+}
+
+.ca-container .ca-form .has-field textarea:focus {
   outline: none;
   border: 1px solid #63B3ED;
+}
+
+.ca-container .ca-form .has-field textarea:focus ~ label {
+  color: #63B3ED;
 }
 
 .ca-container .ca-form .ca-radio input[type="radio"] {

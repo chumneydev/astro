@@ -1,9 +1,12 @@
 .ca-form {
-    padding: 10px;
+    padding: 10px 0;
 
-    label {
+    /*label {
+        font-size: 70%;
         display: block;
         padding: 10px 0;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
         
         &.is-required {
             &::after {
@@ -14,9 +17,90 @@
         }
         
 
+    }*/
+
+    .has-field {
+        position: relative;
+
+        & label {
+            position: absolute;
+            top: 5px;
+            left: 25px;
+            font-size: 12px;
+            transition: color .5s;
+
+            &.is-required {
+                &::after {
+                    content: "*";
+                    color: $warning;
+                }
+
+            }
+
+
+        }
+
+        & input[type="text"] {
+            width: 100%;
+            padding: 25px 10px 10px;
+            outline: 0;
+            border: 1px solid $grey-300;
+            transition: border-color .5s;
+    
+            &:hover {
+                border-color: $blue-400;
+
+                & ~ label {
+                    color: $blue-400;
+                }
+            }
+
+            &:focus {
+                outline: none;
+                border: 1px solid $blue-400;
+
+                & ~ label {
+                    color: $blue-400;
+                }
+            }
+
+        }
+
+        & textarea {
+            width: 100%;
+            display: block;
+            padding: 25px 10px 10px;
+            font-size: $text-medium;
+            text-indent: 5px;
+            border: 1px solid $grey-300;
+            transition: border-color .5s;
+
+            &:hover {
+                border-color: $blue-400;
+
+                &~label {
+                    color: $blue-400;
+                }
+            }
+
+            &:focus {
+                outline: none;
+                border: 1px solid $blue-400;
+
+                &~label {
+                    color: $blue-400;
+                }
+            }
+
+
+    }
+
+
+
+
     }
     
-    input {
+    /*input[type="text"] {
         font-size: $text-medium;
         width: 100%;
         display: block;
@@ -24,7 +108,9 @@
         text-indent: 5px;
         font-size: 14px;
         border: 1px solid $grey-300;
+        position: relative;
         transition: border-color .5s;
+
 
 
         &:hover {
@@ -34,28 +120,9 @@
             outline: none;
             border: 1px solid $blue-400;
         }
-    }
-
-    textarea {
-        width: 100%;
-        display: block;
-        padding: 10px 0;
-        font-size: $text-medium;
-        text-indent: 5px;
-        border: 1px solid $grey-300;
-        transition: border-color .5s;
-
-        &:hover {
-            border-color: $blue-400;
-        }
-
-        &:focus {
-            outline: none;
-            border: 1px solid $blue-400;
-        }
+    } */
 
 
-    }
 
 
     .ca-radio {
