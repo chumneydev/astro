@@ -9,7 +9,7 @@
     <div class="column">
         <pre>
         <code>    
-            &lt;div id="ca-container">&lt;/div>
+            &lt;div class="ca-container">&lt;/div>
         </code>    
         </pre>
     </div>

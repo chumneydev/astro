@@ -19,10 +19,24 @@
 <section>
     <div class="column">
         <h1>Forms</h1>
-        <p>If you add a class of .is-required to a label, the css will automatically add the * to the end of the label as shown in the example below.</p>
+        <p>The forms component has changed slightly over the previous version. The label has been moved inline with the input making the "placeholder" absolute. When creating a form, the label should precede the input for the styling to take effect.</p>
+        <p>In addition to the column class, you will need to add "has-field" to the column for the styling to take effect.</p>
     </div>
 </section>
 
+
+<section>
+    <div class="column">
+        <pre>
+        <code>    
+            &lt;div class="column has-field">
+                &lt;input type="text" name="firstname" id="firstname" required>
+                &lt;label for="firstname" class="is-required">First Name&lt;/label>
+            &lt;/div>
+        </code>    
+        </pre>
+    </div>
+</section>    
 
 <section>
     <div class="column">
@@ -45,13 +59,13 @@
             </section>
             <section>
                 <div class="column">
-                    <p>Contact Me By</p>
+                    <p>Preferred Contact Method</p>
                     <div class="ca-radio">
-                        <input type="radio" id="phone" name="contact-method" value="phone">
-                        <label for="phone">Phone</label>
+                        <input type="radio" id="cmphone" name="contact-method" value="phone">
+                        <label for="cmphone">Phone</label>
 
-                        <input type="radio" id="email" name="contact-method" value="email">
-                        <label for="email">Email</label>
+                        <input type="radio" id="cmemail" name="contact-method" value="email">
+                        <label for="cmemail">Email</label>
                     </div>
                 </div>
             </section>
