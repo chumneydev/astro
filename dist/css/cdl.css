@@ -1406,7 +1406,7 @@
         padding: 10px 0;
         text-indent: 5px;
         font-size: 14px;
-        border: 1px solid $grey-300;
+        border: 1px solid $outline;
         position: relative;
         transition: border-color .5s;
 
@@ -1438,7 +1438,7 @@
   top: 5px;
   left: 25px;
   font-size: 12px;
-  color: #E2E8F0;
+  color: #d2d4d9;
   transition: color .5s;
 }
 
@@ -1451,7 +1451,7 @@
   width: 100%;
   padding: 25px 10px 10px;
   outline: 0;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #d2d4d9;
   transition: border-color .5s;
 }
 
@@ -1478,7 +1478,7 @@
   padding: 25px 10px 10px;
   font-size: 14px;
   text-indent: 5px;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #d2d4d9;
   transition: border-color .5s;
 }
 
@@ -1510,7 +1510,7 @@
   background: #F7FAFC;
   padding: 10px 20px;
   font-size: 14px;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #d2d4d9;
   transition: background-color .5s;
   transition: border-color .5s;
 }
@@ -1540,7 +1540,7 @@
   /* useful when width is set to anything other than 100% */
   box-sizing: border-box;
   margin: 0;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #d2d4d9;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;

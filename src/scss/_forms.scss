@@ -1,3 +1,4 @@
+
 .ca-form {
     padding: 10px 0;
 
@@ -27,7 +28,7 @@
             top: 5px;
             left: 25px;
             font-size: 12px;
-            color: $grey-300;
+            color: $outline;
             transition: color .5s;
 
             &.is-required {
@@ -45,7 +46,7 @@
             width: 100%;
             padding: 25px 10px 10px;
             outline: 0;
-            border: 1px solid $grey-300;
+            border: 1px solid $outline;
             transition: border-color .5s;
     
             &:hover {
@@ -73,7 +74,7 @@
             padding: 25px 10px 10px;
             font-size: $text-medium;
             text-indent: 5px;
-            border: 1px solid $grey-300;
+            border: 1px solid $outline;
             transition: border-color .5s;
 
             &:hover {
@@ -108,7 +109,7 @@
         padding: 10px 0;
         text-indent: 5px;
         font-size: 14px;
-        border: 1px solid $grey-300;
+        border: 1px solid $outline;
         position: relative;
         transition: border-color .5s;
 
@@ -139,7 +140,7 @@
             background: $grey-100;
             padding: 10px 20px;
             font-size: 14px;
-            border: 1px solid $grey-300;
+            border: 1px solid $outline;
             transition: background-color .5s;
             transition: border-color .5s;
         }
@@ -174,7 +175,7 @@
         /* useful when width is set to anything other than 100% */
         box-sizing: border-box;
         margin: 0;
-        border: 1px solid $grey-300;
+        border: 1px solid $outline;
         //box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
         -moz-appearance: none;
         -webkit-appearance: none;
