@@ -10,12 +10,12 @@ $blue-400: #63B3ED;
 
 $outline: #d2d4d9;
 
+$default: $blue-400;
 $white: #FFFFFF;
 $black: #000000;
 $grey: #d3d3d3;
 $dark-grey: darken($grey, 90%);
 $light-grey: lighten($grey, 10%);
-
 $warning: #d0060e;
 $dev: #e82e47;
 $dev-2: #333434;
@@ -54,6 +54,8 @@ $vw: #00B1EB;
 
 
 // Hover States
+$defaultdarken: darken($default, 15%);
+
 $acuradarken: darken($acura, 15%);
 $audidarken: darken($audi, 15%);
 $bmwdarken: darken($bmw, 15%);
@@ -109,7 +111,9 @@ $manufacturers: (acura: $acura,
     volvo: $volvo,
     vw: $vw,
     black: $black,
-    white: $white);
+    white: $white,
+    default: $default
+    );
 
 $headers: (acura: e82c2a,
     audi: cd1f35,

@@ -426,6 +426,10 @@
   color: #FFFFFF;
 }
 
+.ca-container .has-color-default {
+  color: #63B3ED;
+}
+
 .ca-container .has-background-acura {
   background: #e82c2a;
 }
@@ -544,6 +548,10 @@
 
 .ca-container .has-background-white {
   background: #FFFFFF;
+}
+
+.ca-container .has-background-default {
+  background: #63B3ED;
 }
 
 .ca-container .is-relative {
@@ -1376,6 +1384,29 @@
 
 .ca-container .cabtn.is-white:hover {
   background: transparent;
+  color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-default {
+  background: #63B3ED;
+  border: 4px solid #63B3ED;
+}
+
+.ca-container .cabtn.is-default:hover {
+  background: transparent;
+  color: #63B3ED;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-default.has-outline {
+  color: #63B3ED;
+  background: transparent;
+  border: 4px solid #63B3ED;
+}
+
+.ca-container .cabtn.is-default.has-outline:hover {
+  background: #63B3ED;
   color: #FFFFFF;
   transition: .7s ease;
 }
