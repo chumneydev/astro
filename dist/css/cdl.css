@@ -198,12 +198,8 @@
   padding-right: 15px;
 }
 
-.ca-container section .column .column:first-child {
-  padding-left: 0;
-}
-
-.ca-container section .column .column:last-child {
-  padding-right: 0;
+.ca-container section .column.is-nesting {
+  padding: 0;
 }
 
 @media screen and (max-width: 39.9375em) {

@@ -194,13 +194,10 @@ section {
 
     & .column {
 
-        & .column:first-child {
-            padding-left: 0;
+        &.is-nesting {
+            padding: 0;
         }
 
-        & .column:last-child {
-            padding-right: 0;
-        }
     }
 
 }
