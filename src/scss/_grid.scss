@@ -16,19 +16,19 @@ section {
     margin: 0 0 10px 0;
     
     &.has-content-left {
-      align-items: flex-start;
+      justify-content: flex-start;
     }
 
     &.has-content-centered {
-      align-items: center;
+      justify-content: center;
+    }
+    &.has-content-right {
+        display: flex;
+        justify-content: flex-end;
     }
 
     &.test {
         justify-content: center;
-    }
-    &.has-content-right {
-      display: flex;
-      align-items: flex-end;
     }
 
 

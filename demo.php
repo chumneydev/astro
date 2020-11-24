@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/cdl.css">
-    <link rel="stylesheet" href="dist/css/home.css">
 
      <style type="text/css">
 
@@ -19,16 +18,15 @@
 <body>
 
 <!-- container -->
-<div id="ca-container" class="" >
+<div class="ca-container has-font" >
     
     <!-- grid -->
-        
-         <section>
-            <div class="column">
-                <h1 class="has-text-center has-size-2">Cras Vulputate Tristique</h1>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-            </div>
-        </section>
+     <section class="has-content-centered">
+        <div class="column is-six">
+            <h1 class="">Cras Vulputate Tristique</h1>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+        </div>
+    </section>
 
 
 

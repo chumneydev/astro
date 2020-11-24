@@ -32,17 +32,18 @@ body {
 
 #sidebar {
   grid-area: sidebar;
-  background: #f9e5e9;
+  background: #63B3ED;
+  padding: 0 20px;
 }
 
 #sidebar ul {
   padding: 0;
-  background: #63B3ED;
   border-left: none;
   list-style: none;
 }
 
 #sidebar ul li a {
+  color: #FFFFFF;
   padding: 10px 0;
   display: block;
   text-decoration: none;

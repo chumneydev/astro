@@ -28,6 +28,11 @@
                     @include buttons-outline($color);
                 }
 
+                &.is-rounded {
+                    @include buttons($color);
+                    @include buttons-rounded($color);
+
+                }
 
 
             }

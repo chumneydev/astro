@@ -1,4 +1,4 @@
-.video-embed {
+.youtube-embed {
     position: relative;
     padding: 25px 0 56.25% 0;
     height: 0;
@@ -8,6 +8,15 @@
         top: 0;
         left: 0;
         height: 100%;
+        width: 100%;
+    }
+}
+
+.video-embed {
+    width: 100%;
+    display: block;
+
+    & video {
         width: 100%;
     }
 }

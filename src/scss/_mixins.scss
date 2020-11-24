@@ -30,6 +30,16 @@
     }
 }
 
+@mixin buttons-rounded($bg) {
+    border-radius: 10px;
+
+    &:hover {
+		background: transparent;
+		color: $bg;
+		transition: .7s ease;
+    }
+}
+
 @mixin buttons-outline($bg) {
     color: $bg;
     background: transparent;

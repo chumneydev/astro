@@ -25,3 +25,42 @@
         </div>    
     </div>
 </section>
+
+
+
+
+<section>
+    <div class="column">
+        <pre>
+        <code>    
+            &lt;section class="is-aligned-middle">
+                &lt;div class="column">
+                    &lt;div class="ca-card">
+                        &lt;img src="https://picsum.photos/id/866/1800/550" class="ca-image">
+                        &lt;div class="inner">
+                            &lt;h4>Hello&lt;/h4>
+                            &lt;p>Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p>
+                        &lt;/div>
+                    &lt;/div>    
+                &lt;/div>
+            &lt;/section>
+        </code>    
+        </pre>
+    </div>
+    <div class="column">
+        <pre>
+        <code>    
+            &lt;section class="is-aligned-middle">
+                &lt;div class="column">
+                    &lt;div class="ca-card">
+                        &lt;div class="inner has-background-bmw">
+                            &lt;h4 class="is-text-white">Hello&lt;/h4>
+                            &lt;p class="is-text-white">Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p>
+                        &lt;/div>
+                    &lt;/div>    
+                &lt;/div>
+            &lt;/section>
+        </code>    
+        </pre>
+    </div>
+</section>    

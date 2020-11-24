@@ -26,20 +26,20 @@
 }
 
 .ca-container section.has-content-left {
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .ca-container section.has-content-centered {
-  align-items: center;
-}
-
-.ca-container section.test {
   justify-content: center;
 }
 
 .ca-container section.has-content-right {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.ca-container section.test {
+  justify-content: center;
 }
 
 .ca-container section .column {
@@ -331,7 +331,7 @@
 }
 
 .ca-container .has-color-chevy {
-  color: #f1b923;
+  color: #cd9834;
 }
 
 .ca-container .has-color-chrysler {
@@ -407,7 +407,7 @@
 }
 
 .ca-container .has-color-subaru {
-  color: #20609F;
+  color: #0099ff;
 }
 
 .ca-container .has-color-toyota {
@@ -455,7 +455,7 @@
 }
 
 .ca-container .has-background-chevy {
-  background: #f1b923;
+  background: #cd9834;
 }
 
 .ca-container .has-background-chrysler {
@@ -531,7 +531,7 @@
 }
 
 .ca-container .has-background-subaru {
-  background: #20609F;
+  background: #0099ff;
 }
 
 .ca-container .has-background-toyota {
@@ -736,6 +736,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-acura.is-rounded {
+  background: #e82c2a;
+  border: 4px solid #e82c2a;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-acura.is-rounded:hover {
+  background: transparent;
+  color: #e82c2a;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-acura.is-rounded:hover {
+  background: transparent;
+  color: #e82c2a;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-audi {
   background: #cd1f35;
   border: 4px solid #cd1f35;
@@ -756,6 +774,24 @@
 .ca-container .cabtn.is-audi.has-outline:hover {
   background: #cd1f35;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-audi.is-rounded {
+  background: #cd1f35;
+  border: 4px solid #cd1f35;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-audi.is-rounded:hover {
+  background: transparent;
+  color: #cd1f35;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-audi.is-rounded:hover {
+  background: transparent;
+  color: #cd1f35;
   transition: .7s ease;
 }
 
@@ -782,6 +818,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-buick.is-rounded {
+  background: #c9480c;
+  border: 4px solid #c9480c;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-buick.is-rounded:hover {
+  background: transparent;
+  color: #c9480c;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-buick.is-rounded:hover {
+  background: transparent;
+  color: #c9480c;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-bmw {
   background: #1c69d4;
   border: 4px solid #1c69d4;
@@ -802,6 +856,24 @@
 .ca-container .cabtn.is-bmw.has-outline:hover {
   background: #1c69d4;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-bmw.is-rounded {
+  background: #1c69d4;
+  border: 4px solid #1c69d4;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-bmw.is-rounded:hover {
+  background: transparent;
+  color: #1c69d4;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-bmw.is-rounded:hover {
+  background: transparent;
+  color: #1c69d4;
   transition: .7s ease;
 }
 
@@ -828,26 +900,62 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-cadillac.is-rounded {
+  background: #9e1834;
+  border: 4px solid #9e1834;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-cadillac.is-rounded:hover {
+  background: transparent;
+  color: #9e1834;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-cadillac.is-rounded:hover {
+  background: transparent;
+  color: #9e1834;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-chevy {
-  background: #f1b923;
-  border: 4px solid #f1b923;
+  background: #cd9834;
+  border: 4px solid #cd9834;
 }
 
 .ca-container .cabtn.is-chevy:hover {
   background: transparent;
-  color: #f1b923;
+  color: #cd9834;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-chevy.has-outline {
-  color: #f1b923;
+  color: #cd9834;
   background: transparent;
-  border: 4px solid #f1b923;
+  border: 4px solid #cd9834;
 }
 
 .ca-container .cabtn.is-chevy.has-outline:hover {
-  background: #f1b923;
+  background: #cd9834;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-chevy.is-rounded {
+  background: #cd9834;
+  border: 4px solid #cd9834;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-chevy.is-rounded:hover {
+  background: transparent;
+  color: #cd9834;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-chevy.is-rounded:hover {
+  background: transparent;
+  color: #cd9834;
   transition: .7s ease;
 }
 
@@ -874,6 +982,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-chrysler.is-rounded {
+  background: #063e77;
+  border: 4px solid #063e77;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-chrysler.is-rounded:hover {
+  background: transparent;
+  color: #063e77;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-chrysler.is-rounded:hover {
+  background: transparent;
+  color: #063e77;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-dodge {
   background: #d50000;
   border: 4px solid #d50000;
@@ -894,6 +1020,24 @@
 .ca-container .cabtn.is-dodge.has-outline:hover {
   background: #d50000;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-dodge.is-rounded {
+  background: #d50000;
+  border: 4px solid #d50000;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-dodge.is-rounded:hover {
+  background: transparent;
+  color: #d50000;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-dodge.is-rounded:hover {
+  background: transparent;
+  color: #d50000;
   transition: .7s ease;
 }
 
@@ -920,6 +1064,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-fiat.is-rounded {
+  background: #b11636;
+  border: 4px solid #b11636;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-fiat.is-rounded:hover {
+  background: transparent;
+  color: #b11636;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-fiat.is-rounded:hover {
+  background: transparent;
+  color: #b11636;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-ford {
   background: #2D96CD;
   border: 4px solid #2D96CD;
@@ -940,6 +1102,24 @@
 .ca-container .cabtn.is-ford.has-outline:hover {
   background: #2D96CD;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-ford.is-rounded {
+  background: #2D96CD;
+  border: 4px solid #2D96CD;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-ford.is-rounded:hover {
+  background: transparent;
+  color: #2D96CD;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-ford.is-rounded:hover {
+  background: transparent;
+  color: #2D96CD;
   transition: .7s ease;
 }
 
@@ -966,6 +1146,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-honda.is-rounded {
+  background: #2086c1;
+  border: 4px solid #2086c1;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-honda.is-rounded:hover {
+  background: transparent;
+  color: #2086c1;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-honda.is-rounded:hover {
+  background: transparent;
+  color: #2086c1;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-hyundai {
   background: #002D73;
   border: 4px solid #002D73;
@@ -986,6 +1184,24 @@
 .ca-container .cabtn.is-hyundai.has-outline:hover {
   background: #002D73;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-hyundai.is-rounded {
+  background: #002D73;
+  border: 4px solid #002D73;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-hyundai.is-rounded:hover {
+  background: transparent;
+  color: #002D73;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-hyundai.is-rounded:hover {
+  background: transparent;
+  color: #002D73;
   transition: .7s ease;
 }
 
@@ -1012,6 +1228,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-infiniti.is-rounded {
+  background: #201d26;
+  border: 4px solid #201d26;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-infiniti.is-rounded:hover {
+  background: transparent;
+  color: #201d26;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-infiniti.is-rounded:hover {
+  background: transparent;
+  color: #201d26;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-jeep {
   background: #ffba00;
   border: 4px solid #ffba00;
@@ -1032,6 +1266,24 @@
 .ca-container .cabtn.is-jeep.has-outline:hover {
   background: #ffba00;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-jeep.is-rounded {
+  background: #ffba00;
+  border: 4px solid #ffba00;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-jeep.is-rounded:hover {
+  background: transparent;
+  color: #ffba00;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-jeep.is-rounded:hover {
+  background: transparent;
+  color: #ffba00;
   transition: .7s ease;
 }
 
@@ -1058,6 +1310,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-kia.is-rounded {
+  background: #c4172c;
+  border: 4px solid #c4172c;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-kia.is-rounded:hover {
+  background: transparent;
+  color: #c4172c;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-kia.is-rounded:hover {
+  background: transparent;
+  color: #c4172c;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-lexus {
   background: #1a1a1a;
   border: 4px solid #1a1a1a;
@@ -1078,6 +1348,24 @@
 .ca-container .cabtn.is-lexus.has-outline:hover {
   background: #1a1a1a;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-lexus.is-rounded {
+  background: #1a1a1a;
+  border: 4px solid #1a1a1a;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-lexus.is-rounded:hover {
+  background: transparent;
+  color: #1a1a1a;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-lexus.is-rounded:hover {
+  background: transparent;
+  color: #1a1a1a;
   transition: .7s ease;
 }
 
@@ -1104,6 +1392,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-lincoln.is-rounded {
+  background: #231F1F;
+  border: 4px solid #231F1F;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-lincoln.is-rounded:hover {
+  background: transparent;
+  color: #231F1F;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-lincoln.is-rounded:hover {
+  background: transparent;
+  color: #231F1F;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-maserati {
   background: #0b2749;
   border: 4px solid #0b2749;
@@ -1124,6 +1430,24 @@
 .ca-container .cabtn.is-maserati.has-outline:hover {
   background: #0b2749;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-maserati.is-rounded {
+  background: #0b2749;
+  border: 4px solid #0b2749;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-maserati.is-rounded:hover {
+  background: transparent;
+  color: #0b2749;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-maserati.is-rounded:hover {
+  background: transparent;
+  color: #0b2749;
   transition: .7s ease;
 }
 
@@ -1150,6 +1474,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-mazda.is-rounded {
+  background: #101010;
+  border: 4px solid #101010;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-mazda.is-rounded:hover {
+  background: transparent;
+  color: #101010;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-mazda.is-rounded:hover {
+  background: transparent;
+  color: #101010;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-mini {
   background: #ac2430;
   border: 4px solid #ac2430;
@@ -1170,6 +1512,24 @@
 .ca-container .cabtn.is-mini.has-outline:hover {
   background: #ac2430;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-mini.is-rounded {
+  background: #ac2430;
+  border: 4px solid #ac2430;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-mini.is-rounded:hover {
+  background: transparent;
+  color: #ac2430;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-mini.is-rounded:hover {
+  background: transparent;
+  color: #ac2430;
   transition: .7s ease;
 }
 
@@ -1196,6 +1556,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-mercedes.is-rounded {
+  background: #222222;
+  border: 4px solid #222222;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-mercedes.is-rounded:hover {
+  background: transparent;
+  color: #222222;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-mercedes.is-rounded:hover {
+  background: transparent;
+  color: #222222;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-mitsubishi {
   background: #ff0022;
   border: 4px solid #ff0022;
@@ -1216,6 +1594,24 @@
 .ca-container .cabtn.is-mitsubishi.has-outline:hover {
   background: #ff0022;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-mitsubishi.is-rounded {
+  background: #ff0022;
+  border: 4px solid #ff0022;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-mitsubishi.is-rounded:hover {
+  background: transparent;
+  color: #ff0022;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-mitsubishi.is-rounded:hover {
+  background: transparent;
+  color: #ff0022;
   transition: .7s ease;
 }
 
@@ -1242,6 +1638,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-nissan.is-rounded {
+  background: #c3002f;
+  border: 4px solid #c3002f;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-nissan.is-rounded:hover {
+  background: transparent;
+  color: #c3002f;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-nissan.is-rounded:hover {
+  background: transparent;
+  color: #c3002f;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-ram {
   background: #880d00;
   border: 4px solid #880d00;
@@ -1265,26 +1679,62 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-ram.is-rounded {
+  background: #880d00;
+  border: 4px solid #880d00;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-ram.is-rounded:hover {
+  background: transparent;
+  color: #880d00;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-ram.is-rounded:hover {
+  background: transparent;
+  color: #880d00;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-subaru {
-  background: #20609F;
-  border: 4px solid #20609F;
+  background: #0099ff;
+  border: 4px solid #0099ff;
 }
 
 .ca-container .cabtn.is-subaru:hover {
   background: transparent;
-  color: #20609F;
+  color: #0099ff;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-subaru.has-outline {
-  color: #20609F;
+  color: #0099ff;
   background: transparent;
-  border: 4px solid #20609F;
+  border: 4px solid #0099ff;
 }
 
 .ca-container .cabtn.is-subaru.has-outline:hover {
-  background: #20609F;
+  background: #0099ff;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-subaru.is-rounded {
+  background: #0099ff;
+  border: 4px solid #0099ff;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-subaru.is-rounded:hover {
+  background: transparent;
+  color: #0099ff;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-subaru.is-rounded:hover {
+  background: transparent;
+  color: #0099ff;
   transition: .7s ease;
 }
 
@@ -1311,6 +1761,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-toyota.is-rounded {
+  background: #d71921;
+  border: 4px solid #d71921;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-toyota.is-rounded:hover {
+  background: transparent;
+  color: #d71921;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-toyota.is-rounded:hover {
+  background: transparent;
+  color: #d71921;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-volvo {
   background: #003057;
   border: 4px solid #003057;
@@ -1331,6 +1799,24 @@
 .ca-container .cabtn.is-volvo.has-outline:hover {
   background: #003057;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-volvo.is-rounded {
+  background: #003057;
+  border: 4px solid #003057;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-volvo.is-rounded:hover {
+  background: transparent;
+  color: #003057;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-volvo.is-rounded:hover {
+  background: transparent;
+  color: #003057;
   transition: .7s ease;
 }
 
@@ -1357,6 +1843,24 @@
   transition: .7s ease;
 }
 
+.ca-container .cabtn.is-vw.is-rounded {
+  background: #00B1EB;
+  border: 4px solid #00B1EB;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-vw.is-rounded:hover {
+  background: transparent;
+  color: #00B1EB;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-vw.is-rounded:hover {
+  background: transparent;
+  color: #00B1EB;
+  transition: .7s ease;
+}
+
 .ca-container .cabtn.is-black {
   background: #000000;
   border: 4px solid #000000;
@@ -1377,6 +1881,24 @@
 .ca-container .cabtn.is-black.has-outline:hover {
   background: #000000;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-black.is-rounded {
+  background: #000000;
+  border: 4px solid #000000;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-black.is-rounded:hover {
+  background: transparent;
+  color: #000000;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-black.is-rounded:hover {
+  background: transparent;
+  color: #000000;
   transition: .7s ease;
 }
 
@@ -1412,6 +1934,24 @@
 .ca-container .cabtn.is-default.has-outline:hover {
   background: #63B3ED;
   color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-default.is-rounded {
+  background: #63B3ED;
+  border: 4px solid #63B3ED;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-default.is-rounded:hover {
+  background: transparent;
+  color: #63B3ED;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-default.is-rounded:hover {
+  background: transparent;
+  color: #63B3ED;
   transition: .7s ease;
 }
 

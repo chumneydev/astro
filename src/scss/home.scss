@@ -39,17 +39,19 @@ body {
 // sidebar
 #sidebar {
     grid-area: sidebar;
-    background: $pink;
+    background: $default;
+    padding: 0 20px;
 
     & ul {
         padding: 0;
-        background: $blue-400;
+        //background: $default;
         border-left: none;
         list-style: none;
 
         & li {
 
             & a {
+                color: $white;
                 padding: 10px 0;
                 display: block;
                 text-decoration: none;

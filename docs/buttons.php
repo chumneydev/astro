@@ -109,6 +109,20 @@
         <a href="#" class="cabtn is-vw">.is-vw</a>
     </div>
 </section>  
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-white">.is-white</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-black">.is-black</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-default">.is-default</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-vw">.is-vw</a>
+    </div>
+</section>  
 
 <section>
     <div class="column">
@@ -220,5 +234,144 @@
     </div>
     <div class="column">
         <a href="#" class="cabtn is-vw has-outline">.has-outline</a>
+    </div>
+</section>  
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-white has-outline">.has-outline</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-black has-outline">.has-outline</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-default has-outline">.has-outline</a>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="column">
+        <p>You can also make the button rounded. Simply add the class .is-rounded in addition to .cabtn and your is-*.</p>
+        <p>White and black are both options for buttons as well.</p>
+    </div>
+</section>    
+
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-acura is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-audi is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-buick is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-bmw is-rounded">.is-rounded</a>
+    </div>
+</section>    
+        
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-cadillac is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-chevy is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-chrysler is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-dodge is-rounded">.is-rounded</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-fiat is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-ford is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-honda is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-hyundai is-rounded">.is-hyundai</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-infiniti is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-jeep is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-kia is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-lexus is-rounded">.is-rounded</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-lincoln is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-maserati is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-mazda is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-mini is-rounded">.is-rounded</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-mercedes is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-mitsubishi is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-nissan is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-ram is-rounded">.is-rounded</a>
+    </div>
+</section>    
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-subaru is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-toyota is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-volvo is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-vw is-rounded">.is-rounded</a>
+    </div>
+</section>  
+
+<section>
+    <div class="column">
+        <a href="#" class="cabtn is-white is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-black is-rounded">.is-rounded</a>
+    </div>
+    <div class="column">
+        <a href="#" class="cabtn is-default is-rounded">.is-rounded</a>
     </div>
 </section>  
