@@ -52,6 +52,9 @@ $toyota: #d71921;
 $volvo: #003057;
 $vw: #00B1EB;
 
+// Specific Colors
+$hana: #181e42;
+
 
 // Hover States
 $defaultdarken: darken($default, 15%);
@@ -80,6 +83,8 @@ $subarudarken: darken($subaru, 15%);
 $toyotadarken: darken($toyota, 15%);
 $volvodarken: darken($volvo, 15%);
 $vwdarken: darken($vw, 15%);
+
+$hana: darken($hana, 15%);
 
 // Map Variables
 $manufacturers: (acura: $acura,
@@ -112,7 +117,8 @@ $manufacturers: (acura: $acura,
     vw: $vw,
     black: $black,
     white: $white,
-    default: $default
+    default: $default,
+    hana: $hana,
     );
 
 $headers: (acura: e82c2a,
@@ -143,6 +149,7 @@ $headers: (acura: e82c2a,
     toyota: d71921,
     volvo: 003057,
     vw: 00B1EB,
+    hana: 181e42
 
 );
 

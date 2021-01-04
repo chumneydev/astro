@@ -439,6 +439,10 @@
   color: #63B3ED;
 }
 
+.ca-container .has-color-hana {
+  color: #04050a;
+}
+
 .ca-container .has-background-acura {
   background: #e82c2a;
 }
@@ -561,6 +565,10 @@
 
 .ca-container .has-background-default {
   background: #63B3ED;
+}
+
+.ca-container .has-background-hana {
+  background: #04050a;
 }
 
 .ca-container .is-relative {
@@ -1957,6 +1965,47 @@
 .ca-container .cabtn.is-default.is-rounded:hover {
   background: transparent;
   color: #63B3ED;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-hana {
+  background: #04050a;
+  border: 4px solid #04050a;
+}
+
+.ca-container .cabtn.is-hana:hover {
+  background: transparent;
+  color: #04050a;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-hana.has-outline {
+  color: #04050a;
+  background: transparent;
+  border: 4px solid #04050a;
+}
+
+.ca-container .cabtn.is-hana.has-outline:hover {
+  background: #04050a;
+  color: #FFFFFF;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-hana.is-rounded {
+  background: #04050a;
+  border: 4px solid #04050a;
+  border-radius: 10px;
+}
+
+.ca-container .cabtn.is-hana.is-rounded:hover {
+  background: transparent;
+  color: #04050a;
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-hana.is-rounded:hover {
+  background: transparent;
+  color: #04050a;
   transition: .7s ease;
 }
 
