@@ -26,13 +26,13 @@ $pink: #f9e5e9;
 $acura: #e82c2a;
 $audi: #cd1f35;
 $buick: #c9480c;
-$bmw: #1c69d4;
+$bmw: #1c69d3;
 $cadillac: #9e1834;
 $chevy: #cd9834;
 $chrysler: #063e77;
 $dodge: #d50000;
 $fiat: #b11636;
-$ford: #2D96CD;
+$ford: #0276b3;
 $honda: #2086c1;
 $hyundai: #002D73;
 $infiniti: #201d26;
@@ -41,7 +41,7 @@ $kia: #c4172c;
 $lexus: #1a1a1a;
 $lincoln: #231F1F;
 $maserati: #0b2749;
-$mazda: #101010;
+$mazda: #2B2B2B;
 $mini: #ac2430;
 $mercedes: #222222;
 $mitsubishi: #ff0022;
@@ -117,20 +117,20 @@ $manufacturers: (acura: $acura,
     vw: $vw,
     black: $black,
     white: $white,
-    default: $default,
+    default: $default, 
     hana: $hana,
     );
 
 $headers: (acura: e82c2a,
     audi: cd1f35,
     buick: f26518,
-    bmw: 1c69d4,
+    bmw: 1c69d3,
     cadillac: 9e1834,
     chevy: cd9834,
     chrysler: 063e77,
     dodge: d50000,
     fiat: b11636,
-    ford: 2D96CD,
+    ford: 0276b3,
     honda: 2086c1,
     hyundai: 002D73,
     infiniti: 201d26,
@@ -139,7 +139,7 @@ $headers: (acura: e82c2a,
     lexus: 1a1a1a,
     lincoln: 231F1F,
     maserati: 0b2749,
-    mazda: df0000,
+    mazda: 2B2B2B,
     mini: ac2430,
     mercedes: 222222,
     mitsubishi: ff0022,

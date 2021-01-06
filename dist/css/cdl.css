@@ -283,6 +283,10 @@
   column-count: 4;
 }
 
+.ca-container .is-disclaimer {
+  font-size: 10px;
+}
+
 .ca-container .has-size-8 {
   font-size: 0.5rem;
 }
@@ -328,7 +332,7 @@
 }
 
 .ca-container .has-color-bmw {
-  color: #1c69d4;
+  color: #1c69d3;
 }
 
 .ca-container .has-color-cadillac {
@@ -352,7 +356,7 @@
 }
 
 .ca-container .has-color-ford {
-  color: #2D96CD;
+  color: #0276b3;
 }
 
 .ca-container .has-color-honda {
@@ -388,7 +392,7 @@
 }
 
 .ca-container .has-color-mazda {
-  color: #101010;
+  color: #2B2B2B;
 }
 
 .ca-container .has-color-mini {
@@ -456,7 +460,7 @@
 }
 
 .ca-container .has-background-bmw {
-  background: #1c69d4;
+  background: #1c69d3;
 }
 
 .ca-container .has-background-cadillac {
@@ -480,7 +484,7 @@
 }
 
 .ca-container .has-background-ford {
-  background: #2D96CD;
+  background: #0276b3;
 }
 
 .ca-container .has-background-honda {
@@ -516,7 +520,7 @@
 }
 
 .ca-container .has-background-mazda {
-  background: #101010;
+  background: #2B2B2B;
 }
 
 .ca-container .has-background-mini {
@@ -850,43 +854,43 @@
 }
 
 .ca-container .cabtn.is-bmw {
-  background: #1c69d4;
-  border: 4px solid #1c69d4;
+  background: #1c69d3;
+  border: 4px solid #1c69d3;
 }
 
 .ca-container .cabtn.is-bmw:hover {
   background: transparent;
-  color: #1c69d4;
+  color: #1c69d3;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-bmw.has-outline {
-  color: #1c69d4;
+  color: #1c69d3;
   background: transparent;
-  border: 4px solid #1c69d4;
+  border: 4px solid #1c69d3;
 }
 
 .ca-container .cabtn.is-bmw.has-outline:hover {
-  background: #1c69d4;
+  background: #1c69d3;
   color: #FFFFFF;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-bmw.is-rounded {
-  background: #1c69d4;
-  border: 4px solid #1c69d4;
+  background: #1c69d3;
+  border: 4px solid #1c69d3;
   border-radius: 10px;
 }
 
 .ca-container .cabtn.is-bmw.is-rounded:hover {
   background: transparent;
-  color: #1c69d4;
+  color: #1c69d3;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-bmw.is-rounded:hover {
   background: transparent;
-  color: #1c69d4;
+  color: #1c69d3;
   transition: .7s ease;
 }
 
@@ -1096,43 +1100,43 @@
 }
 
 .ca-container .cabtn.is-ford {
-  background: #2D96CD;
-  border: 4px solid #2D96CD;
+  background: #0276b3;
+  border: 4px solid #0276b3;
 }
 
 .ca-container .cabtn.is-ford:hover {
   background: transparent;
-  color: #2D96CD;
+  color: #0276b3;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-ford.has-outline {
-  color: #2D96CD;
+  color: #0276b3;
   background: transparent;
-  border: 4px solid #2D96CD;
+  border: 4px solid #0276b3;
 }
 
 .ca-container .cabtn.is-ford.has-outline:hover {
-  background: #2D96CD;
+  background: #0276b3;
   color: #FFFFFF;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-ford.is-rounded {
-  background: #2D96CD;
-  border: 4px solid #2D96CD;
+  background: #0276b3;
+  border: 4px solid #0276b3;
   border-radius: 10px;
 }
 
 .ca-container .cabtn.is-ford.is-rounded:hover {
   background: transparent;
-  color: #2D96CD;
+  color: #0276b3;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-ford.is-rounded:hover {
   background: transparent;
-  color: #2D96CD;
+  color: #0276b3;
   transition: .7s ease;
 }
 
@@ -1465,43 +1469,43 @@
 }
 
 .ca-container .cabtn.is-mazda {
-  background: #101010;
-  border: 4px solid #101010;
+  background: #2B2B2B;
+  border: 4px solid #2B2B2B;
 }
 
 .ca-container .cabtn.is-mazda:hover {
   background: transparent;
-  color: #101010;
+  color: #2B2B2B;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-mazda.has-outline {
-  color: #101010;
+  color: #2B2B2B;
   background: transparent;
-  border: 4px solid #101010;
+  border: 4px solid #2B2B2B;
 }
 
 .ca-container .cabtn.is-mazda.has-outline:hover {
-  background: #101010;
+  background: #2B2B2B;
   color: #FFFFFF;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-mazda.is-rounded {
-  background: #101010;
-  border: 4px solid #101010;
+  background: #2B2B2B;
+  border: 4px solid #2B2B2B;
   border-radius: 10px;
 }
 
 .ca-container .cabtn.is-mazda.is-rounded:hover {
   background: transparent;
-  color: #101010;
+  color: #2B2B2B;
   transition: .7s ease;
 }
 
 .ca-container .cabtn.is-mazda.is-rounded:hover {
   background: transparent;
-  color: #101010;
+  color: #2B2B2B;
   transition: .7s ease;
 }
 
@@ -2028,27 +2032,6 @@
         
 
     }*/
-  /*input[type="text"] {
-        font-size: $text-medium;
-        width: 100%;
-        display: block;
-        padding: 10px 0;
-        text-indent: 5px;
-        font-size: 14px;
-        border: 1px solid $outline;
-        position: relative;
-        transition: border-color .5s;
-
-
-
-        &:hover {
-            border-color: $blue-400;
-        }
-        &:focus {
-            outline: none;
-            border: 1px solid $blue-400;
-        }
-    } */
   /* class applies to select element itself, not a wrapper element */
   /* Hide arrow icon in IE browsers */
   /* Hover style */

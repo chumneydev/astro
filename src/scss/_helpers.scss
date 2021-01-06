@@ -69,7 +69,9 @@
     column-count: 4;
 }
 
-
+.is-disclaimer {
+    font-size: 10px;
+}
 
 // font sizes based in rem. 
 @each $class, $rem in $font-sizes {
