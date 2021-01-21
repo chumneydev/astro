@@ -19,6 +19,10 @@ section {
       justify-content: flex-start;
     }
 
+    &.has-content-stretch {
+        align-content:stretch;
+    }
+
     &.has-content-centered {
       justify-content: center;
     }
@@ -168,7 +172,10 @@ section {
             margin-left: 91.666667%;
         }
 
-
+        & .is-full-height {
+            height: 100%;
+            width: 100%;
+        }
 
     }
 

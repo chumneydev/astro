@@ -35,6 +35,10 @@
   justify-content: flex-start;
 }
 
+.ca-container section.has-content-stretch {
+  align-content: stretch;
+}
+
 .ca-container section.has-content-centered {
   justify-content: center;
 }

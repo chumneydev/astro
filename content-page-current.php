@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $page->title; ?></title>
     <!--<link rel="stylesheet" type="text/css" media="all" href="https://theautohost.com/_cardinal/dist/css/cardinal.css" />-->
+    <link rel="stylesheet" href="dist/css/cdlplugins.css">
     <link rel="stylesheet" href="dist/css/cdl.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
 <div class="ca-container has-font">
     <section>
         <div class="column">
-            <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-header.jpg" alt="2021 Toyota Camry  header" class="ca-image" />
+            <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-header.jpg" alt="2021 Toyota Camry header" class="ca-image" />
         </div>
     </section>
 
@@ -38,10 +39,10 @@
     </section>
 
     <section>
-        <div class="column">
+        <div class="column is-three">
             <a href="#" class="cabtn is-toyota">Dare To Compare</a>
         </div>
-        <div class="column">
+        <div class="column is-three">
             <a href="#" class="cabtn is-toyota">Brochure</a>
         </div>
     </section>
@@ -49,6 +50,7 @@
     <section>
         <div class="column">
             <div class="chum-slider-center">
+                
                 <div>
                     <h4>LE</h4>
                     
@@ -56,11 +58,76 @@
                     <p>STARTING MSRP $24,970*</p>
 					
                     <ul class="vehicle-about">
-                        <li>Audio &dash; 7-in. touchscreen with six speakers</li>
+                        <li>Audio - 7-in. touchscreen with six speakers</li>
                         <li>17-in. alloy wheels</li>
                         <li>Integrated backup camera with projected path</li>
                     </ul>
-                    <a href="#" class="cabtn cabtn-toyota shadow">View Inventory</a>
+                    <a href="#" class="cabtn is-toyota">View Inventory</a>
+                </div>
+                <div>
+                    <h4>LE</h4>
+                    
+                    <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/trims/trim_2021-Toyota-Camry-le.jpg" alt="2021 Toyota Camry trims">
+                    <p>STARTING MSRP $24,970*</p>
+					
+                    <ul class="vehicle-about">
+                        <li>Audio - 7-in. touchscreen with six speakers</li>
+                        <li>17-in. alloy wheels</li>
+                        <li>Integrated backup camera with projected path</li>
+                    </ul>
+                    <a href="#" class="cabtn is-toyota">View Inventory</a>
+                </div>
+                <div>
+                    <h4>LE</h4>
+                    
+                    <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/trims/trim_2021-Toyota-Camry-le.jpg" alt="2021 Toyota Camry trims">
+                    <p>STARTING MSRP $24,970*</p>
+					
+                    <ul class="vehicle-about">
+                        <li>Audio - 7-in. touchscreen with six speakers</li>
+                        <li>17-in. alloy wheels</li>
+                        <li>Integrated backup camera with projected path</li>
+                    </ul>
+                    <a href="#" class="cabtn is-toyota">View Inventory</a>
+                </div>
+                <div>
+                    <h4>LE</h4>
+                    
+                    <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/trims/trim_2021-Toyota-Camry-le.jpg" alt="2021 Toyota Camry trims">
+                    <p>STARTING MSRP $24,970*</p>
+					
+                    <ul class="vehicle-about">
+                        <li>Audio - 7-in. touchscreen with six speakers</li>
+                        <li>17-in. alloy wheels</li>
+                        <li>Integrated backup camera with projected path</li>
+                    </ul>
+                    <a href="#" class="cabtn is-toyota">View Inventory</a>
+                </div>
+                <div>
+                    <h4>LE</h4>
+                    
+                    <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/trims/trim_2021-Toyota-Camry-le.jpg" alt="2021 Toyota Camry trims">
+                    <p>STARTING MSRP $24,970*</p>
+					
+                    <ul class="vehicle-about">
+                        <li>Audio - 7-in. touchscreen with six speakers</li>
+                        <li>17-in. alloy wheels</li>
+                        <li>Integrated backup camera with projected path</li>
+                    </ul>
+                    <a href="#" class="cabtn is-toyota">View Inventory</a>
+                </div>
+                <div>
+                    <h4>LE</h4>
+                    
+                    <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/trims/trim_2021-Toyota-Camry-le.jpg" alt="2021 Toyota Camry trims">
+                    <p>STARTING MSRP $24,970*</p>
+					
+                    <ul class="vehicle-about">
+                        <li>Audio - 7-in. touchscreen with six speakers</li>
+                        <li>17-in. alloy wheels</li>
+                        <li>Integrated backup camera with projected path</li>
+                    </ul>
+                    <a href="#" class="cabtn is-toyota">View Inventory</a>
                 </div>
                 
 
@@ -77,6 +144,8 @@
         </div>
     </section>
         
+    
+        
     <section>
         <div class="column">
             <h2 class="has-text-center">Features</h2>
@@ -86,15 +155,15 @@
     <section>
         <div class="column">
             <h3 class="ca-title">DESIGN</h3>
-            <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-design.jpg" alt="2021 Toyota Camry    Design" class="ca-image" />
-            <h3>LED TAILLIGHTS</h3>
-            <p>Camry&#39;s LED taillights feature an eye-catching organic shape that flows seamlessly into the rear bumper. These distinctive lights ensure you're always seen.</p>
+            <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-design.jpg" alt="2021 Toyota Camry Design" class="ca-image" />
+            <h4>LED TAILLIGHTS</h4>
+            <p>Camry's LED taillights feature an eye-catching organic shape that flows seamlessly into the rear bumper. These distinctive lights ensure you're always seen.</p>
         </div>
         
         <div class="column">
             <h3 class="ca-title">TECHNOLOGY</h3>
-            <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-tech.jpg" alt="2021 Toyota Camry    technology" class="ca-image" />
-            <h3>9-IN. MULTIMEDIA TOUCHSCREEN</h3>
+            <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-tech.jpg" alt="2021 Toyota Camry technology" class="ca-image" />
+            <h4>9-IN. MULTIMEDIA TOUCHSCREEN</h4>
             <p>Get inside a welcoming space that listens to your needs and gets you inspired for the drive ahead. Camry now offers an available 9-in. touchscreen floating display to add to its modern look and feel. Navigation <sup>89</sup> is also available, with intuitive pinch-and-zoom controls to maintain a familiar experience.</p>
         </div>
     </section>
@@ -102,16 +171,16 @@
     <section>
         <div class="column">
             <h3 class="ca-title">PERFORMANCE</h3>
-                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-performance.jpg" alt="2021 Toyota Camry    Performance" class="ca-image" />
-                <h3>3-MODE DRIVE SWITCH (ECO, NORMAL, SPORT)</h3>
+                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-performance.jpg" alt="2021 Toyota Camry Performance" class="ca-image" />
+                <h4>3-MODE DRIVE SWITCH (ECO, NORMAL, SPORT)</h4>
                 <p>Three distinct available drive modes give you even more control. Sport Mode indulges your spirited side with a sharper acceleration feel, while ECO Mode adjusts throttle input to help maximize your efficiency. Normal Mode blends fuel economy with performance. With these choices, you can instantly tailor your drive to suit your whim, just by pressing a button.
 </p>
             </div>
             <div class="column">
                 <h3 class="ca-title">SAFETY</h3>
-                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-safety.jpg" alt="2021 Toyota Camry    safety" class="ca-image" />
-                <h3>BIRD&#39;S EYE VIEW CAMERA</h3>
-                <p>Camry&#39;s available Bird&#39;s Eye View Camera with <sup>102</sup> Perimeter Scan uses front-, side- and rear-mounted cameras to display a panoramic overhead view. It helps you get in and out of the tightest spots with confidence.</p>
+                <img src="http://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2021/camry/images/2021-Toyota-Camry-images-safety.jpg" alt="2021 Toyota Camry safety" class="ca-image" />
+                <h4>BIRD'S EYE VIEW CAMERA</h4>
+                <p>Camry's available Bird's Eye View Camera with <sup>102</sup> Perimeter Scan uses front-, side- and rear-mounted cameras to display a panoramic overhead view. It helps you get in and out of the tightest spots with confidence.</p>
             </div>
         </div>
         
@@ -119,7 +188,7 @@
 		
 		 <section>
                  <div class="ca-2">
-                     <a href="#ca-modal-disclaimer" rel="modal:open" class="cabtn cabtn-toyota shadow">Disclaimers</a>
+                     <a href="#ca-modal-disclaimer" rel="modal:open" class="cabtn is-toyota">Disclaimers</a>
                  </div>
 
 
@@ -523,6 +592,7 @@
     </div>
     <!-- End Container -->
    <script src="https://www.theautohost.com/_assets/coding/js/jquery-2.1.4.js"></script>
+   <script src="https://www.theautohost.com/_assets/coding/cagriddle/js/camain.min.js"></script>
     <script src="https://www.theautohost.com/_assets/coding/custom/disclaimers/js/ca.disclaimers.js"></script>
 </body>
 
