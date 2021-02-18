@@ -741,14 +741,27 @@
 }
 
 .ca-container .cabtn.is-custom {
-  background: #000000;
-  border: 4px solid #000000;
+  background: var(--btn-color);
+  border: 4px solid var(--btn-color);
   border-radius: 0;
 }
 
 .ca-container .cabtn.is-custom:hover {
   background: transparent;
-  color: #000000;
+  color: var(--btn-color);
+  transition: .7s ease;
+}
+
+.ca-container .cabtn.is-custom.has-outline {
+  color: var(--btn-color);
+  background: transparent;
+  border: 4px solid var(--btn-color);
+  border-radius: 0;
+}
+
+.ca-container .cabtn.is-custom.has-outline:hover {
+  background: var(--btn-color);
+  color: #FFFFFF;
   transition: .7s ease;
 }
 

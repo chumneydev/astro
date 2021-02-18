@@ -29,7 +29,7 @@ $(document).ready(function () {
     function customButton() {
         console.log("Chumney & Associates: Custom Button Colors");
 
-        $('.is-custom').each(function() {
+        $('.ca-container .is-custom').each(function() {
             var color = $(this).data('color');
                 console.log(color)
 
