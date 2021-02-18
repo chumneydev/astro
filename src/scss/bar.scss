@@ -1,0 +1,94 @@
+@import "variables";
+
+*, body {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.is-demo {
+    border: 2px solid $blue-400;
+}
+
+
+.steps {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+
+    & ul {
+        display: flex;
+        justify-content: space-between;
+
+        & li {
+            z-index: 4;
+            list-style: none;
+            position: relative;
+        }
+
+    }
+
+    & .steps-number {
+        border-radius: 50%;
+        height: 24px;
+        width: 24px;
+        background: $white;
+        border: 3px solid $grey2;
+        line-height: 16px;
+        text-align: center;
+        color: $black;
+        padding: 2px 0 0 0;
+        display: inline-block;
+        position: inherit;
+
+        &.is-active {
+            color: $white;
+            background: $blue-400;
+            border: 3px solid $blue-400;
+
+        }
+        &.is-complete {
+            color: $blue-400;
+            background: $white;
+            border: 3px solid $blue-400;
+
+        }
+    }
+
+    & .steps-label {
+        position: absolute;
+        width: 100px;
+        margin: 10px 0 0 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    & .steps-bar {
+        height: 4px;
+        position: absolute;
+        top: 12px;
+        background: $grey2;
+        width: 100%;
+        z-index: 1;
+    }
+
+    & .steps-bar-progress {
+        height: 4px;
+        position: absolute;
+        top: 12px;
+        background: $blue-400;
+        width: 0;
+        transition: width 2s;    
+        //width: 33.333333%;
+        //width: 66%;
+        //width: 99%;
+        z-index: 2;
+
+        &:hover {
+            width: 33.333333%;
+        }
+    }
+
+
+
+}

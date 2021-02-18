@@ -22,9 +22,30 @@ $(document).ready(function () {
         aosInitialize();
         slickCarouselInitialize();
         contentPageDisclaimers();
+        customButton();
     });
 
 
+    function customButton() {
+        console.log("Chumney & Associates: Custom Button Colors");
+
+        $('.is-custom').each(function() {
+            var color = $(this).data('color');
+                console.log(color)
+
+                $(this).css({'background': color, 'border-color': color})
+
+                $(this).mouseover(function() {
+                    $(this).css({'background': 'transparent', 'border-color': color, 'color': color})
+                }).mouseout(function() {
+                    $(this).css({'background': color, 'border-color': color,'color': '#FFFFFF'});
+
+                })
+
+            })
+
+
+    }
 
 
     function aosInitialize() {
