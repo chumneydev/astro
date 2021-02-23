@@ -94,6 +94,12 @@
     }
 }
 
+//background colors: custom
+.has-background-custom {
+    background: var(--bkg-color);
+
+}
+
 .is-relative {
     position: relative;
     max-width: 100%;

@@ -375,3 +375,30 @@
         <a href="#" class="cabtn is-default is-rounded">.is-rounded</a>
     </div>
 </section>  
+
+
+
+
+  <section>
+        <div class="column">
+            <h2>Custom Buttons</h2>
+            <p>Simply add a class of "is-custom" and style="--btn-color:#00FF00" to the button and the css grid will take care of the backgrounds/colors.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Custom Buttons -->
+    <section>
+        <div class="column">
+            <a href="#" class="cabtn is-custom" style="--btn-color:#ec3c9f">Custom Button</a>
+        </div>
+        <div class="column">
+            <a href="#" class="cabtn is-custom" style="--btn-color:#3ce2ec">Custom Button</a>
+        </div>
+        <div class="column">
+            <a href="#" class="cabtn is-custom" style="--btn-color:#b03cec">Custom Button</a>
+        </div>
+    </section>
+    <!-- Custom Buttons -->
+

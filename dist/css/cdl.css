@@ -585,6 +585,10 @@
   background: #04050a;
 }
 
+.ca-container .has-background-custom {
+  background: var(--bkg-color);
+}
+
 .ca-container .is-relative {
   position: relative;
   max-width: 100%;
