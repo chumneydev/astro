@@ -457,6 +457,10 @@
   color: #04050a;
 }
 
+.ca-container .has-color-custom {
+  color: var(--font-color);
+}
+
 .ca-container .has-background-acura {
   background: #e82c2a;
 }
