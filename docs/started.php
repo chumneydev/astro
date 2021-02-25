@@ -1,7 +1,7 @@
 <section>
     <div class="column">
         <h1>Getting Started</h1>
-        <p>The grid "container" is now #ca-container (id).</p>
+        <p>The grid "container" is can be set up using the following class: .ca-container (class).</p>
     </div>
 </section>
 

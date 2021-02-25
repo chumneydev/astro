@@ -60,13 +60,13 @@
         
         <h3>Background Colors</h3>
         <p>Background colors are set up the same as text colors, simply replace .has-color-* with .has-background-*.</p>
-        <p>If you want the background color to line up with the column, use a div with a class of "inner" inside the columns.</p>
+        <p>If you want the background color to line up with the column, use a div with a class of "column-inner" inside the columns.</p>
         
         <pre>
         <code>
             &lt;section>
                 &lt;div class="column">
-                    &lt;div class="inner has-background-bmw">&lt;/div>
+                    &lt;div class="column-inner has-background-bmw">&lt;/div>
                 &lt;/div>
             &lt;/section>
         </code>
@@ -76,22 +76,22 @@
 
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-acura">
+        <div class="column-inner has-background-acura">
             <p>Acura</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-audi">
+        <div class="column-inner has-background-audi">
             <p>Audi</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-buick">
+        <div class="column-inner has-background-buick">
             <p>Buick</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-bmw">
+        <div class="column-inner has-background-bmw">
             <p>BMW</p>
         </div>
     </div>
@@ -99,22 +99,22 @@
         
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-cadillac">
+        <div class="column-inner has-background-cadillac">
             <p>Cadillac</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-chevy">
+        <div class="column-inner has-background-chevy">
             <p>Chevy</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-chrysler">
+        <div class="column-inner has-background-chrysler">
             <p>chrysler</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-dodge">
+        <div class="column-inner has-background-dodge">
             <p>dodge</p>
         </div>
     </div>
@@ -122,22 +122,22 @@
         
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-fiat">
+        <div class="column-inner has-background-fiat">
             <p>fiat</p>
             </div>
     </div>
     <div class="column">
-        <div class="inner has-background-ford">
+        <div class="column-inner has-background-ford">
             <p>ford</p>
             </div>
     </div>
     <div class="column">
-        <div class="inner has-background-honda">
+        <div class="column-inner has-background-honda">
             <p>honda</p>
             </div>
     </div>
     <div class="column">
-        <div class="inner has-background-hyundai">
+        <div class="column-inner has-background-hyundai">
             <p>hyundai</p>
             </div>
     </div>
@@ -145,22 +145,22 @@
         
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-infiniti">
+        <div class="column-inner has-background-infiniti">
             <p>infiniti</p>
             </div>
     </div>
     <div class="column">
-        <div class="inner has-background-jeep">
+        <div class="column-inner has-background-jeep">
             <p>jeep</p>
             </div>
     </div>
     <div class="column">
-        <div class="inner has-background-kia">
+        <div class="column-inner has-background-kia">
             <p>kia</p>
             </div>
     </div>
     <div class="column">
-        <div class="inner has-background-lexus">
+        <div class="column-inner has-background-lexus">
             <p>lexus</p>
             </div>
     </div>
@@ -168,22 +168,22 @@
         
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-lincoln">
+        <div class="column-inner has-background-lincoln">
         <p>lincoln</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-maserati">
+        <div class="column-inner has-background-maserati">
         <p>maserati</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-mazda">
+        <div class="column-inner has-background-mazda">
         <p>mazda</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-mini">
+        <div class="column-inner has-background-mini">
         <p>mini</p>
         </div>
     </div>
@@ -191,22 +191,22 @@
         
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-mercedes">
+        <div class="column-inner has-background-mercedes">
         <p>mercedes</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-mitsubishi">
+        <div class="column-inner has-background-mitsubishi">
         <p>mitsubishi</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-nissan">
+        <div class="column-inner has-background-nissan">
         <p>nissan</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-ram">
+        <div class="column-inner has-background-ram">
         <p>ram</p>
         </div>
     </div>
@@ -214,22 +214,22 @@
         
 <section class="presentation">
     <div class="column">
-        <div class="inner has-background-subaru">
+        <div class="column-inner has-background-subaru">
         <p>subaru</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-toyota">
+        <div class="column-inner has-background-toyota">
         <p>toyota</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-volvo">
+        <div class="column-inner has-background-volvo">
         <p>volvo</p>
         </div>
     </div>
     <div class="column">
-        <div class="inner has-background-vw">
+        <div class="column-inner has-background-vw">
         <p>vw</p>
         </div>
     </div>

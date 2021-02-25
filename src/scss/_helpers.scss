@@ -38,7 +38,18 @@
 
 }
 
+// Special Use cases for Clients
 
+&.is-cadillac {
+
+    & h1, h2, h3, h4, h5 {
+        color: $grey-cadillac;
+    }
+
+    & p {
+        color: $grey-cadillac;
+    }
+}
 
 // text alignment
 & .has-text-left {
@@ -271,4 +282,8 @@ section {
             margin-left: auto;
         }
     }
+}
+
+.column-inner {
+    padding: 10px;
 }

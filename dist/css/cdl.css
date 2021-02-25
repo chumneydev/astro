@@ -31,6 +31,10 @@
   margin: 0 0 10px 0;
 }
 
+.ca-container section.align-items-top {
+  align-items: flex-start;
+}
+
 .ca-container section.has-content-left {
   justify-content: flex-start;
 }
@@ -194,6 +198,14 @@
   width: 100%;
 }
 
+.ca-container section .column.no-padding-right {
+  padding-right: 0;
+}
+
+.ca-container section .column.no-padding-left {
+  padding-left: 0;
+}
+
 .ca-container section .is-one,
 .ca-container section .is-two,
 .ca-container section .is-three,
@@ -263,6 +275,14 @@
   .ca-container p {
     font-size: 14px;
   }
+}
+
+.ca-container.is-cadillac h1, .ca-container.is-cadillac h2, .ca-container.is-cadillac h3, .ca-container.is-cadillac h4, .ca-container.is-cadillac h5 {
+  color: #4B4B4B;
+}
+
+.ca-container.is-cadillac p {
+  color: #4B4B4B;
 }
 
 .ca-container .has-text-left {
@@ -734,6 +754,10 @@
   display: flex;
   align-items: center;
   margin-left: auto;
+}
+
+.ca-container .column-inner {
+  padding: 10px;
 }
 
 .ca-container .cabtn {
