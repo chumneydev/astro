@@ -19,7 +19,7 @@
 
 
 
-        <section class="header bmw align-center">
+        <section class="header toyota align-center">
             <div class="column">
                 <h1 class="white text-center">2020 Camry</h1>
                 <p class="white text-center">MSRP $24,295</p>

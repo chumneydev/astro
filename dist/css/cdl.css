@@ -1,8 +1,10 @@
+@charset "UTF-8";
 @import "https://www.theautohost.com/_assets/coding/cagriddle/css/cagriddle.min.css";
 .ca-container {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 0;
+  /* Slider */
 }
 
 .ca-container.is-small {
@@ -275,6 +277,14 @@
   .ca-container p {
     font-size: 14px;
   }
+}
+
+.ca-container .chum-slider-center .slick-slide {
+  padding: 0 10px;
+}
+
+.ca-container .chum-slider-center .slick-slide img {
+  width: 100%;
 }
 
 .ca-container.is-cadillac h1, .ca-container.is-cadillac h2, .ca-container.is-cadillac h3, .ca-container.is-cadillac h4, .ca-container.is-cadillac h5 {
@@ -2433,6 +2443,264 @@
             }
         }*/
   }
+}
+
+.ca-container .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ca-container .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.ca-container .slick-list:focus {
+  outline: none;
+}
+
+.ca-container .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.ca-container .slick-slider .slick-track,
+.ca-container .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.ca-container .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ca-container .slick-track:before,
+.ca-container .slick-track:after {
+  display: table;
+  content: '';
+}
+
+.ca-container .slick-track:after {
+  clear: both;
+}
+
+.ca-container .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.ca-container .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.ca-container [dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.ca-container .slick-slide img {
+  display: block;
+}
+
+.ca-container .slick-slide.slick-loading img {
+  display: none;
+}
+
+.ca-container .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.ca-container .slick-initialized .slick-slide {
+  display: block;
+}
+
+.ca-container .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.ca-container .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.ca-container .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.ca-container .slick-prev,
+.ca-container .slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.ca-container .slick-prev:hover, .ca-container .slick-prev:focus,
+.ca-container .slick-next:hover,
+.ca-container .slick-next:focus {
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+
+.ca-container .slick-prev:hover:before, .ca-container .slick-prev:focus:before,
+.ca-container .slick-next:hover:before,
+.ca-container .slick-next:focus:before {
+  opacity: 1;
+}
+
+.ca-container .slick-prev.slick-disabled:before,
+.ca-container .slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+.ca-container .slick-prev:before,
+.ca-container .slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  color: black;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ca-container .slick-prev {
+  left: -25px;
+}
+
+[dir="rtl"] .ca-container .slick-prev {
+  left: auto;
+  right: -25px;
+}
+
+.ca-container .slick-prev:before {
+  content: "←";
+}
+
+[dir="rtl"] .ca-container .slick-prev:before {
+  content: "→";
+}
+
+.ca-container .slick-next {
+  right: -25px;
+}
+
+[dir="rtl"] .ca-container .slick-next {
+  left: -25px;
+  right: auto;
+}
+
+.ca-container .slick-next:before {
+  content: "→";
+}
+
+[dir="rtl"] .ca-container .slick-next:before {
+  content: "←";
+}
+
+.ca-container .slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.ca-container .slick-dots {
+  position: absolute;
+  bottom: -0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.ca-container .slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ca-container .slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.ca-container .slick-dots li button:hover, .ca-container .slick-dots li button:focus {
+  outline: none;
+}
+
+.ca-container .slick-dots li button:hover:before, .ca-container .slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.ca-container .slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "•";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ca-container .slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
 }
 
 .ca-container .ca-card {

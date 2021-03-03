@@ -1,3 +1,5 @@
+
+
 // set base font sizes
 @include mobile {
     h1 {
@@ -37,6 +39,21 @@
     }
 
 }
+
+
+// Chumney Slider
+    .chum-slider-center {
+        
+        & .slick-slide {
+            padding: 0 10px;
+
+            & img {
+                width: 100%;
+            }
+        }
+    }
+
+
 
 // Special Use cases for Clients
 
