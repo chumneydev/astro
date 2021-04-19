@@ -19,6 +19,14 @@ section {
         align-items: flex-start;
     }
 
+    &.align-items-center {
+        align-items: center;
+    }
+
+    &.align-items-bottom {
+        align-items: flex-end;
+    }
+
     &.has-content-left {
       justify-content: flex-start;
     }

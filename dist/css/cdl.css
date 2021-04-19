@@ -37,6 +37,14 @@
   align-items: flex-start;
 }
 
+.ca-container section.align-items-center {
+  align-items: center;
+}
+
+.ca-container section.align-items-bottom {
+  align-items: flex-end;
+}
+
 .ca-container section.has-content-left {
   justify-content: flex-start;
 }
