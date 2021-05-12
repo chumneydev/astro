@@ -45,6 +45,10 @@
   align-items: flex-end;
 }
 
+.ca-container section.align-items-stretch {
+  align-items: stretch;
+}
+
 .ca-container section.has-content-left {
   justify-content: flex-start;
 }
@@ -60,10 +64,6 @@
 .ca-container section.has-content-right {
   display: flex;
   justify-content: flex-end;
-}
-
-.ca-container section.test {
-  justify-content: center;
 }
 
 .ca-container section .column {

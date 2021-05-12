@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   position: relative;
   padding: 0;
@@ -5,24 +10,25 @@ body {
 }
 
 #app {
+  padding: 80px 0 0 0;
   font-family: Helvetica;
-  display: grid;
-  grid-template-areas: "header header" "sidebar content";
-  grid-template-columns: 1fr 4fr;
+  display: flex;
 }
 
 #header {
-  grid-area: header;
-  background: #CBD5E0;
+  position: fixed;
+  width: 100%;
+  background: #63B3ED;
+  z-index: 9;
+  padding: 20px 0;
 }
 
 #header ul {
+  font-family: Helvetica, Arial, sans-serif;
   list-style: none;
-}
-
-#header ul li {
-  padding: 0 10px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
 }
 
 #header ul li a {
@@ -30,27 +36,8 @@ body {
   color: #FFFFFF;
 }
 
-#sidebar {
-  grid-area: sidebar;
-  background: #63B3ED;
-  padding: 0 20px;
-}
-
-#sidebar ul {
-  padding: 0;
-  border-left: none;
-  list-style: none;
-}
-
-#sidebar ul li a {
-  color: #FFFFFF;
-  padding: 10px 0;
-  display: block;
-  text-decoration: none;
-}
-
 #content {
-  grid-area: content;
+  flex: 1 0 100%;
 }
 
 #content .presentation p {

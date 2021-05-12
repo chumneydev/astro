@@ -15,50 +15,36 @@
 
 
 
+
+
+<!-- header -->
+<div id="header">
+    <ul>
+        <li><a href="#started">Getting Started</a></li>
+        <li><a href="#grid">Grid</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#backgrounds">Backgrounds</a></li>
+        <li><a href="#helpers">Helpers</a></li>
+        <li><a href="#overlays">Text Overlays</a></li>
+    </ul>
+</div>
+<!-- header -->
+
+
 <!-- app -->
 <div id="app">
 
 
-    <!-- header -->
-    <div id="header">
-        <ul>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-        </ul>
-    </div>
-    <!-- header -->
-
-    <!-- sidebar -->
-    <div id="sidebar">
-        <h2>Components</h2>
-        <ul>
-            <li><a href="#started">Getting Started</a></li>
-            <li><a href="#grid">Grid</a></li>
-            <li><a href="#forms">Forms</a></li>
-            <li><a href="#buttons">Buttons</a></li>
-            <li><a href="#backgrounds">Backgrounds</a></li>
-            <li><a href="#helpers">Helpers</a></li>
-            <li><a href="#overlays">Text Overlays</a></li>
-        </ul>
-    </div>
-    <!-- sidebar -->
-
-
     <!-- content -->
-    <div id="content" data-simplebar>
+    <div id="content">
 
         <?php include("docs/docs.php"); ?>
 
-
-
-
-
-
     </div>
     <!-- content -->
 
-
+ 
 
 </div>
 <!-- app -->

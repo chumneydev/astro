@@ -26,6 +26,9 @@ section {
     &.align-items-bottom {
         align-items: flex-end;
     }
+    &.align-items-stretch {
+        align-items: stretch;
+    }
 
     &.has-content-left {
       justify-content: flex-start;
@@ -41,10 +44,6 @@ section {
     &.has-content-right {
         display: flex;
         justify-content: flex-end;
-    }
-
-    &.test {
-        justify-content: center;
     }
 
 
