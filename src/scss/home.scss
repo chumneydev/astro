@@ -38,8 +38,11 @@ body {
         & li {
 
             & a {
-               text-decoration: none;
-               color: $white; 
+                font-weight: bold;
+                font-size: 12px;
+                letter-spacing: 3px;
+                text-decoration: none;
+                color: $white; 
             }
 
         }
@@ -52,6 +55,10 @@ body {
 // content
 #content {
     flex: 1 0 100%;
+
+    & p {
+        padding: 10px 0;
+    }
 
     & .presentation {
         & p {

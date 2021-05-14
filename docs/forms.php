@@ -21,6 +21,9 @@
         <h1>Forms</h1>
         <p>The forms component has changed slightly over the previous version. The label has been moved inline with the input making the "placeholder" absolute. When creating a form, the label should precede the input for the styling to take effect.</p>
         <p>In addition to the column class, you will need to add "has-field" to the column for the styling to take effect.</p>
+        <p>If you add a class of .is-required to a label, the css will automatically add the * to the end of the label as shown in the example below.</p>
+
+
     </div>
 </section>
 

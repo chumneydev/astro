@@ -45,5 +45,14 @@
     </div>
     <!-- cards -->
 
+
+    <!-- downloads -->
+    <div id="downloads">
+        <?php include("downloads.php"); ?>
+    </div>
+    <!-- downloads -->
+
+
+
 </div>
 <!-- container -->

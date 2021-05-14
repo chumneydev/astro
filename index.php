@@ -27,6 +27,7 @@
         <li><a href="#backgrounds">Backgrounds</a></li>
         <li><a href="#helpers">Helpers</a></li>
         <li><a href="#overlays">Text Overlays</a></li>
+        <li><a href="#downloads">Downloads</a></li>
     </ul>
 </div>
 <!-- header -->
