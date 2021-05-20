@@ -17,14 +17,14 @@
             <li>Right Align Text</li>
         </ul>    
 
-        <h3>Text Alignment</h3>
+        <h3>Split Lists into Columns</h3>
         <ul class="has-two-columns">
-            <li>.has-text-left</li>
-            <li>.has-text-center</li>
-            <li>.has-text-right</li>
-            <li>Left Align Text</li>
-            <li>Center Align Text</li>
-            <li>Right Align Text</li>
+            <li>.has-two-columns</li>
+            <li>.has-three-columns</li>
+            <li>.has-four-columns</li>
+            <li>Splits lists into 2 columns</li>
+            <li>Splits lists into 3 columns</li>
+            <li>Splits lists into 4 columns</li>
         </ul>    
 
         <h3>Text Colors</h3>
