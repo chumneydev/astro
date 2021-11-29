@@ -22,7 +22,6 @@ body {
   z-index: 9;
   padding: 20px 0;
 }
-
 #header ul {
   font-family: Helvetica, Arial, sans-serif;
   list-style: none;
@@ -30,7 +29,6 @@ body {
   justify-content: space-between;
   padding: 0 60px;
 }
-
 #header ul li a {
   font-weight: bold;
   font-size: 12px;
@@ -42,66 +40,55 @@ body {
 #content {
   flex: 1 0 100%;
 }
-
 #content p {
   padding: 10px 0;
 }
-
 #content .presentation p {
   color: #FFFFFF;
   text-transform: capitalize;
   padding: 10px;
 }
-
 #content .feature {
   padding: 1rem;
   background: #e82e47;
   text-align: center;
 }
-
 #content .feature::before {
-  content: 'Column';
+  content: "Column";
   color: #FFFFFF;
 }
-
 #content .auto {
   padding: 1rem;
   background: #333434;
   text-align: center;
 }
-
 #content .auto::before {
-  content: 'Auto Column';
+  content: "Auto Column";
   color: #FFFFFF;
 }
-
 #content h1 {
   padding: 0 0 10px 0;
   border-bottom: 1px solid #EDF2F7;
 }
-
 #content h3 {
   padding: 20px 0;
 }
-
 #content pre {
   overflow-x: auto;
   padding: 1.25em;
   border: 1px solid #e6e6e6;
   border-left-width: 5px;
   margin: 1.6em 0;
-  font-size: .875em;
+  font-size: 0.875em;
   background: #fcfcfc;
   white-space: pre;
   color: #e82e47;
   font-size: 14px;
 }
-
 #content ul {
   padding: 0 0 0 15px;
   border-left: 5px solid #e82e47;
 }
-
 #content ul li {
   list-style: none;
   padding: 5px 0;

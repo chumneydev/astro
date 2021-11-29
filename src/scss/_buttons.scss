@@ -37,7 +37,7 @@
     }
 
     @each $manufacturer, $color in $manufacturers {
-        @if $manufacturer == white {
+        @if $manufacturer == "white" {
             &.is-#{$manufacturer} {
                 @include buttons($color);
                 color: $black;

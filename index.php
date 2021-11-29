@@ -64,6 +64,7 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+<script src="https://www.theautohost.com/_assets/coding/fontawesome/js/all.min.js"></script>
 
 
 </body>
