@@ -4,6 +4,11 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 0;
+  /********************************
+  *
+  *   Row and column styles
+  *
+  ********************************/
   /* Slider */
 }
 .ca-container.is-small {
@@ -58,6 +63,11 @@
   flex-grow: 1;
   min-width: 0;
   max-width: 100%;
+  /********************************
+  *
+  *   Grid: Columns represented as numbers for the specials tool
+  *
+  ********************************/
 }
 .ca-container section .column.is-one-third {
   flex: 0 0 33.3333%;
@@ -124,6 +134,54 @@
   max-width: 91.666667%;
 }
 .ca-container section .column.is-twelve {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.ca-container section .column.is-1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+.ca-container section .column.is-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+.ca-container section .column.is-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.ca-container section .column.is-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.ca-container section .column.is-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+.ca-container section .column.is-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.ca-container section .column.is-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+.ca-container section .column.is-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+.ca-container section .column.is-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.ca-container section .column.is-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+.ca-container section .column.is-11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+.ca-container section .column.is-12 {
   flex: 0 0 100%;
   max-width: 100%;
 }
@@ -1857,6 +1915,9 @@
   /* Set options to normal weight */
   /* Support for rtl text, explicit support for Arabic and Hebrew */
   /* Disabled styles */
+}
+.ca-container .ca-form button {
+  width: 100%;
 }
 .ca-container .ca-form .has-field {
   position: relative;
